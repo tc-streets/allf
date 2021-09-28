@@ -1,0 +1,55 @@
+whereis gcm
+
+Viewing function contents
+Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
+	or
+(Get-Command <Function Name>).ScriptBlock
+
+
+You can disable this by going to: File -> Preferences -> Settings
+find: "git.decorations.enabled" and change it to false
+If you are not working with git find: "git.enabled" and change it to false
+
+$Env:Path += ";c:\temp"
+dir Env: | vim -
+ -ErrorAction SilentlyContinue
+gc .\Test.java | Set-Clipboard
+
+$a -replace '\w+\W+\w+$' #remove exe from gcm
+$a=(gcm kotlinc | % {$_.source}) -replace '\w+\W+\w+$'
+Get-Process | Where-Object {$_.WorkingSet -gt 100000000}
+You can also use the shortcut WinKey+Shift+S to start taking screenshots from any app directly.
+
+
+# get Firefox process
+$firefox = Get-Process firefox -ErrorAction SilentlyContinue
+if ($firefox) {
+  # try gracefully first
+  $firefox.CloseMainWindow()
+  # kill after five seconds
+  Sleep 5
+  if (!$firefox.HasExited) {
+    $firefox | Stop-Process -Force
+  }
+}
+Remove-Variable firefox 
+Create a new pane, splitting horizontally: Alt+Shift+- (Alt, Shift, and a minus sign)
+Create a new pane, splitting vertically: Alt+Shift++ (Alt, Shift, and a plus sign)
+Move pane focus: Alt+Left, Alt+Right, Alt+Down, Alt+Up
+Resize the focused pane: Alt+Shift+Left, Alt+Shift+Right, Alt+Shift+Down, Alt+Shift+Up
+Close a pane: Ctrl+Shift+W
+Get-Process | Where-Object {$_.WorkingSet -gt 200000000}
+Get-Help Get-ChildItem -ShowWindow
+
+kotlinc hello.kt -include-runtime -d hello.jar
+
+pip install sql-formatter
+
+java -jar hello.jar
+
+noremap <F4> :set hlsearch! hlsearch?
+
+Value defined as Important > Inline >id nesting > id > class nesting > class > tag nesting > tag
+WipeReg
+
+%history -g -f filene

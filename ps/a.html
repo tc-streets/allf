@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            /* background: 100% url("ba.png");
+            background-repeat: no-repeat; */
+            height: 100vh;
+            background-color: pink;
+            background-size: 100% 100%;
+        }
+        .container {
+            background-color: #FFFF00;
+            margin-top: 2%;
+            padding: 2%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 80%;
+            border: solid green 3px;
+        }
+        .a {
+            border: solid 2px black;
+            height: 50%;
+            width: 50%;
+            padding: 1%;
+        }
+        .b {
+            border: solid 2px red;
+            height: 50%;
+            width: 50%;
+            margin: 1%;
+            /* margin-top: 2%; */
+        }
+        @media screen and (max-width: 500px){
+            body{
+                background-color: #000010;
+                font-size: 12;
+            }
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style> 
+    <title>holy grail</title>
+</head>
+<body>
+    <div class="container">
+        <div class="a">Beware the Jabberwock, my son The jaws that bite the claws that catch Beware the Jubjub bird, and shun The frumious Bandersnatch  He took his vorpal sword in hand;  Long time the manxome foe he sought  So rested he by the Tumtum tree  And stood awhile in thought.</div>
+        <div class="b"></div>
+    </div>
+</body>
+</html>

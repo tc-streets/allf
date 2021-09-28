@@ -1,0 +1,108 @@
+Target cab
+Credit card
+SS card
+organize this list
+
+
+LIB
+21972086245722
+
+Fairview 9/16 10:00 6320 Wedgewood Avenue Maple Grove
+
+North 612 543 2500  800 West Broadway
+wed 10/6 1:30 12:30 blue and white 
+
+Visionworks
+Fri 17th 2:40
+952.545.6446
+12701 Wayzata Boulevard #249
+airport taxi
+612 888 8888 
+county
+612 596 1300
+Minnetonka, MN 55305
+password e-mail
+
+Mission
+763-559-4249
+
+Gov phone
+612 461 2365
+
+Hennepin Health
+04745519
+612 596 1036
+
+Brad Traversy + Bucky Roberts +Gary Simons + Net ninja + Academind +Mosh Hamedani == No need of college/universities
+
+youtube api
+AIzaSyDA1XZ0z-3g8LOZapauqxk6T2wcAJrYEXA
+
+Fairview mychart 615Dks@476
+
+git hub token 
+615dks477
+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
+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
+
+Wordpress 
+8/26/2021 9:12:16 PM
+MyNewPassword
+
+python -m http.server 9000
+
+pypl
+
+https://tc-streets.github.io/
+
+google jimsteffes2253@gmail.com
+615dks@477
+recover jimsteffes@outlook
+
+bike lock 1356
+
+pip install sql-formatter
+
+z<CR> or zt puts current line to top of screen (<CR> == Enter)
+
+z. or zz puts current line to center of screen
+
+z- or zb puts current line to bottom of screen
+
+(z<CR>, z., and z- puts the cursor in the first non blank column. zt, zz, and zb leaves the cursor in the current column)
+
+%history -g -f filename
+
+What's the best thing about dating homeless girls ?
+You can drop them off anywhere :)
+
+$env:path -split ";"
+
+HDL (hab dich lieb ("I love you" in German))
+ILD (ich liebe dich ("I love you" in German))
+OG; ASL; FR; pfp; AFF; SMH google aff
+If a person’s behavior doesn’t make sense to you, it is because you are missing a part of their context.
+All your base are belong to us
+
+beamish
+
+vim blank lines
+:g/^$/d
+:version
+delete all except
+:g!/price/d
+
+I will sometimes use it to overwrite previous background specifications in template customizations, where I would want the following:
+background: white url(images/image1.jpg) top left repeat;
+to be the following:
+background: black;
+So, all parameters (background-image, background-position, background-repeat) will reset to their default values.
+
+RemoteAppLifetimeManager (question app)
+git lens vscode
+use rems (root base) ems for margins and padding.
+Python esstional
+7.2 immutable parameters (lists) review lists
+7.4 dictionary literal (:) vs constructor  literal is faster
+
+

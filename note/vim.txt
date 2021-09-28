@@ -1,0 +1,13 @@
+z<CR> or zt puts current line to top of screen (<CR> == Enter)
+
+z. or zz puts current line to center of screen
+
+z- or zb puts current line to bottom of screen
+
+(z<CR>, z., and z- puts the cursor in the first non blank column. zt, zz, and zb leaves the cursor in the current column)
+
+More info about scrolling at http://vimdoc.sourceforge.net/htmldoc/scroll.html or
+in vim type :help scroll-cursor
+
+1 ctrl g
+show path and file

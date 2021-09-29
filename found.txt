@@ -1,4 +1,0 @@
-C:\all\ps\bookmark.js
-C:\Users\jayst\vimfiles\plugged\nerdtree\lib\nerdtree\bookmark.vim
-C:\xampp\htdocs\wp\wordpress\wp-admin\includes\bookmark.php
-C:\xampp\htdocs\wp\wordpress\wp-includes\bookmark.php

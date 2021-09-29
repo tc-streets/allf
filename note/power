@@ -1,10 +1,25 @@
 whereis gcm
 
+vim blank lines
+:g/^$/d
+:version
+:map
+delete all except
+:g!/price/d
+
+$env:path -split ";"
+
 Viewing function contents
 Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
 	or
 (Get-Command <Function Name>).ScriptBlock
 
+pip install sql-formatter
+
+z<CR> or zt puts current line to top of screen (<CR> == Enter)
+z. or zz puts current line to center of screen
+z- or zb puts current line to bottom of screen
+(z<CR>, z., and z- puts the cursor in the first non blank column. zt, zz, and zb leaves the cursor in the current column)
 
 You can disable this by going to: File -> Preferences -> Settings
 find: "git.decorations.enabled" and change it to false
@@ -41,10 +56,9 @@ Close a pane: Ctrl+Shift+W
 Get-Process | Where-Object {$_.WorkingSet -gt 200000000}
 Get-Help Get-ChildItem -ShowWindow
 
-kotlinc hello.kt -include-runtime -d hello.jar
-
 pip install sql-formatter
 
+kotlinc hello.kt -include-runtime -d hello.jar
 java -jar hello.jar
 
 noremap <F4> :set hlsearch! hlsearch?

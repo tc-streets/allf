@@ -4095,3 +4095,470 @@ lt
 ls --format=commas
 gci
 his
+pip list
+ip
+lt
+cat nhis
+lt
+cat his
+v .\his
+lt
+python -c 'import html,sys; print(html.unescape(sys.stdin.read()), end="")' < his
+exit
+gn
+l
+gn
+gci \all\ps
+githt word
+lt
+exit
+gn
+mps
+cd .\word\
+lt
+ni front.html
+cd \lnl
+lt
+vlc .
+pip list
+mps
+mkc system
+ip
+pip install psutil
+ip
+pss
+twit
+lt
+vlc .\27_40_09.mp3
+l
+ps
+pss
+bash
+exit
+l
+pss
+curl https://imgur.com/gallery/T32nCZb
+ip
+mpx
+mps
+cd bs
+lt
+gc .\bsp.py
+gc .\bsp.py | Set-Clipboard
+pycharm64
+pycharm64 .
+ls
+to
+lt
+lt
+py .\bsp.py
+lt
+v .\bsp.py
+cd ..\lnl\
+lt
+gc .\lnl
+gc .\lnl.py
+lt
+gc .\invoke.ps1
+Invoke-WebRequest -uri https://i.imgur.com/Z8onUxf.mp4 -OutFile k.mp4
+lt
+vlc .\k.mp4
+curl 'chrome-extension://dapjbgnjinbpoindlpdmhochffioedbn/popup.html'
+Invoke-WebRequest -uri https://s.imgur.com/desktop-assets/desktop-assets/icon-new-post.13ab64f9f36ad8f25ae3544b350e2ae1.svg -OutFile k.mp4
+lt
+paint
+chrome .\k.mp4
+chrome .
+mv .\k.mp4 k.jpg
+mv .\k.jpg k.svg
+chrome k.svg
+Invoke-WebRequest -uri https://s.imgur.com/images/accolades/originality.png -OutFile k.mp4
+Invoke-WebRequest -uri https://s.imgur.com/images/accolades/originality.png -OutFile k.png
+chrome .
+gn
+gpn
+cd \all
+kotlinc hello.kt -include-runtime -d hello.jar
+lt 
+kotlinc comp.kt -include-runtime -d comp.jar
+lt
+pgn
+gpn
+java -jar .\comp.jar
+v .\comp.jar
+v .\comp.kt
+java -jar .\comp.jar
+mps
+mkc kots
+gradle init --type kotlin-application
+cd ..
+ri kots
+mkc wiki-scraper
+gradle init --type kotlin-application
+lt
+v build.gradle
+lt
+v App.kt
+kotlinc App.kt -include-runtime -d App.jar
+g .\build.gradle
+lt
+vlc .
+ri k.*
+vlc
+vlc .
+lt
+ip
+v
+gn
+cd ..
+cd bs
+lt
+vi .\bsp.py
+v .\bsp.py
+bs
+pss
+gn
+pss
+$xampp-control = Get-Process Get-Process firefox -ErrorAction SilentlyContinue -ErrorAction SilentlyContinue
+$xamppcontrol = Get-Process Get-Process firefox -ErrorAction SilentlyContinue -ErrorAction SilentlyContinue
+$proc = Get-Process xampp-control -ErrorAction SilentlyContinue
+  $proc.CloseMainWindow()
+pss
+    $proc | Stop-Process -Force
+pss
+pgn
+gpn
+Get-Process | Where-Object {$_.WorkingSet -gt 200000000}
+pss
+cd \vid
+lt
+vlc .\27_40_09.mp3
+gn
+cd C:\all\note\
+lt
+ri *.txt *.
+gci *.txt
+pgn
+npg
+gpn
+gci | gm
+gci | % {$_.name}
+gci | % {$_.basename}
+gci | % {gc $_.basename}
+gci | % {$_name $_.basename}
+gci | % {$_name, $_.basename}
+gci | % {$_name + " " + $_.basename}
+echo " "
+gci | % {echo $_name + " " + $_.basename}
+gci | % {echo $_name $_.basename}
+gci | % {echo $_.basename}
+gci | % {echo $_.name}
+gci | % {echo $_.name, $_.basename}
+gci | % {echo $_.name $_.basename}
+gci | % {echo $_.name_$_.basename}
+gci | % {echo $_.name echo $_.basename}
+gci *.txt
+git status
+cd ..
+git add .
+git commit -m "new files"
+git push
+git push -force
+git push --force
+tree
+lt
+rm *.jar
+lt
+rm .\h.txt
+rm .\nhis
+start .
+lt
+ri .\phpSandbox\ -re -Force
+lt
+git status
+git add .
+Get-ChildItem -Path 'C:\all' -Recurse -Force -File | Select-Object -Property FullName,@{Name='SizeGB';Expression={$_.Length / 1GB}},@{Name='SizeMB';Expression={$_.Length / 1MB}},@{Name='SizeKB';Expression={$_.Length / 1KB}} | Sort-Object { $_.SizeKB } -Descending | Out-GridView
+git status
+git commit -m "clean up"
+git push --force
+lt
+cd ps
+lt
+rm .\x.mp3
+lt
+cd ..
+lt
+tree
+cd ps
+lt
+v rank.ps1
+lt
+v .\rank.ps1
+.\rank.ps1
+v .\rank.ps1
+Get-ChildItem -Path 'C:\all' -Recurse -Force -File | Select-Object -Property FullName,@{Name='SizeGB';Expression={$_.Length / 1GB}},@{Name='SizeMB';Expression={$_.Length / 1MB}},@{Name='SizeKB';Expression={$_.Length / 1KB}} | Sort-Object { $_.SizeKB } -Descending | Out-GridView
+cd ..
+lt
+cd ps
+ls
+ri *.png
+cd ..
+cd bin
+lt
+gci | Sort-Object length
+lt .\youtube-dl.exe
+ri .\youtube-dl.exe
+gci | Sort-Object length
+cd ..
+gci .git*
+v .\.gitignore
+git status
+rank
+Get-ChildItem -Path 'C:\all' -Recurse -Force -File | Select-Object -Property FullName,@{Name='SizeGB';Expression={$_.Length / 1GB}},@{Name='SizeMB';Expression={$_.Length / 1MB}},@{Name='SizeKB';Expression={$_.Length / 1KB}} | Sort-Object { $_.SizeKB } -Descending | Out-GridView
+exit
+pss
+rank.ps1
+rank
+cd \all
+ git count-objects -v
+gci | Measure-Object -sum Length
+gci -Recurse
+directory | Get-ChildItem |`
+
+  Measure-Object -Sum Length | Select-Object ``
+
+    @{Name=”Path”; Expression={$directory.FullName}},`
+
+    @{Name=”Files”; Expression={$_.Count}},`
+
+    @{Name=”Size”; Expression={$_.Sum}}
+function Get-DirStat {`
+    <#`
+.SYNOPSIS`
+Gets folders report`
+ `
+.PARAMETER Path`
+Folder path that will be exposed via SymbolicLink`
+ `
+.EXAMPLE`
+Get-DirStat "c:\repo"`
+This command displays report for all folders in "c:\repo"`
+ `
+.EXAMPLE`
+Get-DirStat`
+This command displays report for all folders in a current directory`
+#>`
+`
+    [CmdletBinding()]`
+    param (`
+        [parameter(Mandatory = $false, Position = 0)]`
+        [string]$Path`
+    )`
+`
+    process {`
+        $fso = new-object -com Scripting.FileSystemObject`
+        Get-ChildItem -Directory -Path $Path ``
+        | Select-Object @{l = 'Size'; e = { $fso.GetFolder($_.FullName).Size } }, FullName ``
+        | Sort-Object Size -Descending ``
+        | Format-Table @{l = 'Size [MB]'; e = { '{0:N2} ' -f ($_.Size / 1MB) } }, FullName`
+    }`
+}
+Get-DirStat
+cd ps
+vim getStat.ps1
+cd \
+Get-DirStat
+cd all
+rank
+gci && ls
+git remote prune origin && git repack && git prune-packed && git reflog expire --expire=1.month.ago && git gc --aggressive
+rank
+git log
+gci -Force
+gci -Directory
+ri -Force -Recurse node
+gci -Directory
+(gci . | measure Length -s).sum / 1Gb
+(gci c:\all | measure Length -s).sum / 1Gb
+(gci c:\all | measure Length -size).sum / 1Gb
+gci | measure Length -Sum
+(gci c:\all | measure Length -sum).sum / 1Gb
+(gci c:\all | measure Length -sum).sum 
+cd .git
+rank
+cd ..
+cd bin
+gci | sort Length -Descending
+gci | sort Length -Descending | more
+gi *.chm
+ri *.chm
+gci | sort Length -Descending -first 5
+gci | sort Length -Descending |-first 5
+gci | sort Length -Descending |-First 5
+gci | sort Length -Descending | select-object -First 5
+ri .\AutoHotkeyA32.exe
+gci | sort Length -Descending | select-object -First 5
+cd ..
+lt
+git status
+cd .git
+start .
+cd ..
+ri .git -Force -Recurse
+lt
+git status
+du
+gci .
+gci . | Measure-Object -Property length
+lt
+gci . | Measure-Object -Property length -sum
+gci . | Measure-Object -Property length -sum /1gb
+(gci . | Measure-Object -Property length -sum /1gb).sum
+(gci . | Measure-Object -Property length -sum).sum
+"{0:N2} GB" -f ((gci –force C:\windows –Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LinkType -notmatch "HardLink" }| measure Length -s).sum / 1Gb)
+"{0:N2} GB" -f ((gci –force C:\windows –Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LinkType -notmatch "HardLink" }| measure Length -size).sum / 1Gb)
+"{0:N2} GB" -f ((gci –force C:\windows –Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LinkType -notmatch "HardLink" }| measure Length -sum).sum / 1Gb)
+pss
+cd \all
+cd ps
+lt
+cd ..
+cd .\note\
+lt
+gci *.txt
+gci *.txt | % ($_.basename)
+gci *.txt | % {$_.basename}
+cd ..
+rank
+"{0:N2} GB" -f ((gci –force C:\all –Recurse -ErrorAction SilentlyContinue | Where-Object { $_.LinkType -notmatch "HardLink" }| measure Length -sum).sum / 1Gb)
+tree
+git init
+git add .
+git commit -m "initial"
+git status
+git diff
+gci -Directory
+v .gitignore
+git branch -M main
+git branch
+git remote add origin https://github.com/wither7007/allf.git
+git push
+git push --set-upstream origin main
+cd .\note\
+lt
+cd ..
+lt
+cd .\note\
+lt
+ri .\.gitignore
+Get-ChildItem -Path C:\all -File | ForEach {Rename-Item $_.FullName -NewName ($_.name).Replace(".txt",".csv")}
+lt
+cd ..
+lt
+Get-ChildItem -Path C:\all\note -File | ForEach {Rename-Item $_.FullName -NewName ($_.name).Replace(".txt","")}
+Get-ChildItem *.txt -Path C:\all\note -File | ForEach {Rename-Item $_.FullName -NewName ($_.name).Replace(".txt","")}
+cd note
+lt
+ri .\sql.txt
+lt
+fm .
+sup
+exit
+gn
+lt
+cd C:\all\note\
+lt
+ri n
+v sim
+ri sim
+lt
+gcm vim
+cd "C:\Program Files (x86)\Vim"
+lt
+vim .\_vimrc
+vim
+gn
+vim
+cd C:\all\note\
+lt
+vim
+vim .\notes .\power
+vim -p .\notes .\power
+g -p .\notes .\power
+sup
+function no() {`
+g -p .\notes .\power`
+}
+no
+vim
+ps
+pss
+lt
+diff .\power .\notes
+cp notes n
+diff .\n .\notes
+tit "rank"
+no
+sup
+exit
+no
+sup
+lt
+cd \all
+lt
+no
+vim
+fm
+fm .
+exit
+no
+host 66.249.66.1
+md kot
+cd kot
+w.kt
+v w.kt
+no
+kotlinc w.kt -include-runtime -d w.jar
+lt
+v w.kt
+kotlinc w.kt -include-runtime -d w.jar
+bash
+pss
+cpu
+Get-Process | Get-Member
+Get-Process | Get-Member | vim -
+Get-Process | Get-Member -MemberType Properties | vim -
+function Get-CPU`
+{`
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }`
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+    Select-Object -First 5`
+}
+Get-CPU
+function Get-CPU`
+{`
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }`
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+    Select-Object -First 9`
+}
+Get-CPU
+bash
+Get-MyCommands
+cpu
+his

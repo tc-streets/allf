@@ -1,15 +1,14 @@
-Target cab
+*Target cab
 Credit card
 SS card
 organize this list
 
-
 LIB
 21972086245722
 
-Fairview 9/16 10:00 6320 Wedgewood Avenue Maple Grove
+Fairview 6320 Wedgewood Avenue Maple Grove
 
-North 612 543 2500  800 West Broadway
+*North 612 543 2500  800 West Broadway
 wed 10/6 1:30 12:30 blue and white 
 
 Visionworks
@@ -23,6 +22,10 @@ county
 Minnetonka, MN 55305
 password e-mail
 
+The emulator process for AVD Pixel_3_API_29 has terminated.
+cd C:\Program Files\Android\Android Studio\bin
+2020.3.1
+
 Mission
 763-559-4249
 
@@ -32,6 +35,9 @@ Gov phone
 Hennepin Health
 04745519
 612 596 1036
+
+dBm stands for decibel milliwatts. dBm can be used in radio, microwave, and fiber-optical networks as a measure of absolute power because of its capability to express both very large and very small values in short form. The closer the number is to 0, the better off your signal strength is
+5 gig and 2.4 gig
 
 Brad Traversy + Bucky Roberts +Gary Simons + Net ninja + Academind +Mosh Hamedani == No need of college/universities
 
@@ -61,22 +67,8 @@ recover jimsteffes@outlook
 
 bike lock 1356
 
-pip install sql-formatter
-
-z<CR> or zt puts current line to top of screen (<CR> == Enter)
-
-z. or zz puts current line to center of screen
-
-z- or zb puts current line to bottom of screen
-
-(z<CR>, z., and z- puts the cursor in the first non blank column. zt, zz, and zb leaves the cursor in the current column)
-
-%history -g -f filename
-
 What's the best thing about dating homeless girls ?
 You can drop them off anywhere :)
-
-$env:path -split ";"
 
 HDL (hab dich lieb ("I love you" in German))
 ILD (ich liebe dich ("I love you" in German))
@@ -85,12 +77,6 @@ If a person’s behavior doesn’t make sense to you, it is because you are missing 
 All your base are belong to us
 
 beamish
-
-vim blank lines
-:g/^$/d
-:version
-delete all except
-:g!/price/d
 
 I will sometimes use it to overwrite previous background specifications in template customizations, where I would want the following:
 background: white url(images/image1.jpg) top left repeat;

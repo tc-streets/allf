@@ -1,0 +1,2 @@
+cd \all\note
+gci

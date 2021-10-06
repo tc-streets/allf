@@ -1,0 +1,21 @@
+commit
+first line short description
+blank line
+present tense (describe the fix) fixes a bug, not fixed a bug
+
+git log -n 5
+git log --since=2019 (until)
+git log --author
+git log --grep=" "
+three trees repository, staging index, working
+git diff --staged (cached earlier)
+git rm (moves to commit and deletes)
+git diff --color-words
+git show
+git diff between two commits
+git diff xxx..head
+git diff -a (no m, goes to vim)
+Make Atomic commits (only one theme)
+
+change last commit
+git commit --amend -m "reorder recommended items for trip"

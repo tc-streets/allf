@@ -67,3 +67,17 @@ Value defined as Important > Inline >id nesting > id > class nesting > class > t
 WipeReg
 
 %history -g -f filene
+
+admin windows x a
+function Test-Administrator  
+{  
+    $user = [Security.Principal.WindowsIdentity]::GetCurrent();
+    (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  
+}
+python pip files: python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+
+System restore point (run as admin)
+powershell.exe -ExecutionPolicy Bypass -NoExit -Command Checkpoint-Computer -Description ‘Restore Point Name’ -RestorePointType ‘MODIFY_SETTINGS’
+
+
+Get-ChildItem Env: | Sort Name

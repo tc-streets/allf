@@ -4562,3 +4562,1544 @@ bash
 Get-MyCommands
 cpu
 his
+get-cpu
+getC.ps1
+Get-Cpu
+sup
+# getCpu function from 
+# https://4sysops.com/archives/powershell-get-process-managing-processes/
+function Get-CPU`
+{`
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }`
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+    Select-Object -First 5`
+}
+Get-CPU
+# getCpu function from 
+# https://4sysops.com/archives/powershell-get-process-managing-processes/
+function Get-CPU`
+{`
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }`
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+    Select-Object -First 10`
+}
+Get-CPU
+sup
+exit
+exit
+exit
+exit
+Get-CPU
+sup
+exit
+getc
+no
+Get-CPU
+Get-C
+exit
+Get-MyCommands
+getc
+cd \all\ps
+lt
+kill
+mv .\kill.ps1 skill.ps1
+skill
+gn
+cpu
+Get-MyCommands
+gcm studio64.exe
+cd\
+cd '.\Program Files\'
+gci -Directory
+gci -Directory | more
+cd android
+lt
+cd '.\Android Studio\'
+lt
+cd bin
+lt
+cdc
+vim
+gn
+cpu
+Get-MyCommands
+getc
+pss
+lt
+.\studio64.exe -version
+pss
+.\studio64.exe -version
+gn
+pss
+gn
+l
+gn
+pss
+twit
+l
+pss
+lt
+vlc .\29_50_09.mp3
+cd \all\ps
+lt
+skill
+$proc = Get-Process 'yourphone' -ErrorAction SilentlyContinue
+$proc
+  $proc.CloseMainWindow()
+skill
+    'Yourphone' | Stop-Process -Force
+    'Yourphone'  Stop-Process -Force
+    7348  Stop-Process -Force
+tasklist | more
+tasklist
+taskkill/?
+taskkill /F /PID 7348
+skill
+Stop-Process -id 7348
+skill
+cpu
+skill
+Stop-Process -id 2564
+cd \all\ps
+lt
+skill
+Stop-Process -id 2564
+skill
+pss
+Stop-Process -id 5612
+pss
+skill
+cd \
+tree
+gci -Directory
+cd .\dynamic\
+lt
+cd ..
+ri -Force -Recurse .\dynamic\
+cd music
+lt
+cd \all
+git status
+git add .
+git commit -m "added minus text vim"
+git push
+git status
+gn
+no
+pss
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+dir a*
+gci > a
+dir a*
+ri a
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) { Start-Process powershell.exe "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs; exit }
+dir a*
+if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {`
+    Start-Process PowerShell -Verb RunAs "-NoProfile -ExecutionPolicy Bypass -Command `"cd '$pwd'; & '$PSCommandPath';`"";`
+    exit;`
+}
+powershell Start-Process powershell -Verb runAs
+whoami
+pss
+pss
+whoami
+exit
+powershell Start-Process powershell -Verb runAs
+[Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544'
+[Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544'
+[Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544'
+lt a
+gci a*
+gci a
+ri a
+his
+powershell Start-Process powershell -Verb runAs  
+gci c:\
+powershell Start-Process powershell -Verb runAs  
+gci c:\
+exit
+exit
+powershell Start-Process powershell -gci runAs  
+gci c:\
+powershell Start-Process powershell Get-ChildItem runAs  
+gci c:\
+powershell Start-Process powershell -Get-ChildItem runAs  
+gci c:\
+Start-Process -FilePath "notepad" -Wait -WindowStyle Maximized
+Start-Process -FilePath "get-childitem" -Verb RunAs
+Start-Process -FilePath "dir" -Verb RunAs
+dir
+Start-Process -FilePath "powershell" -Verb RunAs
+powershell dir
+exit
+Start-Process -FilePath "powershell dir" -Verb RunAs
+Start-Process -FilePath "powershell" -Verb RunAs
+exit
+Start-Process -FilePath "powershell" -command "dir" -Verb RunAs
+Start-Process -FilePath "powershell" -Command "dir" -Verb RunAs
+Start-Process powershell -ArgumentList "-noexit", "-noprofile", "-command &{Get-Location}"
+[Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544'
+Start-Process powershell -ArgumentList "-noexit", "-noprofile", "-command &{Get-Location}" RunAs
+Start-Process powershell -ArgumentList "-noexit", "-noprofile", "-command &{Get-Location}" -Verb RunAs
+[Security.Principal.WindowsIdentity]::GetCurrent().Groups -contains 'S-1-5-32-544'
+exit
+cd \all
+lt
+.\power.ps1
+exit
+ps
+ps | wm
+curl https://www.google.com/search?q=war&authuser=0&sxsrf=AOaemvJRVb7mfyyNJ8GurbV4nSge672m5Q%3A1632955987804&source=hp&ei=U-5UYea_LsittQbYqqjIBQ&iflsig=ALs-wAMAAAAAYVT8Y-hM6E6djFHkDxSWYcWGliURn6FM&oq=war&gs_lcp=Cgdnd3Mtd2l6EAMyBwguEEMQkwIyCgguEMcBEKMCEEMyBQguEIAEMgUILhCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCC4QgAQyBQgAEIAEMgUILhCABDoHCCMQ6gIQJzoHCC4Q6gIQJzoECCMQJzoECC4QQzoECAAQQzoKCC4QxwEQ0QMQQzoHCAAQxwMQQ1DNJVi4KWCjK2gBcAB4AIABhwGIAfcCkgEDMC4zmAEAoAEBsAEK&sclient=gws-wiz&ved=0ahUKEwimtdaMo6XzAhXIVs0KHVgVClkQ4dUDCAc&uact=5
+exit
+exit
+exit
+exit
+$s=gci
+$s
+$s | more
+s[1]
+$s[1]
+$s[3]
+get-service
+sup
+get-service     Select-Object -First 15
+get-service | Select-Object -First 15
+$s=get-service | Select-Object -First 15
+$s
+$s[5].name
+$s[5]| select status, name
+$s[5]| select status, name ? name="appinfo"
+$s[5]| select status, name where name="appinfo"
+$s| select status, name 
+ps | Select-Object -First 15
+ps | Select-Object -First 15 | select id, processname
+$k=ps | Select-Object -First 15 | select id, processname
+$k
+$k[0]
+for ($a in $k) {echo $a}
+foreach ($a in $k) {echo $a}
+$k
+Get-Process | select name -Unique
+Get-Process | select id, name -Unique
+Get-Process | select name -Unique, id
+Get-Process | select name -Unique
+pss
+Stop-Process -Name "chrome"
+pss
+ps | select name
+ps | select name -uniq
+Stop-Process -Name "yourphone"
+ps | select name -uniq | vim -
+v a
+lt
+Get-Content a
+$a=get-content a
+foreach($x in $a) {$x}
+foreach($x in $a) {echo $x}
+foreach($x in $a) {echo $x "p"}
+foreach($x in $a) {echo $x` "p"}
+foreach($x in $a) {echo "stop-process" `$x` "p"}
+foreach($x in $a) {echo "stop-process"` `$x` "p"}
+foreach($x in $a) {echo "stop-process"` $x` "p"}
+foreach($x in $a) {ni $x}
+lt
+foreach($x in $a) {ri $x}
+lt
+v a
+lt
+gc a
+foreach($x in (Get-Command a)) { $x}
+foreach($x in (Get-Content a)) { $x}
+foreach($x in (Get-Content a)) {ni $x}
+lt
+foreach($x in (Get-Content a)) {ni $x}
+foreach($x in (Get-Content a)) {ri $x}
+lt
+foreach($x in (Get-Content a)) {ni $x}
+v a
+lt
+v a
+foreach($x in (Get-Content a)) {ni $x}
+lt
+foreach($x in (Get-Content a)) {ri $x}
+ps | select name -uniq | vim -
+lt
+gc .\a!
+foreach($x in (Get-Content a!)) {ni $x}
+lt
+foreach($x in (Get-Content a!)) {ri $x}
+lt
+his
+foreach($x in (Get-Content a!)) {Stop-Process -Name "yourphone" $x}
+foreach($x in (Get-Content a!)) {Stop-Process -Name $x}
+ps
+pss
+stop-process -name ApMsgfwd
+stop-process -name GoogleDrivefs
+stop-process -name powerLauncher
+stop-process -name Everything
+pss
+cpu
+Get-MyCommands
+getc
+pss
+lt
+his
+Get-Process | select name -Unique
+Get-Process | select name -Unique > stop
+v .\stop
+pss
+v stop
+wmic
+WMIC CPU
+WMIC
+l
+twit
+Get-MyCommands
+getc
+gpn
+sup
+    g c:\all\note\power
+Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
+Get-Command getc | Select -ExpandProperty ScriptBlock
+Get-Command getc | Select -ExpandProperty ScriptBlock | vim -
+    $CPUPercent = @{`
+        Name = 'CPUPercent'`
+        Expression = {`
+            $TotalSec = (New-TimeSpan -Start $_.StartTime).TotalSeconds`
+            [Math]::Round( ($_.CPU * 100 / $TotalSec), 2)`
+        }`
+    }
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending |`
+
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending 
+    Get-Process | `
+    Select-Object -Property Name, $CPUPercent, Description |`
+    Sort-Object -Property CPUPercent -Descending  | more
+exit
+twit
+lt
+twit
+l
+cd C:\Vid\
+lt
+vlc .\29_03_09.mp3
+l
+twit
+Get-MyCommands
+mps
+mkc fresh
+cd ..
+cd bs
+lt
+v .\bsp.py
+ip
+gpn
+cd bs
+mps
+cd bs
+lt
+v .\filene
+lt
+v j
+gcm ppmpeg
+gcm ffmpeg
+gn
+go
+no
+$env:path -split ";"
+$env:path -split ";" | vim -
+exit
+exit
+$env:path -split ";" | vim -
+cd C:\ProgramData\chocolatey\bin\
+lt
+cd C:\music\
+lt
+cd .\mozart\
+lt
+exit
+mps
+cd bs
+lt
+gc .\fresh
+lt
+v kk
+lt
+v kk
+lt
+v jj
+cd all\ps
+cd \all\ps
+lt
+.\akey.ps1
+cd C:\music\
+lt
+cd .\mozart\
+lt
+vlc .
+l
+& C:/Python39/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.9.1246542782\pythonFiles\shell_exec.py C:/Python39/python.exe -m pip install -U --force-reinstall ipykernel C:/Users/jayst/AppData/Local/Temp/tmp-7940D3b3C47McMkw.log
+mps
+mkc note
+Get-MyCommands
+md notebooks
+cd .\notebooks\
+code .
+& C:/Python39/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1292961404-dev\pythonFiles\shell_exec.py C:/Python39/python.exe -m pip install -U --force-reinstall ipykernel C:/Users/jayst/AppData/Local/Temp/tmp-14040jAH91b0HVK2L.log
+cd \windows
+dir > junk
+& C:/Python39/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1292961404-dev\pythonFiles\shell_exec.py C:/Python39/python.exe -m pip install -U --force-reinstall ipykernel C:/Users/jayst/AppData/Local/Temp/tmp-14040bDCeJ41sugLn.log
+& C:/Python39/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1292961404-dev\pythonFiles\shell_exec.py C:/Python39/python.exe -m pip install -U --force-reinstall ipykernel C:/Users/jayst/AppData/Local/Temp/tmp-14040bDCeJ41sugLn.log
+mps
+cd .\notebooks\
+code .
+l
+ls
+vim --version
+gvim
+gvim -version
+gvim --version
+mps
+lt
+cd .\youtube\
+lt
+py .\api.py
+code .
+code .\api.py
+mps
+git clone http://github.com/IonicaBizau/test-youtube-api
+lt
+cd .\test-youtube-api\
+npm install
+lt
+lt
+sup
+np .\credentials.templ.json
+mps
+lt
+cd .\test-youtube-api\
+lt
+npm start
+cd\
+mps
+lt
+cd .\youtube\
+lt
+py .\api.py
+npm start
+exit
+cd C:\all\note\
+lt
+v .\personal
+gcm sqlite3
+gcm sqlite
+sqlite
+mps
+cd bs
+lt
+gci c:\
+vifm .
+lt
+vifm .
+mps
+cd bs
+ip
+mps
+lt
+cd bs
+lt
+pgn
+npg
+gpn
+mps
+lt
+cd bs
+lt
+v input
+lt
+v .\bsp.py
+dir x.x.x
+dir > x.x.x
+lt
+py .\bsp.py
+v .\www.example.com
+py .\bsp.py
+lt
+v .\www.startribune.com
+exit
+cd \lnl
+cd C:\music\
+lt
+cd lnl
+lt
+vlc .
+v class
+v clas
+lt
+v tease
+lt
+v .\tease
+mps
+cd bs
+lt
+v .\pret
+lt
+v .\tease
+lt
+v tease
+tasklist
+gn
+cd ..
+lt
+vlc '.\Johnny Mandel Suicide is painless with lyrics-whhAg6bA3_o.webm'
+tasklist /fi
+tasklist /fi "imagename eq notepad.exe" | find "notepad.exe"
+Tasklist /svc /fo list
+Tasklist /svc 
+gn
+sc config
+sc config WinDefend
+sc query WinDefend
+function Test-Administrator  `
+{  `
+    $user = [Security.Principal.WindowsIdentity]::GetCurrent();`
+    (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  `
+}
+Test-Administrator
+function Test-Administrator  `
+{  `
+    $user = [Security.Principal.WindowsIdentity]::GetCurrent();`
+    (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  `
+}
+Test-Administrator
+$user
+echo $user
+$user = [Security.Principal.WindowsIdentity]::GetCurrent();
+echo $user
+echo $user
+$user
+gpn
+function Test-Administrator  `
+{  `
+    $user = [Security.Principal.WindowsIdentity]::GetCurrent();`
+    (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  `
+}
+Test-Administrator
+exit
+Test-Administrator
+mps
+cd bs
+lt
+v .\mysession.ipy
+lt
+v a.ipy
+lt
+v .\Include\
+v .\input
+v .\input
+exit
+exit
+pip list
+pip list | vim -
+mps
+cd .\youtube\
+lt
+py .\api.py
+exit
+exit
+exit
+gcloud
+gcloud compute project-info describe --project how-to-ssh-327720
+lt
+gcloud auth list
+gcloud components list
+gcloud components update
+his
+gcloud config set project how-to-ssh-327720
+exit
+ssh-keygen
+cd ..
+Get-MyCommands
+mkc ssh
+bash
+cd \
+lt
+cd \all
+cd note
+lt
+v .\personal
+alias
+fm .
+uname
+exit
+ls
+bash
+cd C:\vifm\
+lt
+py .\api.py
+pss
+mps
+lt
+cd .\youtube\
+lt
+py .\api.py
+mps
+cd .\youDL\
+lt
+v .\youdl.py
+basbjjkkkfas
+bash
+lt
+cd ..
+cd .\youDL\
+lt
+vi .\youdl.py
+v .\youdl.py
+ip
+g
+gcm vim
+cd "C:\Program Files (x86)\Vim"
+lt
+g .\_vimrc
+gpn
+g .\_vimrc
+sup
+gcm ipython
+cd C:\Python39\Scripts
+lt
+gci *.dll
+cd ..
+gci *.dll -Recurse
+cd "C:\Program Files (x86)\Vim"
+lt
+g .\_vimrc
+exit
+cd C:\Python39\
+lt
+g
+exit
+exit
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/Activate.ps1
+ls
+deactivate
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/Activate.ps1
+ip
+deactivate
+ip
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/Activate.ps1
+deactivate
+ip
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/Activate.ps1
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\shell_exec.py pipenv install ipykernel --dev C:/Users/jayst/AppData/Local/Temp/tmp-14432a9oRlvoq4KK5.log
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/python.exe c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\shell_exec.py pipenv update ipykernel --dev C:/Users/jayst/AppData/Local/Temp/tmp-14432opIzge8z9n4y.log
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/Activate.ps1
+& C:/Users/jayst/.virtualenvs/python-sandbox-traversy-crash-course-AnXDqpTq/Scripts/python.exe
+8*9
+deactivate
+cls
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '62069' '--' 'c:\Users\jayst\imp.py' 
+ c:; cd 'c:\Users\jayst'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '62092' '--' 'c:\Users\jayst\imp.py' 
+ c:; cd 'c:\Users\jayst'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '62098' '--' 'c:\Users\jayst\imp.py' 
+exit
+lt
+py .\imp.py
+cls
+mps
+cd .\youtube\
+lt
+py .\api.py
+l
+mps
+gci \all\ps
+githt lesson3
+mps
+lt
+cd .\youDL\
+lt
+vlc '.\Rethinking CS Education _ Alan Kay, CrossRoads 2015-N9c7_8Gp7gI.mp3'
+pss
+$os = Get-Ciminstance Win32_OperatingSystem
+mps
+cd bs
+lt
+v .\mysession.ipy
+ping 10.128.0.2
+gpn
+gn
+ping 34.136.187.35
+gn
+mps
+cd bs
+lt
+fm .
+cd ~
+lt
+gci 
+fm .
+Get-ChildItem -Attributes Hidden
+gci .*
+gci .* | more
+cd .\.ipython\
+lt
+cd .\profile_default\
+lt
+cd db
+lt
+cd ..
+v .\history.sqlite
+exit
+pss
+gcm sqlite3.exe
+cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\
+lt
+.\sqlite3.exe
+Get-MyCommands
+cdc
+np
+gn
+cd
+Invoke-Command -ScriptBlock {Get-EventLog system -Newest 50}
+Invoke-Command -ScriptBlock {Get-winevent system -Newest 50}
+Invoke-Command -ScriptBlock {Get-winevent system}
+Invoke-Command -ScriptBlock {Get-winevent system -first 10}
+Invoke-Command -ScriptBlock {Get-winevent system }
+lt
+gi a
+gi a | gm
+Set-Variable -Name "desc" -Value "A Description"
+Get-Variable -Name "desc"
+set-variable?
+help set-variable
+get-varable a*
+get-variable a*
+get-variable b*
+get-variable c*
+get-variable 
+Get-Variable
+Get-Variable | vim -
+^
+Get-Variable | vim -
+gn
+cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools
+lt
+mps
+md lite
+ri lite
+mdc lite
+Get-MyCommands
+mkc lite
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db .
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db 
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db ip.db
+Get-Location
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db get-location
+$a =Get-Location
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db $a
+copy cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db -Destination $a
+copy C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.db -Destination $a
+lt
+copy C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\*.lite -Destination $a
+lt
+gci C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools\
+cd .\AppData\
+lt
+cd .\Local\
+lt
+his
+gci *.lite -Recurse
+cd ..
+ls *.
+ls
+cd .\Local\
+ls *.
+ls .*
+ls
+his
+cd .\Documents\
+lt
+ls
+cd ..
+cd .\OneDrive\
+lt
+cd .\Documents\
+lt
+v .\a.efu
+lt
+v .\a.csv
+cd ~
+cd .\.ipython\
+lt
+cd .\profile_default\
+lt
+$a =Get-Location
+$a
+$b = Get-Location
+lt
+copy h* $b
+$b
+$b
+$b =(Get-Location)
+$b = echo Get-Location
+$b
+$b | Get-Location
+$b =(Get-Location)
+echo $b
+Write-Host $b
+$b
+Write-Host $b
+Write-Host > $b
+copy *.lite C:\projects\lite>
+lt
+lt
+copy h* C:\projects\lite>
+copy h* C:\projects\lite
+lt
+$a=<Get-Location>
+$string = Write-Output `Hello, World`
+$string
+$string.GetType()
+$string = Write-Output "Hello, World"
+$string.GetType()
+$string
+$string.Length
+$string = Write-Output Get-Location
+$string
+$string.type
+$string.GetType()
+$string.Length
+$string.GetTypeCode()
+$string.ToCharArray()
+$b=gci
+$b
+$b=get-location()
+$b=get-location
+$b=gci
+$b.Length
+pwd
+$b=pwd
+$b
+$b.GetType()
+$b.Length
+Set-Variable -Name "processes" -Value (Get-Process)
+$processes
+Set-Variable -Name "processes" -Value (Get-location)
+$processes
+$processes
+New-Variable -Name "counter" -Visibility Public -Value 26
+$counter
+lt
+ip
+lt
+curl https://changelog.com/podcast
+curl https://changelog.com/podcast | vim -
+cd \all
+cd ps
+lt
+gc .\twit.ps1
+$ur="https://cdn.changelog.com/uploads/podcast/455/the-changelog-455.mp3"
+$a="change"
+Invoke-WebRequest $ur -OutFile $a'.mp3'
+cd \
+gci -Directory
+$a = 1
+$a | export-clixml -path c:\temp\a.xml
+cd .\temp\
+lt
+v .\a.xml
+$a = import-clixml -Path c:\temp\a.xml
+$a
+$a = "this is a sentence"
+$a | export-clixml -path c:\temp\a.xml
+$a = import-clixml -Path c:\temp\a.xml
+$a
+lt
+v .\a.xml
+exit
+exit
+exit
+exit
+exit
+lt
+today
+cd \all\ps
+lt
+mv .\change.mp3 \vid
+exit
+exit
+mps
+lt
+Get-MyCommands
+mkc travsql
+pip list | vim -
+ni sql.py
+code C:\projects\travsql
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '51658' '--' 'c:\projects\travsql\setup.py' 
+lt
+exit
+exit
+exit
+lt
+py .\setup.py
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '56183' '--' 'c:\projects\travsql\trav.py' 
+cls
+pip list | more
+cls
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '57395' '--' 'c:\projects\travsql\setup.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49585' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49597' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49616' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49629' '--' 'c:\projects\travsql\trav.py' 
+bash
+twit
+lt
+vlc .\02_03_10.mp3
+Get-MyCommands
+cpu
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49215' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '49224' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '54850' '--' 'c:\projects\travsql\trav.py' 
+ c:; cd 'c:\projects\travsql'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '53347' '--' 'c:\projects\travsql\trav.py' 
+pss
+cd \all\note
+lt
+g words
+get-my
+Get-MyCommands
+mps
+mkc hn
+ni hn.py
+get-location
+get-location | Get-Member
+get-location.path
+[System.Environment]::CurrentDirectory
+$a=[System.Environment]::CurrentDirectory
+$a
+code $a
+code .
+cd \all\note
+lt
+g .\words
+vim
+go
+cd ..
+cd ps
+lt
+gov
+cd
+gov
+g .\funny
+vim .\funny
+v .\color
+$a
+gcm python
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '53389' '--' 'c:\projects\hn\hn.py' 
+ c:; cd 'c:\projects\hn'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '53397' '--' 'c:\projects\hn\hn.py' 
+ c:; cd 'c:\projects\hn'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '56751' '--' 'c:\projects\hn\hn.py' 
+mps
+lt
+cd hn
+lt
+py .\hn.py
+cd \vid
+lt
+v .\02_03_10.mp3
+lt
+vlc .\02_03_10.mp3
+py .\hn.py
+py .\hn.py > i.html
+start i.html
+pip install speedtest-cli
+gn
+go
+sup
+no
+no
+pip install speedtest-cli
+speedtest-cli --version
+python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+gpn
+speedtest-cli --version
+cd C:\Python39\Lib\site-packages
+lt
+py .\speedtest_cli.py
+py .\speedtest.py
+get-location | Set-Clipboard
+gpn
+py .\speedtest.py
+cp .\speedtest.py c:\projects
+mps
+lt
+py .\speedtest.py
+v .\speedtest.py
+mps
+lt
+py .\speedtest.py
+py .\speedtest.py --share
+.\speedtest.py
+pycharm54 .\speedtest.py
+pycharm44 .\speedtest.py
+pycharm64 .\speedtest.py
+lt
+py .\speedtest.py
+gn
+lt
+py .\speedtest.py
+py .\speedtest.py > sp
+v sp
+bash
+powershell.exe -ExecutionPolicy Bypass -NoExit -Command “Checkpoint-Computer -Description ‘Restore Point Name’ -RestorePointType ‘MODIFY_SETTINGS’”
+no
+mps
+lt
+lt
+lt
+gpn
+gpn
+ip
+py --version
+gn
+cd C:\Vid\
+lt
+vlc .\335-gene-editing.mp3
+cd C:\all\note\
+lt
+gpn
+mps
+cd bs
+lt
+cd .\__pycache__\
+lt
+v .\bsp.cpython-39.pyc
+gci 
+gci | % {$_.FullName}
+gci | % {$_.FullName}| Set-Clipboard
+cd ..
+gci | % {$_.FullName}| Set-Clipboard
+lt
+gc .\bsp.py
+code .\bsp.py
+v h.py
+.\h.py
+py .\h.py
+.\h.py
+assoc .py=Python
+function assoc { cmd /c assoc $args }
+function ftype { cmd /c ftype $args }
+assoc .py=Python
+twit
+lt
+vlc .\04_25_10.mp3
+pss
+taskmgr
+su
+sup
+set-alias tsk tskmgr
+tsk
+tskmgr
+sup
+set-alias tsk taskmgr
+tsk
+pgn
+npg
+Get-MyCommands
+gpn
+cd \all\ps
+skill
+tsk
+lt
+gc .\gov.ps1
+today
+mps
+lt
+py .\speedtest.py
+.\speedtest.py
+gn
+curl https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=42590e38-1817-468d-82d4-d571c6337339
+curl https://www.dictionaryapi.com/api/v3/references/collegiate/json/trenchant?key=42590e38-1817-468d-82d4-d571c6337339
+pss
+tsk
+gpn
+$env
+echo $env
+Get-ChildItem Env: | Sort Name
+gpn
+Get-ChildItem Env: | Sort Name | vim -
+mps
+lt
+v h.py
+lt
+.\h.py
+.\speedtest.py
+.\speedtest.py > sp2
+v sp2
+cd .\hn\
+lt
+.\hn.py
+lt
+vlc .\04_25_10.mp3
+gn
+pip list | vim -
+lt
+.\getProcess.py
+cd \all\ps
+lt
+.\getProcess.py
+.\getProcess.py | more
+mps
+mkc process
+ip
+l
+mps
+mkc pclass
+ni class.py
+code .
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '52653' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '65001' '--' 'c:\projects\pclass\class.py' 
+cls
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '65007' '--' 'c:\projects\pclass\class.py' 
+gn
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '52470' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '52474' '--' 'c:\projects\pclass\class.py' 
+opri c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '54074' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '54081' '--' 'c:\projects\pclass\class.py' 
+cls
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '62258' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '63844' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '57669' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '57678' '--' 'c:\projects\pclass\class.py' 
+cls
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '61300' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '54150' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '58920' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '52565' '--' 'c:\projects\pclass\class.py' 
+l
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '57910' '--' 'c:\projects\pclass\Chap09\methods.py' 
+lt
+gci c*
+.\class.py
+py .\class.py
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '58740' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '58748' '--' 'c:\projects\pclass\Chap09\methods.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '58758' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '58765' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '61663' '--' 'c:\projects\pclass\class.py' 
+ c:; cd 'c:\projects\pclass'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '61673' '--' 'c:\projects\pclass\class.py' 
+gn
+& C:/Python39/python.exe c:/projects/pclass/class.py
+cls
+& C:/Python39/python.exe c:/projects/pclass/class.py
+& C:/Python39/python.exe c:/projects/pclass/Chap09/methods.py
+ip
+lt
+v .\str
+exit
+exit
+cd ..
+cd bs
+lt
+v .\bsp.py
+ip
+lt
+ri h
+ri .\h.py
+v .\pyvenv.cfg
+code .\bsp.py
+& C:/Python39/python.exe c:/projects/bs/bsp.py
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.10.1296967505-dev\pythonFiles\lib\python\debugpy\launcher' '50078' '--' 'c:\projects\bs\bsp.py' 
+mps
+cd bs
+lt
+ip
+vi tex
+lt
+v .\talk
+cd \all
+cd ps
+lt
+gc .\twit.ps1
+$ur="https://talkpython.fm/download/327/little-automation-tools-in-python.mp3`
+"
+$ur
+$a="auto"
+Invoke-WebRequest $ur -OutFile $a'.mp3'
+$ur
+Get-MyCommands
+all
+mps
+cd .\hn\
+lt
+hn
+.\hn.py
+traceroute -q1 -I a.ns.facebook.com
+bash
+cd
+lt
+mps
+cd bs
+lt
+cd vid
+cd \all\ps
+lt
+today
+hist
+cd \vid
+lt
+vlc
+cd \all\ps
+lt
+cpu
+bash
+cd \vid
+lt
+vlc .\311-get-inside-the-git-folder.mp3
+l
+sup
+gci \all\ps
+exit
+cd \all\ps
+lt
+gc .\gov.ps1
+.\githt.ps1
+cd ps
+cd \all\ps
+lt
+code .\githt.ps1
+lt
+githt grids
+exit
+git status
+git diff
+git log
+git add .
+git status
+git commit -m "flex box"
+git log -oneline
+git log -=oneline
+git log --oneline
+lt
+git revert b549aaf
+lt
+git log --oneline
+git checkout 83b7d94
+cd
+lt
+mps
+lt
+.\speedtest.py
+l
+cd .\grids\
+git log
+git checkout -b new_branch 83b7d945
+git status
+lt
+git merge
+git add .
+git commit -m "fix merge"
+git checkout -b new_branch 83b7d945
+lt
+get revert --abort
+git revert --abort
+git status
+git checkout -b new_branch 83b7d945
+git checkout -b new_branch2 83b7d945
+lt
+git branch
+lt
+vlc .\327-little-automation-tools.mp3
+cd C:\music\
+lt
+cd .\mozart\
+lt
+vlc '.\01 Mozart-- Piano Concerto No.24 In C minor K491 -- 1. Allegro.mp3'
+bash
+cd C:\you\
+lt
+lt
+vlc '.\Erik Satie - Gymnopédie No.1-S-Xm7s9eGxU.webm'
+gci y*
+cd ..
+gci y*
+cd youv
+lt
+vlc '.\Build a Quiz App (1) - Create and Style the Home Page-rFWbAj40JrQ.mp4'
+vlc '.\Build a Responsive Website _ HTML, CSS Grid, Flexbox & More-p0bGHP-PXD4.mp4'
+vlc '.\Responsive design made easy-bn-DQCifeQQ.mp4'
+pss
+bash
+cd C:\you\
+lt
+bash
+mps
+gci -Directory
+ri -Recurse -Force git
+mkc git
+cd ~
+lt
+gci *git*
+v .\.gitconfig
+git config --global
+git config --global | more
+git config --global
+git config
+Start-Transcript -Path "c:\all\git-trans.txt" -NoClobber
+ls
+gci *.txt
+gci h*
+Stop-Transcript
+cd \all
+lt
+g .\git-trans.txt
+ri .\git-trans.txt
+mps
+cd .\git\
+lt
+gci
+git config --list
+Start-Transcript -Path "c:\all\git-trans.txt" -NoClobber
+git config --list
+git config --global core.editor ="vim"
+tit "git"
+$PSVersionTable
+git --version
+gn
+git init
+gci .git
+gc .\.git\config
+v first_file.txt
+git add .
+git commit -m "first commit"
+cd C:\all\note\
+v gitvid
+gn
+choco install poshgit
+cd \you
+lt
+vlc '.\Beethoven - Moonlight Sonata (1st Movement)-sbTVZMJ9Z2I.mp3'
+bash
+exit
+cd C:\music\
+cd \vid
+lt
+cd 
+lt
+cd all
+cd \all
+his
+Stop-Transcript
+cd
+lt
+cd \all
+lt
+v .\git-trans.txt
+exit
+exit
+Import-Module posh-git
+Import-Module posh-git
+Import-Module posh-git
+ Import-Module posh-git
+ Import-Module posh-git
+exit
+ Import-Module posh-git
+Add-PoshGitToProfile
+cd C:\ProgramData\chocolatey
+lt
+cd lib
+lt
+import-module C:\Users\jayst\OneDrive\Documents\WindowsPowerShell\Modules\posh-git\1.0.0\posh-git.psd1
+mps
+git status
+cd git
+cd ..
+ri -Force -Recurse .git
+cd git
+lt
+git status
+git log --oneline
+cd C:\you\
+lt
+gci | gm
+gci | % {$_.name}
+gci | % {$_.name, $_.Basename}
+gci | % {$_.name+ " " +$_.Basename}
+gci | % {$_.Basename}
+cd ..
+cd .\youv\
+lt
+vlc '.\Beethoven - Moonlight Sonata 1st Movement (+ Piano Sheet PDF)-8GABroKp_hM.mp4'
+bash
+l
+git log
+cd \all\note
+lt
+v .\gitvid
+git help log
+git log --grep "a"
+git log --grep "f"
+git log --author jim
+git status
+v second_file.txt
+v third_file.txt
+git status
+lt
+git add second_file.txt
+git status
+gci \.git
+gci .git
+cd .git
+ls
+gci .\refs\
+gc .\config
+gc .\HEAD
+cd ..
+git commit -m "second file"
+git status
+git log
+git status
+git add third_file.txt
+git commit -m "add third file"
+git log
+lt
+g .\first_file.txt
+git status
+git add first_file.txt
+git status
+git diff
+lt
+v .\third_file.txt
+lt
+v .\third_file.txt
+v .\second_file.txt
+git add second_file.txt
+git status
+lt
+git status
+git commit -m "made changes to first and second"
+git status
+git log
+git status
+git add third_file.txt
+git commit -m "modified third file"
+git status
+lt
+g .\first_file.txt
+git diff
+v .\first_file.txt
+git diff
+lt
+g .\third_file.txt
+git diff
+git status
+git add first_file.txt
+git diff
+git diff --staged
+git status
+git add third_file.txt
+git status
+git diff --staged
+git commit -m "minor edits"
+v file_to_delete1.txt
+v file_to_delete2.txt
+git status
+git add .
+git commit -m "added two files"
+lt
+git status
+ri .\file_to_delete1.txt
+git status
+git rm file_to_delete1.txt
+git status
+git commit -m "delete first file"
+git rm .\file_to_delete2.txt
+git status
+lt
+git status
+git commit -m "deleted second file"
+ls
+mv .\first_file.txt primary_file.txt
+git status
+git add primary_file.txt
+git rm first_file.txt
+git status
+lt
+git mv .\second_file.txt seconary_file.txt
+git status
+git mv .\seconary_file.txt secondary_file.txt
+git status
+lt
+md first_folder
+lt
+mv .\third_file.txt .\first_folder\
+lt
+tree
+tree /f
+git status
+lt
+cd .\first_folder\
+lt
+mv .\third_file.txt ..
+lt
+cd ..
+lt
+git mv .\third_file.txt \first_folder\
+git mv .\third_file.txt first_folder\
+git status
+git commit -m "reorganized files"
+lt
+cd .\first_folder\
+lt
+git mv .\third_file.txt ..
+lt
+cd ..
+git status
+git commit -m "moved files again"
+exit
+lt
+cd .\explore_california\
+lt
+cd ..
+lt
+mv .\explore_california\ ..
+lt
+cd ..
+lt
+gn
+mps
+cd .\explore_california\
+lt
+python -m http.server 9000
+pss
+tsk
+mps
+cd .\explore_california\
+lt
+git init
+lt
+gci
+gci -Force
+exit
+mps
+cd .\explore_california\
+his

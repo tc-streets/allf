@@ -1,6 +1,10 @@
 *Target cab
+emt card
 Credit card
 SS card
+youtube api
+unemployment
+speed test
 organize this list
 
 LIB
@@ -11,20 +15,12 @@ Fairview 6320 Wedgewood Avenue Maple Grove
 *North 612 543 2500  800 West Broadway
 wed 10/6 1:30 12:30 blue and white 
 
-Visionworks
-Fri 17th 2:40
-952.545.6446
-12701 Wayzata Boulevard #249
 airport taxi
 612 888 8888 
 county
 612 596 1300
 Minnetonka, MN 55305
 password e-mail
-
-The emulator process for AVD Pixel_3_API_29 has terminated.
-cd C:\Program Files\Android\Android Studio\bin
-2020.3.1
 
 Mission
 763-559-4249
@@ -64,6 +60,7 @@ https://tc-streets.github.io/
 google jimsteffes2253@gmail.com
 615dks@477
 recover jimsteffes@outlook
+IP 34.136.187.35
 
 bike lock 1356
 
@@ -91,4 +88,33 @@ Python esstional
 7.2 immutable parameters (lists) review lists
 7.4 dictionary literal (:) vs constructor  literal is faster
 
+cd C:\Users\jayst\AppData\Local\Android\Sdk\platform-tools
+
+function convertToBinary(x) {
+    let bin = 0;
+    let rem, i = 1, step = 1;
+    while (x != 0) {
+        rem = x % 2;
+        console.log(
+            `Step ${step++}: ${x}/2, Remainder = ${rem}, Quotient = ${parseInt(x/2)}`
+        );
+        x = parseInt(x / 2);
+        bin = bin + rem * i;
+        i = i * 10;
+    }
+    console.log(`Binary: ${bin}`);
+}
+
+
+https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=42590e38-1817-468d-82d4-d571c6337339
+Key (Dictionary):
+42590e38-1817-468d-82d4-d571c6337339
+Key (medical_v2):
+25a1e895-c17e-4f86-8648-708bf0bd7b55
+
+keybindings.json
+Ansible
+posh git
+bash profile vs rc
+import-module C:\Users\jayst\OneDrive\Documents\WindowsPowerShell\Modules\posh-git\1.0.0\posh-git.psd1
 

@@ -13,3 +13,6 @@ if ($proc) {
     $proc | Stop-Process -Force
   }
 }
+Get-Process | select name -Unique > stop
+foreach($x in (Get-Content stop)) {Stop-Process -Name $x}
+

@@ -21,8 +21,9 @@ change last commit
 git commit --amend -m "reorder recommended items for trip"
 
 
+https://www.youtube.com/watch?v=ipav1TCV8BI&t=71s
 git init
 git remote add origin https://github.com/prof3ssorSt3v3/git-demo-reset
 git pull origin master
-
+git tag
 

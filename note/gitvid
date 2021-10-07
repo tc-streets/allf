@@ -19,3 +19,10 @@ Make Atomic commits (only one theme)
 
 change last commit
 git commit --amend -m "reorder recommended items for trip"
+
+
+git init
+git remote add origin https://github.com/prof3ssorSt3v3/git-demo-reset
+git pull origin master
+
+

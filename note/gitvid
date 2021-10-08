@@ -27,5 +27,6 @@ git pull origin master
 git tag ONETWO
 git checkout 9c3d1c731c82 -- app.js
 
+git reset --hard 
 
 

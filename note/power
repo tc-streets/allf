@@ -13,6 +13,9 @@ Viewing function contents
 Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
 	or
 (Get-Command <Function Name>).ScriptBlock
+  or
+$function:cpu
+python -c "print('Hi!')"
 
 pip install sql-formatter
 

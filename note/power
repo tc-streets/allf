@@ -6,6 +6,7 @@ vim blank lines
 :map
 delete all except
 :g!/price/d
+delete control (turn of akey) ctrl-q ctrl-[letter]
 
 $env:path -split ";"
 
@@ -84,3 +85,10 @@ powershell.exe -ExecutionPolicy Bypass -NoExit -Command Checkpoint-Computer -Des
 
 
 Get-ChildItem Env: | Sort Name
+
+$function:getc
+Get-Process | Select-Object -Property name, id
+Get-Process | Select-Object -Property name, id | grep pyth
+Stop-Process -name python
+Get-Process | Select-Object -Property name, id | grep pyth
+

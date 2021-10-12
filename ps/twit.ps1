@@ -1,5 +1,5 @@
-#this is a utility to get the mp3 of twit webpages
-#the input is a twit web page that offers a download
+#utility to get the mp3 of twit webpages
+#input is a twit web page that offers a download
 
 #get URL from twit tv
 $twitString= Read-Host -Prompt "enter show URL"

@@ -9,6 +9,6 @@ $ur='https://talkpython.fm/episodes/download/334/microsoft-planetary-computer.mp
 Write-Host 'The URL is: ' $ur
 cd c:\Vid
 $ProgressPreference = 'SilentlyContinue'
-$a=Get-Date -Format "dd_ss_MM"
+$a=Get-Date -Format "dd_mm_ss_MM"
 Invoke-WebRequest $ur -OutFile $a'.mp3'
 $ProgressPreference = 'Continue'

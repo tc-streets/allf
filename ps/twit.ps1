@@ -21,7 +21,7 @@ $ur=$Matches.0
 
 Write-Host 'The URL is: ' $ur
 #change directory and run the download
-cd c:\Vid
+Set-Location c:\Vid
 $ProgressPreference = 'SilentlyContinue'
 $a=Get-Date -Format "dd_ss_MM"
 Invoke-WebRequest $ur -OutFile $a'.mp3'

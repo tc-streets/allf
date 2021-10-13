@@ -92,4 +92,4 @@ Get-Process | Select-Object -Property name, id
 Get-Process | Select-Object -Property name, id | grep pyth
 Stop-Process -name python
 Get-Process | Select-Object -Property name, id | grep pyth
-
+Get-Host | Select-Object Version

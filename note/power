@@ -8,6 +8,8 @@ delete all except
 :g!/price/d
 delete control (turn of akey) ctrl-q ctrl-[letter]
 (replace new line) Use \r instead of \n.
+:saveas
+dir env;
 
 $env:path -split ";"
 

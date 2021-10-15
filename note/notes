@@ -3,8 +3,6 @@ pcn
 group 
 id
 
-
-
 *Target cab
 emt card
 Credit card
@@ -45,7 +43,7 @@ dBm stands for decibel milliwatts. dBm can be used in radio, microwave, and fibe
 Brad Traversy + Bucky Roberts +Gary Simons + Net ninja + Academind +Mosh Hamedani == No need of college/universities
 
 youtube api
-AIzaSyDA1XZ0z-3g8LOZapauqxk6T2wcAJrYEXA
+apikey="AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao"
 
 Fairview mychart 615Dks@476
 
@@ -144,3 +142,4 @@ ken thomspon dennis ritchie
 juggling chainsaws
 Indeed, because writing maintainable code is what takes time.
 qbittorent
+mutex and semaphores

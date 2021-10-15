@@ -1,25 +1,12 @@
 
-    Directory: C:\all\ps
+Thursday, October 14, 2021 6:31:37 PM
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d----           9/13/2021  8:14 PM                .vscode
--a---           9/21/2021  6:26 AM              0 a
--a---           9/11/2021  3:24 PM            293 akey.ps1
--a---           8/31/2021  8:28 AM            652 bookmark.js
--a---            9/5/2021  9:54 AM            120 comment
--a---            9/5/2021 10:58 AM            357 docps1.ps1
--a---           8/12/2021 10:08 PM            115 fday.ps1
--a---           9/13/2021 10:01 PM           1246 findf.ps1
--a---            9/8/2021  8:53 AM            406 githt.ps1
--a---           9/19/2021  8:59 AM             66 l.ps1
--a---           9/13/2021  9:58 PM             23 music2.txt
--a---           8/17/2021  6:13 PM            152 n.ps1
--a---            8/6/2021  9:29 PM            123 no.ps1
--a---            9/5/2021 11:18 AM            305 pss.ps1
--a---           8/28/2021 12:43 PM           1201 rjunk.ps1
--a---            9/1/2021  3:57 PM           1484 scrap.ps1
--a---            9/8/2021  4:53 PM           3237 speed.ps1
--a---           9/14/2021  8:51 PM            974 twit.ps1
--a---           9/10/2021  1:40 PM       76913121 x.mp3
-
+Retrieving speedtest.net configuration...
+Testing from Comcast Business (96.75.144.1)...
+Retrieving speedtest.net server list...
+Selecting best server based on ping...
+Hosted by vRad (Eden Prairie, MN) [17.28 km]: 28.441 ms
+Testing download speed................................................................................
+Download: 0.65 Mbit/s
+Testing upload speed......................................................................................................
+Upload: 0.79 Mbit/s

@@ -1501,7 +1501,7 @@ class Speedtest(object):
         self.results.server = best
 
         self._best.update(best)
-        printer('Best Server:\n%r' % best, debug=True)
+        printer('Best Server xxx:\n%r' % best, debug=True)
         return best
 
     def download(self, callback=do_nothing, threads=None):

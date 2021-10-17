@@ -7,6 +7,7 @@ vim blank lines
 delete all except
 :g!/price/d
 delete control (turn of akey) ctrl-q ctrl-[letter]
+
 (replace new line) Use \r instead of \n.
 :saveas
 dir env;
@@ -95,3 +96,7 @@ Get-Process | Select-Object -Property name, id | grep pyth
 Stop-Process -name python
 Get-Process | Select-Object -Property name, id | grep pyth
 Get-Host | Select-Object Version
+
+
+
+C:\Users\jayst\AppData\Local\nvim-data\site\autoload

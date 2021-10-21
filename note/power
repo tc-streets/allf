@@ -98,5 +98,8 @@ Get-Process | Select-Object -Property name, id | grep pyth
 Get-Host | Select-Object Version
 
 
+Get-ChildItem -Recurse -ErrorAction SilentlyContinue | Where-Object {$_.Length -gt 55550KB} | Select @{Name="Length";Expression={$_.Length/1MB}}, fullName  
+Get-ChildItem -Recurse -file -ErrorAction SilentlyContinue | Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)}
+gci -file -name -Recurse
 
 C:\Users\jayst\AppData\Local\nvim-data\site\autoload

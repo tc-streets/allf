@@ -1,0 +1,1 @@
+curl https://www.dictionaryapi.com/api/v3/references/collegiate/json/tankard?key=42590e38-1817-468d-82d4-d571c6337339 | jq '.' | v -

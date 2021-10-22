@@ -7,6 +7,8 @@ vim blank lines
 delete all except
 :g!/price/d
 delete control (turn of akey) ctrl-q ctrl-[letter]
+virtualenv flask
+
 
 (replace new line) Use \r instead of \n.
 :saveas

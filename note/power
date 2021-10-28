@@ -7,12 +7,18 @@ vim blank lines
 delete all except
 :g!/price/d
 delete control (turn of akey) ctrl-q ctrl-[letter]
+redir @a
+redir end
+
+numbers = "{:,}".format(5000000)
+print(numbers)
+
 virtualenv flask
 
 
 (replace new line) Use \r instead of \n.
 :saveas
-dir env;
+dir env:
 
 $env:path -split ";"
 

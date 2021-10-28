@@ -19,6 +19,7 @@ Fairview 6320 Wedgewood Avenue Maple Grove
 
 *North 612 543 2500  800 West Broadway
 wed 10/6 1:30 12:30 blue and white 
+9:50 11/24 Wednesday
 
 airport taxi
 612 888 8888 
@@ -157,3 +158,34 @@ Secure Hash Algorithm
 pinky promise
 autotelic
  borborygmus
+exfoliate 
+{ "command": { "action": "splitPane", "split": "vertical" }, "keys": "alt+shift+plus" },
+{ "command": { "action": "splitPane", "split": "horizontal" }, "keys": "alt+shift+-" },
+{ "command": { "action": "splitPane", "split": "auto" }, "keys": "alt+shift+d" },
+{ "command": { "action": "splitPane", "split": "up" } },
+{ "command": { "action": "splitPane", "split": "right" } },
+{ "command": { "action": "splitPane", "split": "down" } },
+{ "command": { "action": "splitPane", "split": "left" } },
+ Bob Kahn and Vint Cerf 
+crash course computer
+open sea (nft)
+CPU-bound code: this refers to any piece of code which will be directly executed by the CPU.
+I/O-bound code: this can be any code that accesses the file system thru’ the OS
+CPython: it is the reference implementation of Python and can be described as the interpreter written in C and Python (programming language).
+Global Interpreter Lock (GIL) in python is a process lock or a mutex used while dealing with the processes
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+here's the first 3 digits of my phone number e-mail me
+puerperal fever
+514 levo
+large white pliva 433 Traz
+white ep 127 folic
+blue 213 sert
+yellow h125 Pantoprazole 
+PNG for Crisp Graphics

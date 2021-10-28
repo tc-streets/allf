@@ -1,8 +1,8 @@
 <!-- HTML !-->
-<button class="button-79" role="button">Button 79</button>
+<button class="butt" role="button">Button 79</button>
 
 /* CSS */
-.button-79 {
+.butt {
   backface-visibility: hidden;
   background: #332cf2;
   border: 0;
@@ -27,24 +27,24 @@
   touch-action: manipulation;
 }
 
-.button-79:disabled {
+.butt:disabled {
   color: #787878;
   cursor: auto;
 }
 
-.button-79:not(:disabled):hover {
+.butt:not(:disabled):hover {
   transform: scale(1.05);
 }
 
-.button-79:not(:disabled):hover:active {
+.butt:not(:disabled):hover:active {
   transform: scale(1.05) translateY(.125rem);
 }
 
-.button-79:focus {
+.butt:focus {
   outline: 0 solid transparent;
 }
 
-.button-79:focus:before {
+.butt:focus:before {
   border-width: .125rem;
   content: "";
   left: calc(-1*.375rem);
@@ -55,10 +55,10 @@
   user-select: none;
 }
 
-.button-79:focus:not(:focus-visible) {
+.butt:focus:not(:focus-visible) {
   outline: 0 solid transparent;
 }
 
-.button-79:not(:disabled):active {
+.butt:not(:disabled):active {
   transform: translateY(.125rem);
 }

@@ -41,6 +41,13 @@ Hennepin Health
 04745519
 612 596 1036
 
+max less min more
+@media only screen and (max-width: 600px)  {...}
+If [device width] is less than or equal to 600px, then do {}
+
+@media only screen and (min-width: 600px)  {...}
+If [device width] is greater than or equal to 600px, then do {}
+
 dBm stands for decibel milliwatts. dBm can be used in radio, microwave, and fiber-optical networks as a measure of absolute power because of its capability to express both very large and very small values in short form. The closer the number is to 0, the better off your signal strength is
 5 gig and 2.4 gig
 
@@ -52,9 +59,9 @@ apikey="AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao"
 Fairview mychart 615Dks@476
 
 git hub token 
-615dks477
-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
-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
+615dks477 
+maybe @
+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
 
 Wordpress 
 8/26/2021 9:12:16 PM
@@ -186,6 +193,7 @@ Global Interpreter Lock (GIL) in python is a process lock or a mutex used while 
 </form> 
 here's the first 3 digits of my phone number e-mail me
 puerperal fever
+
 514 levo
 large white pliva 433 Traz
 white ep 127 folic

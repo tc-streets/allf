@@ -1,0 +1,19 @@
+function type(obj){
+    return Object.prototype.toString.call(obj).slice(8, -1);
+}
+
+Array.from(a).forEach(function (element) {
+        console.log(element)
+      });
+
+$ vimdiff <file> <file> OR $ vim –d <file> <file>,
+:diffsplit filename,
+:vert diffsplit <filename>,
+:set scrollbind,
+:set noscrollbind,
+:diffupdate,
+Ctrl + w Ctrl + w,
+[c,
+]c,
+:diffget,
+:diffput

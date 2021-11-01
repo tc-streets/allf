@@ -9,6 +9,7 @@ delete all except
 delete control (turn of akey) ctrl-q ctrl-[letter]
 redir @a
 redir end
+v -o (-O horz -p tabs) two files
 
 numbers = "{:,}".format(5000000)
 print(numbers)

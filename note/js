@@ -6,7 +6,7 @@ Array.from(a).forEach(function (element) {
         console.log(element)
       });
 
-$ vimdiff <file> <file> OR $ vim –d <file> <file>,
+$ vimdiff <file> <file> OR $ vim -d <file> <file>,
 :diffsplit filename,
 :vert diffsplit <filename>,
 :set scrollbind,

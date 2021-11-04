@@ -1,0 +1,5 @@
+slow down
+ffmpeg -i z.mp3 -filter:a "atempo=0.7" -vn slower.mp3
+#merge
+ffmpeg -i "concat:zk.mp3|zk.mp3" -acodec copy zm.mp3
+

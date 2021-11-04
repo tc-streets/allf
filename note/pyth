@@ -1,0 +1,2 @@
+with open("p", "r") as tf:
+    lines = tf.read().split('\n')

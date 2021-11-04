@@ -1,0 +1,4 @@
+font-size rem (relative to root element default 16px)
+height (consider min-height)
+button use font size
+generally us rem or em

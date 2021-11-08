@@ -1,14 +1,14 @@
 #SingleInstance Force
 
 
-^q:: Send !{f4}
+!q:: Send !{f4}
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
 return
 
 !j::
-Send, The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.”
+Send, The thing that hath been, it is that which shall be; and that which is done is that which shall be done: and there is no new thing under the sun.
 return
 
 !k::

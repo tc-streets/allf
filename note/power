@@ -10,12 +10,14 @@ delete control (turn of akey) ctrl-q ctrl-[letter]
 redir @a
 redir end
 v -o (-O horz -p tabs) two files
+Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -ne ""}
+grep -nr string my_directory
 
 numbers = "{:,}".format(5000000)
 print(numbers)
 
 virtualenv flask
-
+gci | % fullname
 
 (replace new line) Use \r instead of \n.
 :saveas

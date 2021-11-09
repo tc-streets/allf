@@ -24,5 +24,8 @@ Write-Host 'The URL is: ' $ur
 Set-Location c:\Vid
 $ProgressPreference = 'SilentlyContinue'
 $a=Get-Date -Format "dd_ss_MM"
+$b=Get-Date -Format "MM_dd_yy"
+Add-Content C:\all\ps\j  -value $b' = '$twitString
+
 Invoke-WebRequest $ur -OutFile $a'.mp3'
 $ProgressPreference = 'Continue'

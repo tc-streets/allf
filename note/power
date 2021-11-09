@@ -1,4 +1,7 @@
 whereis gcm
+msconfig
+winver
+Stop-Process -id 6116
 
 vim blank lines
 :g/^$/d
@@ -12,6 +15,11 @@ redir end
 v -o (-O horz -p tabs) two files
 Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -ne ""}
 grep -nr string my_directory
+vim +546 functions
+replace confirm gc
+
+vim get diff (go get obtain gp get put)
+zo fold open zc fold close
 
 numbers = "{:,}".format(5000000)
 print(numbers)

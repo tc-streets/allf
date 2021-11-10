@@ -131,3 +131,4 @@ with open('filename', 'w') as f:
 With this:
 with open('filename', 'w', encoding='utf-8') as f:
 The reason why it is working is because the encoding is changed to UTF-8 when using the file, so characters in UTF-8 are able to be converted to text, instead of returning an error when it encounters a UTF-8 character that is not suppord by the current encoding.
+Goyo + VimPencil

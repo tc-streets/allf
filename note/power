@@ -33,6 +33,7 @@ dir env:
 
 $env:path -split ";"
 
+| ft -auto #format table autosize (gets rid of ellipses)
 Viewing function contents
 Get-Command <Function Name> | Select -ExpandProperty ScriptBlock
 	or

@@ -17,6 +17,8 @@ Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -
 grep -nr string my_directory
 vim +546 functions
 replace confirm gc
+win # for app
+win b (right bottom)
 
 vim get diff (go get obtain gp get put)
 zo fold open zc fold close

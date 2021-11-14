@@ -205,6 +205,7 @@ I'm sorry dave, I'm afraid I can't do that
 Turing tarpit
 Those who are hardest to love, need it the most
 Be kind, for every one you meet is fighting a hard battle.
+bumblescum North dakota
 d3
 Seitan
 aleatoric
@@ -214,3 +215,30 @@ waa · way
 bass
 grow
 shrink
+
+{
+  "contents": [
+    {
+      "productID": 34,
+      "productName": "SuperWidget"
+    },
+    {
+      "productID": 56,
+      "productName": "WonderWidget",
+      "quantity": 10 
+    }
+  ]
+}
+compression/decompression
+oneiric
+synaesthetic 
+- Codesmell's Dotfiles: https://github.com/whatsthatsmell/dots
+- Telescope ??: https://github.com/nvim-telescope/tel...
+- Treesitter ??: https://github.com/nvim-treesitter/nv...
+- lsp_signature: https://github.com/ray-x/lsp_signatur...
+- compe: https://github.com/hrsh7th/nvim-compe
+- compe-zsh: https://github.com/tamago324/compe-zsh
+- gitsigns: https://github.com/lewis6991/gitsigns...
+- nvim-tree: https://github.com/kyazdani42/nvim-tr...
+- nvim-toggleterm: https://github.com/akinsho/nvim-toggl...
+- vim-floaterm: https://github.com/voldikss/vim-floaterm

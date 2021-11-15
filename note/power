@@ -2,7 +2,17 @@ whereis gcm
 msconfig
 winver
 Stop-Process -id 6116
+Get-ACL
 
+python to win
+%s/\//\\/g
+win to python
+.s/\\/\//g
+e.g.
+db="conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')"
+conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')
+
+dir env: | v -
 vim blank lines
 :g/^$/d
 :version
@@ -20,8 +30,10 @@ replace confirm gc
 win # for app
 win b (right bottom)
 
+Get-Process -Name chrome | Format-List -Property * | v -
 vim get diff (go get obtain gp get put)
 zo fold open zc fold close
+gci -Directory | Format-Wide -Column 3
 
 numbers = "{:,}".format(5000000)
 print(numbers)
@@ -86,8 +98,6 @@ Resize the focused pane: Alt+Shift+Left, Alt+Shift+Right, Alt+Shift+Down, Alt+Sh
 Close a pane: Ctrl+Shift+W
 Get-Process | Where-Object {$_.WorkingSet -gt 200000000}
 Get-Help Get-ChildItem -ShowWindow
-
-pip install sql-formatter
 
 kotlinc hello.kt -include-runtime -d hello.jar
 java -jar hello.jar

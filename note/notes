@@ -1,8 +1,4 @@
-bin 
-pcn 
-group 
-id
-
+grep -rn "ico" .
 *Target cab
 #emt card
 #Credit card
@@ -242,3 +238,8 @@ synaesthetic
 - nvim-tree: https://github.com/kyazdani42/nvim-tr...
 - nvim-toggleterm: https://github.com/akinsho/nvim-toggl...
 - vim-floaterm: https://github.com/voldikss/vim-floaterm
+
+23.3 million linux
+Samizdat 
+case of pseudofed
+cd C:\Users\jayst\AppData\Roaming\Ditto

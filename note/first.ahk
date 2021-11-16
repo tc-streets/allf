@@ -1,4 +1,6 @@
 #SingleInstance Force
+!a::run, C:\tools\neovim\Neovim\bin\nvim.exe      ; Correct
+!r::run, C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\wt.exe
 
 
 !q:: Send !{f4}

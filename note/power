@@ -4,6 +4,7 @@ winver
 Stop-Process -id 6116
 Get-ACL
 
+:vnew
 python to win
 %s/\//\\/g
 replace 1 cr with 2

@@ -1,3 +1,4 @@
+I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
 grep -rn "ico" .
 *Target cab
 #emt card
@@ -245,3 +246,4 @@ case of pseudofed
 cd C:\Users\jayst\AppData\Roaming\Ditto
 code warrior
 ASMR
+frisson

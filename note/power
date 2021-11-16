@@ -6,6 +6,8 @@ Get-ACL
 
 python to win
 %s/\//\\/g
+replace 1 cr with 2
+%s/\n/\r\r/g
 win to python
 .s/\\/\//g
 e.g.

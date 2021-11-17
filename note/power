@@ -15,6 +15,9 @@ e.g.
 db="conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')"
 conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')
 
+model number
+Get-CimInstance -ClassName Win32_ComputerSystem
+
 dir env: | v -
 vim blank lines
 :g/^$/d

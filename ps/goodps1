@@ -1,0 +1,4 @@
+Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}}
+$path = 'C:\Temp'
+$threshold = 14
+Get-ChildItem -Path $path -File | Where-Object {$PSItem.CreationTime -lt (Get-Date).AddDays(-$threshold)} |Remove-Item -Verbose

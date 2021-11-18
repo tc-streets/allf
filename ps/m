@@ -1,0 +1,4 @@
+11_17_21 = ffmpeg -ss 3:00 -i santa.mp4 -t 0:45 xsanta.mp4
+11_17_21 = ffmpeg -ss 2:53 -i santa.mp4 -t 0:59 xsanta.mp4
+11_17_21 = ffmpeg -ss 2:49 -i santa.mp4 -t 1:05 xsanta.mp4
+11_17_21 = ffmpeg -ss 3:40 -i Yesterday.mp4 -t 0:22 xYesterday.mp4

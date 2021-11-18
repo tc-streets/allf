@@ -4,6 +4,18 @@ winver
 Stop-Process -id 6116
 Get-ACL
 
+
+# First, create an array of strings.
+$array =  @("chrome","firefox","iexplore","opera")
+
+
+# Next, loop through each item in your array, and stop the process.
+foreach ($process in $array)
+{
+    Stop-Process -Name $process
+}
+
+Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}}
 :vnew
 python to win
 %s/\//\\/g

@@ -19,3 +19,5 @@ Send, Beware the Jabberwock, my son The jaws that bite the claws that catch Bewa
 !l::
 Send, O Tannenbaum, o Tannenbaum, Wie treu sind deine Blatter. Du grunst nicht nur zur Sommerzeit, Nein, auch im Winter, wenn es schneit. O Tannenbaum, o Tannenbaum, Wie treu sind deine Blatter.  O Tannenbaum, o Tannenbaum, Du kannst mir sehr gefallen. Wie oft hat nicht zur Weihnachtszeit. Ein Baum von dir mich hoch erfreut. O Tannenbaum, o Tannenbaum, Du kannst mir sehr gefallen.
 
+!b::
+Send, Those who are hardest to love, need it the most- Be kind, for every one you meet is fighting a hard battle.  bumblescum North dakot - Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art

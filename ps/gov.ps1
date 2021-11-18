@@ -1,2 +1,0 @@
-cd \all\note
-gci

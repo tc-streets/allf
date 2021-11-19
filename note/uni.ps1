@@ -1,0 +1,11 @@
+code --uninstall-extension formulahendry.vscode-mysql
+code --uninstall-extension fwcd.kotlin
+code --uninstall-extension GitHub.copilot
+code --uninstall-extension jakebathman.mysql-syntax
+code --uninstall-extension mathiasfrohlich.Kotlin
+code --uninstall-extension ms-python.vscode-pylance
+code --uninstall-extension ms-toolsai.jupyter
+code --uninstall-extension ms-toolsai.jupyter-keymap
+code --uninstall-extension ms-toolsai.jupyter-renderers
+code --uninstall-extension mtxr.sqltools
+code --uninstall-extension mtxr.sqltools-driver-mysql

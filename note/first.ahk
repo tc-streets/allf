@@ -21,3 +21,5 @@ Send, O Tannenbaum, o Tannenbaum, Wie treu sind deine Blatter. Du grunst nicht n
 
 !b::
 Send, Those who are hardest to love, need it the most- Be kind, for every one you meet is fighting a hard battle.  bumblescum North dakot - Simplicity is the final achievement. After one has played a vast quantity of notes and more notes, it is simplicity that emerges as the crowning reward of art
+!m::
+Send, The lady doth protest too much, methinks

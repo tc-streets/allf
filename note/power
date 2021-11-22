@@ -38,8 +38,11 @@ vim blank lines
 delete all except
 :g!/price/d
 delete control (turn of akey) ctrl-q ctrl-[letter]
-redir @a
-redir end
+:redir @a
+:set all
+:redir END
+Now, register 'a' will have the output of the "set all" ex command. You can paste this into a Vim buffer, using "ap.
+
 v -o (-O horz -p tabs) two files
 Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -ne ""}
 grep -nr string my_directory

@@ -1,4 +1,6 @@
 https://pynative.com/parse-json-response-using-python-requests-library/
+Type %d and hit Enter to delete all the lines.
+:g/^\s*$/d
 I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
 grep -rn "ico" .
 *Target cab
@@ -241,7 +243,7 @@ synaesthetic
 - nvim-toggleterm: https://github.com/akinsho/nvim-toggl...
 - vim-floaterm: https://github.com/voldikss/vim-floaterm
 
-23.3 million linux
+23.3 million code linux
 Samizdat 
 case of pseudofed
 cd C:\Users\jayst\AppData\Roaming\Ditto
@@ -253,3 +255,14 @@ Simplicity is the final achievement. After one has played a vast quantity of not
 mmu
 polonium (russian poison)
 i18n and L10n
+
+:g/foo/d - Delete all lines containing the string ¿foo¿. It also removes line where ¿foo¿ is embedded in larger words, such as ¿football¿.
+:g!/foo/d - Delete all lines not containing the string ¿foo¿.
+:g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
+:g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
+:g/^\s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (\s*).
+lemma
+vim replace word with comma
+%s/\>\s/,/g
+likes to play in the dirt
+microfauna

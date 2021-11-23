@@ -23,6 +23,7 @@ Fairview 6320 Wedgewood Avenue Maple Grove
 *North 612 543 2500  800 West Broadway
 wed 10/6 1:30 12:30 blue and white 
 9:50 11/24 Wednesday
+9:10 blue and white
 
 airport taxi
 612 888 8888 
@@ -266,3 +267,12 @@ vim replace word with comma
 %s/\>\s/,/g
 likes to play in the dirt
 microfauna
+mcoding
+ Satoshi Nakamoo
+ To recap, Bitcoin is "mined" by miners who solve cryptographic puzzles to verify and validate a block of transactions occurring in its network.
+vscode rest client, thundej quokka
+Auto Rename Tag: https://bit.ly/vsc-autorename
+Prettier: https://bit.ly/vsc-prettier
+ES7 Snippets: https://bit.ly/vsc-es7
+microfauna
+llvm

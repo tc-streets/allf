@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <p>
+    <input type="text">
+</p>
+
+<script>
+
+  function formatBytes(bytes, decimals = 2) {
+    if (bytes === 0) return '0 Bytes';
+
+    const k = 1024;
+    const dm = decimals < 0 ? 0 : decimals;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+}
+debugger
+// alert("hello")
+console.log("i'm here")
+// ** Demo code **
+var p = document.querySelector('p'),
+    input = document.querySelector('input');
+    
+function setText(v){
+    p.innerHTML = formatBytes(v);
+    p.innerHTML = formatBytes(v);
+}
+// bind 'input' event
+input.addEventListener('input', function(){ 
+    setText( this.value )
+})
+// set initial text
+setText(input.value);
+</script>
+</body>
+</html>

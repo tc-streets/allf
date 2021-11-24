@@ -2,3 +2,8 @@
 11_17_21 = ffmpeg -ss 2:53 -i santa.mp4 -t 0:59 xsanta.mp4
 11_17_21 = ffmpeg -ss 2:49 -i santa.mp4 -t 1:05 xsanta.mp4
 11_17_21 = ffmpeg -ss 3:40 -i Yesterday.mp4 -t 0:22 xYesterday.mp4
+11_23_21 = ffmpeg -ss 1:00 -i '.\Autum good tutorial' -t 10 x'.\Autum good tutorial'
+11_23_21 = ffmpeg -ss 1:00 -i autumnpretty -t :15 xautumnpretty
+11_23_21 = ffmpeg -ss 1:00 -i autumnpretty.mp4 -t :16 xautumnpretty.mp4
+11_23_21 = ffmpeg -ss 0:00 -i autumnTwobass.mp4 -t 20 xautumnTwobass.mp4
+11_23_21 = ffmpeg -ss 0:00 -i autumnTwobass.mp4 -t 30 xautumnTwobass.mp4

@@ -31,6 +31,9 @@ model number
 Get-CimInstance -ClassName Win32_ComputerSystem
 
 dir env: | v -
+$Env:PATH += ":/usr/local/temp"
+Set-Item -Path Env:Path -Value ($Env:Path + ";C:\Temp")
+
 vim blank lines
 :g/^$/d
 :version
@@ -166,3 +169,5 @@ With this:
 with open('filename', 'w', encoding='utf-8') as f:
 The reason why it is working is because the encoding is changed to UTF-8 when using the file, so characters in UTF-8 are able to be converted to text, instead of returning an error when it encounters a UTF-8 character that is not suppord by the current encoding.
 Goyo + VimPencil
+
+Once upon a time, in some out of the way corner of that universe which is dispersed into numberless twinkling solar systems, there was a star upon which clever beasts invented knowing. That was the most arrogant and mendacious minute of "world history," but nevertheless, it was only a minute. After nature had drawn a few breaths, the star cooled and congealed, and the clever beasts had to die. One might invent such a fable, and yet he still would not have adequately illustrated how miserable, how shadowy and transient, how aimless and arbitrary the human intellect looks within nature. There were eternities during which it did not exist. And when it is all over with the human intellect, nothing will have happened

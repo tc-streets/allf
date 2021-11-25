@@ -1,0 +1,9 @@
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=jambrose42&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao
+var url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}
+        &part=snippet&q=${search}&maxResults=${maxResults}&publishedAfter=${afterdate}&publishedBefore=${beforedate}&order=${order}&videoDuration=${duration}&type=video`;
+
+
+https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=ContentDetails&q=mcoding&maxResults=10&publishedAfter=2021-07-27T16:02:08.070557Z&type=video
+
+duration?
+https://www.googleapis.com/youtube/v3/videos?id=9bZkp7q19f0&part=contentDetails&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao

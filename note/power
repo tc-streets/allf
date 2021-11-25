@@ -171,3 +171,4 @@ list installed programs
 Get-CimInstance win32_product |  Format-Table -Wrap -AutoSize > installed
 (Measure-Command {Get-CimInstance Win32_Product}).TotalSeconds
 https://xkln.net/blog/please-stop-using-win32product-to-find-installed-software-alternatives-inside/
+https://adamtheautomator.com/get-winevent/

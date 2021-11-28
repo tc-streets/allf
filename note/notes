@@ -1,6 +1,9 @@
 https://pynative.com/parse-json-response-using-python-requests-library/
 Type %d and hit Enter to delete all the lines.
 :g/^\s*$/d
+vim show ascii - ga
+smart quotes
+%s/[â€â€œ]/"/g
 I map it as noremap Y 0vg_y in my .vimrc so that now I just have to press shift+y to copy line
 grep -rn "ico" .
 *Target cab
@@ -86,7 +89,7 @@ You can drop them off anywhere :)
 HDL (hab dich lieb ("I love you" in German))
 ILD (ich liebe dich ("I love you" in German))
 OG; ASL; FR; pfp; AFF; SMH google aff
-If a person’s behavior doesn’t make sense to you, it is because you are missing a part of their context.
+If a personÂ’s behavior doesnÂ’t make sense to you, it is because you are missing a part of their context.
 All your base are belong to us
 
 beamish
@@ -148,7 +151,7 @@ i to insert,
 Esc to leave INSERT mode.
 
 
-Beware the barrenness of a busy life” ~ Socrates
+Beware the barrenness of a busy lifeÂ” ~ Socrates
 ken thomspon dennis ritchie(c)
 juggling chainsaws
 Indeed, because writing maintainable code is what takes time.
@@ -180,7 +183,7 @@ exfoliate
 crash course computer
 open sea (nft)
 CPU-bound code: this refers to any piece of code which will be directly executed by the CPU.
-I/O-bound code: this can be any code that accesses the file system thru’ the OS
+I/O-bound code: this can be any code that accesses the file system thruÂ’ the OS
 CPython: it is the reference implementation of Python and can be described as the interpreter written in C and Python (programming language).
 Global Interpreter Lock (GIL) in python is a process lock or a mutex used while dealing with the processes
 
@@ -211,7 +214,7 @@ Seitan
 aleatoric
 comedogenic
 $ sudo rm -rf /
-waa · way
+waa Â· way
 bass
 grow
 shrink
@@ -256,8 +259,8 @@ mmu
 polonium (russian poison)
 i18n and L10n
 
-:g/foo/d - Delete all lines containing the string ¿foo¿. It also removes line where ¿foo¿ is embedded in larger words, such as ¿football¿.
-:g!/foo/d - Delete all lines not containing the string ¿foo¿.
+:g/foo/d - Delete all lines containing the string Â¿fooÂ¿. It also removes line where Â¿fooÂ¿ is embedded in larger words, such as Â¿footballÂ¿.
+:g!/foo/d - Delete all lines not containing the string Â¿fooÂ¿.
 :g/^#/d - Remove all comments from a Bash script. The pattern ^# means each line beginning with #.
 :g/^$/d - Remove all blank lines. The pattern ^$ matches all empty lines.
 :g/^\s*$/d - Remove all blank lines. Unlike the previous command, this also removes the blank lines that have zero or more whitespace characters (\s*).
@@ -275,3 +278,15 @@ Prettier: https://bit.ly/vsc-prettier
 ES7 Snippets: https://bit.ly/vsc-es7
 microfauna
 llvm
+don't hate the player, hate the game
+I just do what I do. 
+I got nothing to say to the haters
+object permanence skills
+"the calculus of infinitesimals", mathematical study of continuous change,  
+geometry study of shape 
+algebra study of generalizations of arithmetic operations.
+
+Syncthing
+
+
+

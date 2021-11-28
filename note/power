@@ -1,14 +1,21 @@
-whereis gcm msconfig winver Stop-Process -id 6116 Get-ACL
+whereis gcm 
+msconfig 
+winver 
+Stop-Process -id 6116 Get-ACL
 
 # First, create an array of strings.
 $array =  @("chrome","firefox","iexplore","opera")
 
+C:\Users\jayst\AppData\Roaming\Code\User
 
 # Next, loop through each item in your array, and stop the process.
 foreach ($process in $array)
 {
     Stop-Process -Name $process
 }
+delete directory
+Get-ChildItem -Path C:\Temp -Include *.* -File -Recurse | foreach { $_.Delete()}
+Remove-Item c:\projects\json\* -Recurse -Force
 
 Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}}
 :vnew
@@ -172,3 +179,9 @@ Get-CimInstance win32_product |  Format-Table -Wrap -AutoSize > installed
 (Measure-Command {Get-CimInstance Win32_Product}).TotalSeconds
 https://xkln.net/blog/please-stop-using-win32product-to-find-installed-software-alternatives-inside/
 https://adamtheautomator.com/get-winevent/
+https://www.geeksforgeeks.org/textwrap-text-wrapping-filling-python/
+
+jq '.[0] | {FileName, Duration}' .\x.json
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration}'
+pane alt-shift arrow up
+cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -

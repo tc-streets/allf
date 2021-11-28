@@ -7,3 +7,4 @@
 11_23_21 = ffmpeg -ss 1:00 -i autumnpretty.mp4 -t :16 xautumnpretty.mp4
 11_23_21 = ffmpeg -ss 0:00 -i autumnTwobass.mp4 -t 20 xautumnTwobass.mp4
 11_23_21 = ffmpeg -ss 0:00 -i autumnTwobass.mp4 -t 30 xautumnTwobass.mp4
+11_27_21 = ffmpeg -ss 00:02 -i xautumnpretty.mp4 -t 00:04 xxautumnpretty.mp4

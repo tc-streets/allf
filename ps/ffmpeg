@@ -1,0 +1,77 @@
+choco install ffmpeg
+gcm ffmpeg
+ffmpeg
+ffmpeg -ss 00:01:00 -i autum.mp4 -to 00:02:00 -c copy output.mp4
+ffmpeg -i autum.mp4 -ss 00:00:03 -t 00:00:08 -async 1 cut.mp4
+ffmpeg -i autum.mp4 -ss 00:01:03 -t 00:01:08 -async 1 cut.mp4
+ffmpeg -i autum.mp4 -filter "minterpolate='fps=120',setpts=4*PTS" output.avi
+ffmpeg -i autum.mp4 -filter "minterpolate='fps=120',setpts=4*PTS" output.mp4
+ffmpeg -i autum.mp4 -filter-v "minterpolate='fps=120',setpts=4*PTS" output.mp4
+ffmpeg -i autum.mp4 -filter:v "minterpolate='fps=120',setpts=4*PTS" output.mp4
+ffmpeg -i cut.mp4 -filter:v "minterpolate='fps=120',setpts=4*PTS" output.mp4
+ffmpeg -ss 00:02:00 -i blues.mp4 -to 00:03:00 -c copy output.mp4
+ffmpeg -i autumn.m4a -ss 00:00:20 -to 00:00:40 -c copy file-2.mkv
+ffmpeg -i autumn.m4a -ss 00:00:15 -to 00:00:30 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:10 -to 00:00:30 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:00 -to 00:00:10 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:05 -to 00:00:10 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:05 -to 00:00:15 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:05 -to 00:00:20 -c copy file-3.mkv
+ffmpeg -i autumn.m4a -ss 00:00:05 -to 00:00:23 -c copy file-3.mkv
+ffmpeg -i aut.mkv output.mp3
+ffmpeg -i x.mp4 -vf trim=13:58 y.mp4
+ffmpeg -i x.mp4 -vf trim=60:120 y.mp4
+ffmpeg -i x.mp4 -vf trim=60:65 y.mp4
+ffmpeg -ss 00:01:00 -i x.mp4 -t 00:00:10 z.mp4
+ffmpeg -ss 00:01:09 -i x.mp4 -t 00:00:30 z.mp4
+ffmpeg -ss 00:02:05 -i x.mp4 -t 00:00:30 z.mp4
+ffmpeg -i z.mp4 slow.mp3
+ffmpeg -i slow.mp3-filter:a "atempo=0.5" -vn slower.mp3
+ffmpeg -i slow.mp3 -filter:a "atempo=0.5" -vn slower.mp3
+ffmpeg -i z.mp4 z.mp3
+ffmpeg -i z.mp3 -filter:a "atempo=0.7" -vn slower.mp3
+ffmpeg -i z.mp3 -filter:a "atempo=0.7" -vn zs.mp3
+ffmpeg -i "concat:zs.mp3|zt.mp3" -acodec copy zx.mp3
+ffmpeg -i "concat:zx.mp3|zx.mp3" -acodec copy zg.mp3
+ffmpeg -i "concat:zg.mp3|zg.mp3" -acodec copy zf.mp3
+ffmpeg -i "concat:zf.mp3|zf.mp3" -acodec copy zk.mp3
+ffmpeg -i "concat:zk.mp3|zk.mp3" -acodec copy zm.mp3
+ffmpeg -ss 00:01:40 -i bob.mp4 -t 00:00:30 bobcut.mp4
+ffmpeg --version
+ffmpeg -ss  4:50  -i x.mp4 -t 00:00:30 zz.mp4
+ffmpeg -ss  4:50  -i x.mp4 -t 00:00:60 zz.mp4
+ffmpeg -ss  4:50  -i x.mp4 -t 00:00:50 zz.mp4
+ffmpeg -ss 00:02:25 -i bob.mp4 -t 00:00:30 bob1.mp4
+ffmpeg -ss 00:03:05 -i bob.mp4 -t 00:00:40 bob2.mp4
+ffmpeg -ss 00:03:0o -i bob.mp4 -t 00:00:50 bob2.mp4
+ffmpeg -ss 00:03:00 -i bob.mp4 -t 00:00:50 bob2.mp4
+ffmpeg -ss 00:03:00 -i bob.mp4 -t 00:01:10 bob2.mp4
+ffmpeg -ss 00:02:04 -i x.mp4 -t 00:00:40 xv1.mp4
+ffmpeg -ss 00:03:00 -i x.mp4 -t 00:01:00 xv2.mp4
+ffmpeg -ss 00:04:00 -i bob.mp4 -t 00:01:10 bob3.mp4
+ffmpeg -ss 00:04:09 -i bob.mp4 -t 00:01:50 bob3.mp4
+ffmpeg -ss 00:05:55 -i bob.mp4 -t 00:01:50 bob3.mp4
+ffmpeg -ss 02:25 -i bob.mp4 -t 00:30 bob1.mp4
+ffmpeg -ss 02:25 -i bob3.mp4 -t 00:30 bob1.mp4
+ffmpeg -ss 00:02:25 -i bob.mp4 -t 00:00:10 bob1.mp4
+ffmpeg -ss 00:02:25 -i bob3.mp4 -t 00:00:30 bob1.mp4
+ffmpeg -ss 00:03:00 -i bob3.mp4 -t 00:01:10 bob2.mp4
+ffmpeg -ss 00:03:00 -i bob.mp4 -t 00:01:10 bobx.mp4
+ffmpeg -ss 00:03:00 -i bob3.mp4 -t 00:01:10 bobz.mp4
+ffmpeg -ss 03:00 -i bob.mp4 -t 00:01:10 bob2.mp4
+ffmpeg -ss 3:00 -i bob.mp4 -t :10 bob2.mp4
+ffmpeg -ss 3:00 -i bob.mp4 -t 0:10 bob2.mp4
+ffmpeg -ss 1:00 -i autumnPretty.mp4 -t 20 xautumnPretty.mp4
+ffmpeg -ss 1:00 -i autumnPretty.mp4 -t 16 xautumnPretty.mp4
+ffmpeg -i .\xautumnPretty.mp4 autumnPhone.mp3
+ffmpeg -i "concat:autumnPhone.mp3|autumnPhone.mp3" -acodec copy p2.mp3
+ffmpeg -i .\xautumnTwobass.mp4 autumn2Phone.mp3
+ffmpeg -i "concat:autumn2Phone.mp3|autumn2Phone.mp3" -acodec copy ap2.mp3
+ffmpeg -i "concat:ap2.mp3|ap2.mp3" -acodec copy ap3.mp3
+ffmpeg -i "concat:ap3.mp3|ap3.mp3" -acodec copy ap4.mp3
+ffmpeg -i "concat:ap4.mp3|ap4.mp3" -acodec copy ap5.mp3
+ffmpeg -i "concat:ap5.mp3|ap5.mp3" -acodec copy ap6.mp3
+ffmpeg -i "concat:ap6.mp3|ap6.mp3" -acodec copy ap7.mp3
+ffmpeg -i a7.mp3 -filter:a "atempo=0.5" -vn a7s.mp3
+ffmpeg -i ap7.mp3 -filter:a "atempo=0.5" -vn a7s.mp3
+ffmpeg -i ap7.mp3 -filter:a "atempo=0.65" -vn a8s.mp3

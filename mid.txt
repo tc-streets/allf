@@ -1,0 +1,83 @@
+Windows\WinSxS\amd64_microsoft-windows-shell-sounds_31bf3856ad364e35_10.0.19041.1_none_cd0389b654e71da2\town.mid
+Windows\WinSxS\amd64_microsoft-windows-shell-sounds_31bf3856ad364e35_10.0.19041.1_none_cd0389b654e71da2\onestop.mid
+Windows\WinSxS\amd64_microsoft-windows-shell-sounds_31bf3856ad364e35_10.0.19041.1_none_cd0389b654e71da2\flourish.mid
+Windows\Media\town.mid
+Windows\Media\onestop.mid
+Windows\Media\flourish.mid
+Users\jayst\OneDrive\Documents\silnite.mid
+Users\jayst\OneDrive\Documents\silent_night_02_clubhouse_al.mid
+Users\jayst\OneDrive\Documents\silentnight.mid
+Users\jayst\OneDrive\Documents\silentnight(1).mid
+Users\jayst\OneDrive\midi\twink (1).mid
+Users\jayst\OneDrive\midi\twink.mid
+Users\jayst\OneDrive\midi\Michelle.mid
+Users\jayst\OneDrive\midi\mash.mid
+Users\jayst\OneDrive\midi\LetItBe.mid
+Users\jayst\OneDrive\midi\girlNorth.mid
+Users\jayst\OneDrive\midi\BridgeOverTroubledWater (1).mid
+Users\jayst\OneDrive\midi\bookends1.mid
+Users\jayst\OneDrive\midi\april.mid
+Users\jayst\OneDrive\midi\81dannyboy (1).mid
+Users\jayst\OneDrive\midi\21amazgrace.mid
+Users\jayst\OneDrive\midi\15B-01__Here_Comes_The_Sun.mid
+Users\jayst\OneDrive\midi\The_Beatles_-_Martha_My_Dear.mid
+Users\jayst\OneDrive\midi\The_Eagles_-_Take_It_To_The_Limit.mid
+Users\jayst\Downloads\drive-download-20211111T021306Z-001\silentnight.mid
+Users\jayst\Downloads\drive-download-20211111T021306Z-001\silnite.mid
+Users\jayst\Downloads\drive-download-20211111T021306Z-001\silent_night_02_clubhouse_al.mid
+Users\jayst\Downloads\drive-download-20211111T021306Z-001\silentnight(1).mid
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_10.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_09.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_08.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_07.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_06.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_05.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_04.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_03.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_02.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PARNT_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\PAPER_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\OUTDR_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\OCEAN_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\NBOOK_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\MUSIC_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\JNGLE_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\JAVA_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\INDST_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SHOW_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SCHOL_02.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SAFRI_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\ROAD_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\WNTER_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\VCTRN_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\URBAN_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SWEST_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SUMER_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SPRNG_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\SPACE_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\HTECH_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\GRID_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\GRDEN_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\FINCL_02.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\FINCL_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\FALL_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\EXPLR_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\EAST_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\CMNTY_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\CARBN_01.MID
+Program Files\Microsoft Office\root\CLIPART\PUB60COR\BABY_01.MID
+music\satie_gymnopedie_no1.mid
+music\midi\15B-01__Here_Comes_The_Sun.mid
+music\midi\april.mid
+music\midi\BridgeOverTroubledWater (1).mid
+music\midi\girlNorth.mid
+music\midi\bookends1.mid
+music\midi\LetItBe.mid
+music\midi\81dannyboy (1).mid
+music\midi\mash.mid
+music\midi\21amazgrace.mid
+music\midi\Michelle.mid
+music\midi\twink.mid
+music\midi\twink (1).mid
+music\midi\The_Eagles_-_Take_It_To_The_Limit.mid
+music\midi\The_Beatles_-_Martha_My_Dear.mid

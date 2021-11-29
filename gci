@@ -1,0 +1,2 @@
+(Get-ChildItem -File -Name) -replace '_[a-zA-Z]+.png'
+(Get-ChildItem -File -Name) -replace 'aps.*'

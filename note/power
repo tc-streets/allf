@@ -7,7 +7,7 @@ Stop-Process -id 6116 Get-ACL
 $array =  @("chrome","firefox","iexplore","opera")
 
 C:\Users\jayst\AppData\Roaming\Code\User
-
+(Get-ChildItem -File -Name) -match 'Baren.*'
 # Next, loop through each item in your array, and stop the process.
 foreach ($process in $array)
 {
@@ -25,7 +25,11 @@ replace 1 cr with 2
 %s/\n/\r\r/g
 win to python
 .s/\\/\//g
-e.g.
+:r foo.txt    Insert the file foo.txt below the cursor.
+:0r foo.txt   Insert the file foo.txt before the first line.
+:r !ls        Insert a directory listing below the cursor.
+:$r !pwd      Insert the current working directory below the last line.
+
 db="conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')"
 conn=sqlite3.connect('C:/Users/jayst/AppData/Roaming/Ditto/Ditto.db')
 

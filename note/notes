@@ -1,3 +1,11 @@
+ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+ 1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_." }
+Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
+vim hex :%!xxd 
+stacks and triggers
+a[href=#].list-group-item{Item $}*4
+      
+      Out of the Tar Pit
 https://pynative.com/parse-json-response-using-python-requests-library/
 Type %d and hit Enter to delete all the lines.
 :g/^\s*$/d
@@ -290,5 +298,4 @@ algebra study of generalizations of arithmetic operations.
 
 Syncthing
 
-
-
+odysee

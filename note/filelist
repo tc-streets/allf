@@ -1,2 +1,0 @@
-filelist /PRINTSHELLCOLUMNLIST | v -
-FileList.exe /USECOLUMNS NAME,System.Title,System.Music.AlbumTitle

@@ -1,3 +1,11 @@
+
+it= soup.find_all('img')
+curl -s https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d' | nl
+gci | sort LastWriteTime -ascending | Select Name,LastWriteTime ,Directory
+Get-Service | Where-Object {$_.Status -eq "Running"}
+Get-Process | Sort-Object -Property WS | Select-Object -Last 5
+Get-Service | Sort-Object -Property @{Expression = "Status"; Descending = $true}, @{Expression = "DisplayName"; Descending = $false} | Where-Object {$_.Status -eq "Running"}
+ddr3L 1.35volts not 1.5 volts
 whereis gcm 
 msconfig 
 winver 
@@ -8,6 +16,9 @@ $array =  @("chrome","firefox","iexplore","opera")
 
 C:\Users\jayst\AppData\Roaming\Code\User
 (Get-ChildItem -File -Name) -match 'Baren.*'
+
+move with gci
+gci *.mp3 | % {mv $_.fullname C:\music\mozConcerto\}
 # Next, loop through each item in your array, and stop the process.
 foreach ($process in $array)
 {
@@ -52,6 +63,9 @@ delete control (turn of akey) ctrl-q ctrl-[letter]
 :redir END
 Now, register 'a' will have the output of the "set all" ex command. You can paste this into a Vim buffer, using "ap.
 
+ddp / ddkP are common commands to move a line one down / up.
+
+Alternatively, you can use the :move command, i.e. :move +1 / :move -2; this doesn't clobber
 v -o (-O horz -p tabs) two files
 Get-Process | Select MainWindowTitle,ProcessName,Id | where{$_.MainWindowTitle -ne ""}
 grep -nr string my_directory
@@ -189,3 +203,5 @@ jq '.[0] | {FileName, Duration}' .\x.json
 exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration}'
 pane alt-shift arrow up
 cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xx}'
+ ".\01 Summertime.mp3" | jq '.[0] | {FileName, Duration, Artist}'

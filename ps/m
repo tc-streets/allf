@@ -9,3 +9,12 @@
 11_23_21 = ffmpeg -ss 0:00 -i autumnTwobass.mp4 -t 30 xautumnTwobass.mp4
 11_27_21 = ffmpeg -ss 00:02 -i xautumnpretty.mp4 -t 00:04 xxautumnpretty.mp4
 11_28_21 = ffmpeg -ss 00:02 -i autumn2Phone.mp3 -t 3:00 xautumn2Phone.mp3
+11_30_21 = ffmpeg -ss 1:00 -i 29_53_11.mp3 -t 5:00:00 x29_53_11.mp3
+12_02_21 = ffmpeg -ss 2:00 -i x29_53_11.mp3 -t 2:00:00 xx29_53_11.mp3
+12_02_21 = ffmpeg -ss :06 -i michelle.mp4 -t :10 xmichelle.mp4
+12_02_21 = ffmpeg -ss 00:06 -i michelle.mp4 -t 00:10 xmichelle.mp4
+12_02_21 = ffmpeg -ss 00:06 -i mi -t 00:15 xmi
+12_02_21 = ffmpeg -ss 00:06 -i michelle.mp4 -t 00:15 xmichelle.mp4
+12_02_21 = ffmpeg -ss 00:06 -i michelle.mp4 -t 00:10 xmichelle.mp4
+12_03_21 = ffmpeg -ss 00:01 -i xautumnPretty.mp4 -t 00:05 xxautumnPretty.mp4
+12_03_21 = ffmpeg -ss 00:01 -i xautumnPretty.mp4 -t 00:04 xxautumnPretty.mp4

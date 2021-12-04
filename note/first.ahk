@@ -1,9 +1,16 @@
 #SingleInstance Force
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\wt.exe
+^SPACE::  Winset, Alwaysontop, , A
+#z:: Send, `%paste
+return
 
+!d::run, C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
+
+!c::run,  C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work
 
 !q:: Send !{f4}
+return
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.

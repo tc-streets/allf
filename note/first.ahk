@@ -1,6 +1,7 @@
 #SingleInstance Force
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\wt.exe
+!p::run, vlc -Z c:\you\kb .
 ^SPACE::  Winset, Alwaysontop, , A
 #z:: Send, `%paste
 return
@@ -14,6 +15,9 @@ return
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
+return
+
+!x:: Send, after:2020
 return
 
 !j::

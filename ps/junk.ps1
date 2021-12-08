@@ -1,0 +1,1 @@
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)} | % {Remove-Item $_.FullName} -whatif

@@ -1,0 +1,7 @@
+list is file xx.mpx output goes after copy
+ffmpeg -safe 0 -f concat -i list.txt -c copy
+
+
+
+ffmpeg -safe 0 -f concat -i list.txt -c copy output.mp3
+

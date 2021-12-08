@@ -18,3 +18,7 @@
 12_02_21 = ffmpeg -ss 00:06 -i michelle.mp4 -t 00:10 xmichelle.mp4
 12_03_21 = ffmpeg -ss 00:01 -i xautumnPretty.mp4 -t 00:05 xxautumnPretty.mp4
 12_03_21 = ffmpeg -ss 00:01 -i xautumnPretty.mp4 -t 00:04 xxautumnPretty.mp4
+12_05_21 = ffmpeg -ss 01:18 -i AutumnPretty.mp4 -t 00:22 xAutumnPretty.mp4
+12_05_21 = ffmpeg -ss 1:19 -i AutumnPretty.mp4 -t 25 xAutumnPretty.mp4
+12_06_21 = ffmpeg -ss 3:01 -i AtumnSynch.mp4 -t :28 xAtumnSynch.mp4
+12_06_21 = ffmpeg -ss 3:01 -i AtumnSynch.mp4 -t 00:28 xAtumnSynch.mp4

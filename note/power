@@ -1,3 +1,26 @@
+todo
+rent letter
+circle of fifths
+html basics
+autumn
+amazing
+bridge
+philosophy
+
+import clipboard
+clipboard.copy("abc")  # now the clipboard content will be string "abc"
+
+argument template
+#!/usr/bin/python
+import sys
+print(f"number of args {len(sys.argv)}")
+print(f"Argument list {str(sys.argv)}")
+
+jq '.[]'
+!/usr/bin/python
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)} 
+
+| % {Remove-Item $_.FullName}
 
 it= soup.find_all('img')
 curl -s https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d' | nl
@@ -61,7 +84,6 @@ delete control (turn of akey) ctrl-q ctrl-[letter]
 :redir @a
 :set all
 :redir END
-Now, register 'a' will have the output of the "set all" ex command. You can paste this into a Vim buffer, using "ap.
 
 ddp / ddkP are common commands to move a line one down / up.
 

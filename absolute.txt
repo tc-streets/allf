@@ -1,0 +1,6 @@
+position
+static default
+relative out of doc flow
+  position relative can have absolute position inside that is absolutely positioned
+fixed stay in same place when you scroll
+sticky at first relative, but scrolled outside page becomes fixed

@@ -1,4 +1,24 @@
+ttsttts
+fecth decode execute
+
+program counter instruction register accumulator
+binary (unreadable) hex base16 (machine code) 
+
+Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-Object -First 5
+1969 NFL championship
+The laws of nature are but the mathematical thought
+rule 110
+I'll get you, my pretty, and your little dog too!
+Toto, I've got a feeling we're not in Kansas anymore.
+Dorothy Gale: How do you talk if you don't have a brain?
+The Scarecrow: Well, some people without brains do an awful lot of talking don't they?
+over the rainbow
+First a punch is just a punch, Then a punch is not only a punch, And finally a punch is just a punch" (heard from Bruce Lee)
+$a=(Get-childitem c:\all\ps -Recurse -Directory).FullName
+$a=(Get-childitem c:\all\ps -Recurse -Directory).LastAccessTime
+cd C:\Users\jayst\AppData\Local\Google\Chrome\User Data\Default
 ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+logrocket web use analyzer
  1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_." }
 Double Data Rate 3 Synchronous Dynamic Random-Access Memory (DDR3 SDRAM)
 vim hex :%!xxd 

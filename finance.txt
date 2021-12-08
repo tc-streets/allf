@@ -1,0 +1,4 @@
+bonds par value (face value)
+interest, coupon
+maturity, due date  
+bonds move in opposite direction of interest

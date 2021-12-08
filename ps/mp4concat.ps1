@@ -1,16 +1,23 @@
+#https://stackoverflow.com/questions/7333232/how-to-concatenate-two-mp4-files-using-ffmpeg
 #concats mp4 6 times
 # $searchPattern= Read-Host -Prompt "Search pattern: "
 # $c="*"+ $searchPattern  +"*"
 # Get-ChildItem $c
 $twitString= Read-Host -Prompt "File name: "
 # $twitString='song'
-for (($i = 0); $i -lt 7; $i++)
+   $i=0 
+    $str='ffmpeg -loglevel "quiet, -8" -i "concat:' +"$twitString.mp4|$twitString.mp4`" -acodec copy "+$twitString+(0)+".mp4"
+    Write-Host($str)
+    exit
+    Invoke-Expression($str)
+for (($i = 0); $i -lt 2; $i++)
 {
+    Read-Host -Prompt "Press any key to continue"
     # "`$i:$i" + ":      `$j:$j" + "write jim   "
     $str='ffmpeg -i "concat:' +"$twitString$i.mp4|$twitString$i.mp4`" -acodec copy "+$twitString+($i+1)+".mp4"
 
     Write-Host($str)
-    Exit
+    # Exit
     Invoke-Expression($str)
     # Remove-Item $twitString+($i)+".mp4"
     Write-Host($str)

@@ -7275,3 +7275,2868 @@ mv * C:\you\to\
 ws
 url
 gcm nvim | source
+gci -Recurse *his*
+v .\nhis
+wc .\his
+gcm wc
+wc his .\note\nhis
+v .\note\nhis
+tail his
+gcm nvim | gm
+gcm nvim -source
+v C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+v .\_viminfo
+cd .\Neovim\
+Stop-Process -id 1392
+Stop-Process -id 16652
+Stop-Process -id 6185
+.\Autoruns64.exe
+gcm nvim | select source
+gci -Recurse  *init* 
+$function:sup
+v .\a.html
+Get-Process | Select-Object -Property name, id | head
+Get-Process | Select-Object -Property name, id | head -n20
+grep .\ipy "a"
+grep "a" .\ipy
+grep "glob" .\ipy
+sed -i '/a/d' .\a
+grep 'glob' .\a
+grep 'glob' .\ipy
+grep 'glob' .\ipy | v -
+v .\a
+v .\a.ps1
+.\a.ps1 | more
+echo 'aaaaaaaa'
+echo 'aaaaaaaa\n\n'
+grep '----' .
+grep '----' /
+grep -nr '----' 
+grep -nr '----' *
+grep -nr '----' .
+grep -nr '----' C:\projects\sqllite
+v C:\all\his`
+grep -nr "----" .
+grep -nr "a" .
+grep -nr "\-" .
+grep -nr "\----" .
+grep --exclude "ipy" -nr "\----" .
+grep --exclude "ipy" -n "\----" .
+grep --exclude "ipy" -n "\----" 
+grep --exclude "ipy" -n "\----" C:\projects\sqllite
+grep --exclude "ipy" -n "\----"
+grep --exclude "ipy"  "\----" .
+grep --exclude "ipy"  "\----" *.*
+grep --exclude "ipy"  "\----" *.* | v -
+gc .\a.ps1
+$function:gw
+$function:gw | head
+gcm awk
+gcm nvim | select source | tail -2
+gcm nvim | select source | tail -3
+gcm nvim | select source | head -1 | tail -2
+gcm nvim | select source  | tail -2
+gcm nvim | % {$_.source}
+iwr www.kottke.org/plus/misc/images/eric-kogan-01.jpg -OutFile kottke.jpg
+exiftool -j .\kottke.jpg
+v code.java
+gci .\ShortestPath.java
+javac .\ShortestPath.java
+java .\ShortestPath.class
+java .\ShortestPath
+vlc '.\Aalto Talk with Linus Torvalds [Full-length]-MShbP3OpASA.mp3'
+gcm python | % {$_.source}
+gcm python | % {$_.source} | clip
+g t.py
+v .\t.py
+gcm wt
+gcm wt | % {$_.source} 
+gcm wt | % {$_.source} | clip
+wg
+$function:g3
+function d3(){`
+function f3(){`
+  gci -File | Format-Wide -Column 3`
+f3
+d3
+gci *.lnk
+v .\auto.lnk
+ri *.lnk
+cp .\init.vim init.bak
+v .\init.bak
+.\AutoHotkeyU64.exe
+.\AutoHotkeyU32.exe
+.\first.ahk
+gcm first.ahk
+gci *.ahk | % fullname
+set-alias ahk C:\all\note\first.ahk
+ahk
+cd .\.cache\
+iwr https://chorus.stimg.co/23016753/ows_2bde335c_daae_434b_acd6_5137bdb6c39b.jpg -OutFile scum.jpg
+exiftool -j .\scum.jpg | v -
+gci | Sort-Object Length -Descending
+gci | Sort-Object Length 
+grep -rn "a" .
+grep -rn "airport" .
+grep -rn "airport" *.*
+.\note\
+grep -rn "ms" *.*
+v --version
+v .\Registry.txt
+mv *.txt \ex
+mv *.txt \ex\
+mv *.txt ex\
+git rm git-trans.txt
+Get-CimInstance -ClassName Win32_ComputerSystem
+Get-CimInstance -ClassName Win32_bios
+Get-CimInstance | gm
+Get-CimInstance -ClassName Win32_bios | gm
+Get-CimInstance -ClassName Win32_bios | gm | v -
+rg tom
+rg soup
+rg vim
+rg vim .
+rg vim . | more
+rg #.*
+rg "#.*"
+rig -e "-"
+rg -e "-"
+rg -e "-box"
+rg .
+rg . | v -
+gci ww*
+rg "#" -g "\*"
+rg "#" -g "\"
+rg "#" -g \!"\"
+rg "#" -g \!"\*"
+ffmpeg -ss 00:04:00 -i bob.mp4 -t 00:01:10 bob3.mp4
+vlc .\bob3.mp4
+ffmpeg -ss 00:04:09 -i bob.mp4 -t 00:01:50 bob3.mp4
+ffmpeg -ss 00:05:55 -i bob.mp4 -t 00:01:50 bob3.mp4
+v .\bob3.mp4
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1455179792-dev\pythonFiles\lib\python\debugpy\launcher' '56507' '--' 'c:\projects\bs\ipy.py' 
+gi youapi.py
+ni youapi.py
+rg "api"
+ & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '49779' '--' 'c:\projects\youtube\youapi.py' 
+& C:/Python39/python.exe c:/projects/youtube/youapi.py
+.\youapi.py
+.\youapi.py | clip
+git clone https://github.com/gauti123456/AdvancedVideoSearch.git
+cd .\AdvancedVideoSearch\
+pip install builtwith
+.\setup.py
+pip install six
+gcm rg
+rg python39 .
+rg python39 *.py
+rg python39
+v .\bs\ditto
+v +67 .\bs\ditto
+v .\flask\flask\pyvenv.cfg
+.\fac.py
+ c:; cd 'c:\projects\youtube'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '58135' '--' 'c:\projects\youtube\fac.py' 
+ c:; cd 'c:\projects\youtube'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '58155' '--' 'c:\projects\youtube\fac.py' 
+ c:; cd 'c:\projects\youtube'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '58172' '--' 'c:\projects\youtube\fac.py' 
+ c:; cd 'c:\projects\youtube'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '58189' '--' 'c:\projects\youtube\fac.py' 
+ c:; cd 'c:\projects\youtube'; & 'C:\Python39\python.exe' 'c:\Users\jayst\.vscode\extensions\ms-python.python-2021.12.1469096899-dev\pythonFiles\lib\python\debugpy\launcher' '58259' '--' 'c:\projects\youtube\fac.py' 
+iwr https://en.wikipedia.org/wiki/Travelling_salesman_problem#/media/File:Branchbound.gif -OutFile sales.gif
+gcm pdn
+alias | grep net
+alias | grep "net"
+pdn .\sales.gif
+chr .\sales.gif
+chr .\Branchbound.gif
+pdn .\Branchbound.gif
+cd .\bat\
+cp bat* .\bat\
+cp bat* bat\
+cp bat* .\to\
+ri '.\Aalto Talk with Linus Torvalds `[Full-length`]-MShbP3OpASA.mp3'
+ri '.\Thelonious Monk - American Composer-ehvPDFfalFs.mp3'
+mv
+Stop-Process -id 1484
+$function:gw | v -
+gw | v -
+cd  C:\Windows\SystemApps
+gci *input*
+gci *search*
+gci -Directory | % fullname | v -
+Get-ACL | % Access
+Stop-Process -id 13988
+Stop-Process -id 7824
+pip install numerize
+pip install millify
+v num
+v .\fac.py
+v .\.php_history
+Stop-Process -id 17264
+rg api
+v +5 .\api.py
+curl  https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=beatles&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao
+curl "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=beatles&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao"
+curl "https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=beatles&key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao" | v -
+rg queen
+rg -r queen
+rg 'queen'
+rg mpe
+gci ff*
+gci ff* | more
+rg mpe | v -
+cp .\bob3.mp4 \all\ps
+ffmpeg -ss 02:25 -i bob.mp4 -t 00:30 bob1.mp4
+ri .\sales.gif
+ri *.j*
+ffmpeg -ss 02:25 -i bob3.mp4 -t 00:30 bob1.mp4
+vlc bob1
+ffmpeg -ss 00:02:25 -i bob.mp4 -t 00:00:10 bob1.mp4
+ffmpeg -ss 00:02:25 -i bob3.mp4 -t 00:00:30 bob1.mp4
+ffmpeg -ss 00:03:00 -i bob3.mp4 -t 00:01:10 bob2.mp4
+ffmpeg -ss 00:03:00 -i bob.mp4 -t 00:01:10 bobx.mp4
+ffmpeg -ss 00:03:00 -i bob3.mp4 -t 00:01:10 bobz.mp4
+cp .\bob.mp4 c:\all\ps
+cp .\bob.mp4 c:\all\ps\
+gci bob*
+ri .\bob1.mp4, .\bob2.mp4, .\bob3.mp4, .\bobz.mp4
+ffmpeg -ss 03:00 -i bob.mp4 -t 00:01:10 bob2.mp4
+touch .\bob.mp4
+ffmpeg -ss 3:00 -i bob.mp4 -t :10 bob2.mp4
+ffmpeg -ss 3:00 -i bob.mp4 -t 0:10 bob2.mp4
+exiftool -j .\bob.mp4 | v -
+$twitString= Read-Host -Prompt "File name: "
+$output=$twitString.mp4
+$output
+$output=$twitString+".mp4"
+$output=$twitString+"x.mp4"
+$ouput
+.\cut.ps1
+cut.ps1
+v .\xbobcut.mp4
+vlc .\xbobcut.mp4
+exiftool '.\Santa Claus Is Comin'' To Town Sing-a-long Tutorial-cXzYBwtHOas.mp4'
+exiftool '.\Santa Claus Is Comin'' To Town Sing-a-long Tutorial-cXzYBwtHOas.mp4' | v -
+gci *yes*
+mv ".\#11 -How to Play 'Yesterday' by The Beatles-46Q4T1aCjAM.mp4" Yesterday.mp4
+lg
+touch .\Yesterday.mp4
+mv .\x.mp4 Autum.mp4
+mv .\x.mp4 Autum_Lesson.mp4
+touch .\Autum_Lesson.mp4
+mv ".\Santa Claus Is Comin' To Town Sing-a-long Tutorial-cXzYBwtHOas.mp4" Santa.mp4
+touch .\Santa.mp4
+set-alias ex exiftool
+ex .\Santa.mp4
+Remove-Alias -Force -name ex
+function ex ($a) {`
+  exiftool -j $a | nvim -`
+ex .\Yesterday.mp4
+ri .\kottke.jpg
+ri .\xbobcut.mp4
+vlc .\xSanta.mp4
+x .\xsanta.mp4
+$startime
+Test-Path bob2.mp4
+a="jim"
+$a="jim"
+$b=$a
+$b=$a+"jim"
+$b=$a+" jim"
+fmpeg -ss 2:00 -i santa.mp4 -t 0:10 xsanta.mp4
+cut
+ex .\xsanta.mp4
+gc C:\all\ps\m
+function lsong {`
+  get-content c:\all\ps\m`
+lsong
+$b="bob"
+$c="*"+$b+"*"
+gci $c
+vlc .\Yesterday.mp4
+vlc .\xYesterday.mp4
+v win.ps1
+.\win.ps1
+v .\win.ps1
+Write-Host $x
+gc C:\all\ps\twit.ps1 | invoke
+gc C:\all\ps\twit.ps1 | grep "invoke"
+mv .\cut.ps1 mcut.ps1
+mcut.ps1
+vlc ".\Autumn Leaves Jazz Piano Tutorial Lesson-nol5v6hcrLM.mp4"
+mv ".\Autumn Leaves Jazz Piano Tutorial Lesson-nol5v6hcrLM.mp4" "Autum good tutorial"
+touch ".\Autum good tutorial"
+gci *mp*
+ni vvv
+gci *vvv*
+Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}}
+Get-ChildItem | Select-Object Name,CreationTime,@{n='AgeInDays';e={(New-TimeSpan -Start $PSItem.CreationTime).Days}} | v -
+ri *vv* -WhatIf
+ri *mp* -WhatIf
+ri *mp* 
+ri *.png -WhatIf
+ri *.png 
+ri .\Branchbound.gif
+ri .\vvv
+Stop-Process -id 10020
+cpuc
+cp .\bsp.py ..\youtube\
+vlc ".\13. The Assyrians - Empire of Iron-jpAphcaVJIs.webm.part"
+v rip
+rg -i --no-filename '<PackageReference' | foreach { $_.Trim() } | Sort-Object -unique
+ps 
+gp | Select-Object ProcessName
+Get-Process | Select-Object Processname
+Get-Process | Select-Object Processname -Unique
+Get-Process | Select-Object Processname -Unique | v -
+v .\rip
+vlc .\17_19_10.mp3
+vlc .\17_19_10.mp3 .\17_08_11.mp3
+gcm SearchApp.eXE
+gci .\Autoruns64.exe
+code --list-extensions | % { "code --install-extension $_" }
+gci *code*
+cd .\extensions\
+ri *.cpq
+Get-Content .\ConsoleHost_history.txt
+ri xC* -whatiff
+ri xC* -whatif
+ri xC* 
+gci | % fullname | grep "Con"
+gci | % fullname | grep "Con.*"
+gci | % fullname | grep "Con.*" | clip
+get-Content C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | %{if($hash.$_ -eq $null) { $_ }; $hash.$_ = 1} > x
+v '.\Visual Studio Code Host_history.txt'
+gci .\now\
+$a = @(get-childitem)
+$a=@(gci | % fullname)
+ni a
+gci | % fullname | grep "a"
+gci | % fullname | grep "\a"
+gci | % fullname | rg "\a"
+gci | % fullname | rg "a"
+gci | % fullname | rg "\\a"
+gci | % fullname | rg "\\a" |clip
+New-Item -ItemType SymbolicLink -Path "Link" -Target "C:\you\to\a"
+gc .\Link
+v Link
+ri .\Link
+v .\Link
+gci | % fullname 
+New-Item -ItemType SymbolicLink -Path "C:\you\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3" -Target "C:\you\to\b"
+New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target "C:\you\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3"
+gci 'C:\you\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3'
+gci "C:\you\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3"
+gci "Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3"
+gic ".\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 ``[HD``]-crSux0Lmui8.mp3"
+gci ".\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 ``[HD``]-crSux0Lmui8.mp3"
+gci '.\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 ``[HD``]-crSux0Lmui8.mp3'
+New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target ".\Sandhy Sondoro ft. Once - Come Together @ Mostly Jazz 01_05_13 [HD]-crSux0Lmui8.mp3"
+ni zz
+New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target "zz"
+v zz
+ri x, zz
+New-Item -ItemType SymbolicLink -Path "c:\you\to\x" -Target "c:\you\zz"
+ri zz
+v vim
+fsutil hardlink
+New-Item -ItemType HardLink -Path "c:\yout\to\hard" -Target "c:\you\zz"
+New-Item -ItemType HardLink -Path "c:\you\to\hard" -Target "c:\you\zz"
+v hard
+v .\hard
+fsutil hardlink list
+fsutil hardlink list zz
+fsutil hardlink list hard
+fsutil hardlink list x
+fsutil hardlink list bat
+$function:gb
+$a=@(Get-MyCommands)
+alias | rg "f"
+gin
+gin | v
+v .\.vimrc
+cp .\init.vim c:\all\
+v -d .\init.vim .\.vimrc
+v -d .\.vimrc .\.vimback
+dos2unix.exe .vimrc
+no .\.vimrc
+v .\autorun.arn
+$a=(gs)
+git rm .\.vimback
+ri .vim* -WhatIf
+ri .vim* 
+v .\youtubes
+vlc '.\Meet Me in the Morning (cover)-m7AD04kjVhs.mp3'
+v ditto
+rg --help
+rg --help | v -
+rg --version
+function sp($a){`
+  stop-process -id $a`
+)`
+sp 1892
+function sp($a) {`
+stop-process -id 1892
+sp 1724
+$function:sp
+function spr($a) {`
+spr 1220
+spr 7320
+alias | rg sp
+sp 3988   
+spr 3988   
+ri .\autorun.arn
+ri .\init.vim
+gc link
+ri rip
+ri .\vim
+code --list-extensions | % { "code --install-extension $_" } > vsEx
+code --list-extensions | % { "code --install-extension $_" } 
+code --uninstall-extension andrewdircks.google-cloud-platform-ssh
+code --uninstall-extension eliostruyf.vscode-hide-comments
+code --uninstall-extension ms-vscode.cpptools
+code --uninstall-extension dqisme.sync-scroll
+code --list-extensions | % { "code --install-extension $_" } | v -
+code --list-extensions | % { "code --uninstall-extension $_" } | v -
+.\uni.ps1
+v .\vsEx
+spr 3572
+spr 9572
+gci -Recurse ip*.*
+ri .\yyyyy
+v .\ipy.py
+ri .\ipy.py
+v req
+ex .\17_08_11.mp3
+ex .\17_08_11.mp3 | rg a
+exjiftool .\17_08_11.mp3 | rg a
+exiftool .\17_08_11.mp3 | rg a
+exiftool .\17_08_11.mp3 | rg title
+exiftool .\17_19_11.mp3 | rg Title
+exiftool .\17_19_11.mp3 | v -
+vlc .\17_08_11.mp3, .\17_19_10.mp3
+vlc .\17_08_11.mp3 .\17_19_10.mp3
+exiftool .\17_19_11.mp3 | rg Author
+exiftool .\17_19_11.mp3 | rg Artist
+exiftool .\17_19_11.mp3 | rg Album
+rg "silent"
+gci fi*
+gunzip --help
+gzip --help
+gci *zip*
+cd .\usr\
+.\gunzip --help
+.\gzip.exe --help
+cp .\gzip.exe \all\bin
+gzip -l .\findutils-4.8.0.tar.xz
+gzip  .\findutils-4.8.0.tar.xz
+gzip -d .\findutils-4.8.0.tar.xz
+cp .\findutils-4.8.0.tar.xz find.zip
+v .\req
+v .\reqa
+ni vsc.py
+exiftool -j .\vsc.py
+exiftool -j .\vsc.py > clip
+exiftool -j .\vsc.py | clip
+exiftool -j '.\13. The Assyrians - Empire of Iron-jpAphcaVJIs.webm.part' | clip
+gc '.\Barenboim on Beethoven ''Pathetique'' 2nd movement-vGq3-Fi_zQY.mp3'
+cat .\dates.txt
+ri .\dates.txt
+gci | sort CreationTime
+gci | sort size
+gci | sort Length
+gci -file | sort Length
+vlc '.\Erik Satie - Gymnopédie No.1-S-Xm7s9eGxU.webm' '.\Beethoven - Moonlight Sonata (1st Movement)-sbTVZMJ9Z2I.mp3'
+ping httpbin.org
+ping 96.75.144.1
+exiftool -j .\hard.py > clip
+exiftool -j .\hard.py | clip
+mkc titan
+spr 15646
+gw | rg 156
+gw | rg 156.*S
+gw | rg 156.\d+
+spr 15656
+spr 1332
+spr 16204
+gci *.xls
+cp .\titanic3.xls C:\projects\titan\
+cd .\titan\
+pip list | rg mat
+pip install xlrd
+pick
+md phil
+cp *.mp3 ex\
+copy *.mp3 ex\
+copy *.mp3 .\phil\
+cd phil
+ri -Filter -Recurse .\CopyQ\
+ri -Force -Recurse .\CopyQ\
+gci .\CopyQ\
+$env:editor
+$env:editor = "C:\tools\neovim\Neovim\bin\nvim.exe"
+edit a
+first.ahk
+gci *vim*
+today > 11-20
+v .\11-20
+gcm nvim | % source
+gcm nvim | % source | clip
+cd C:\tools\neovim\Neovim\bin\nvim.exe
+cd C:\tools\neovim\Neovim\
+gci *init* -Recurse
+olt
+gcm nvim.exe
+cp .\sysinit.vim C:\Users\jayst\.config\nvim\sys2.vim
+v -d .\init.vim .\sys2.vim
+gc .\sysinit.vim rg coc
+gc .\sysinit.vim | rg coc
+gci C:\projects\
+gci C:\projects\youDL\*.py
+cp C:\projects\youDL\youdl.py .
+git clone https://github.com/neoclide/coc.nvim.git
+cd .\coc\
+cd .\coc.nvim\
+cd .\.vim\
+gci -Recurse *.vim
+v .\coc.nvim\
+gci .\.vim\
+v init.coc
+v xx
+c .\coc-settings.json
+v .\coc-settings.json
+gpedit.msc
+cd C:/Users/jayst/AppData/Roaming/Microsoft/Windows/PowerShell/PSReadLine
+v .\ConsoleHost_history.txt
+nvim .\ConsoleHost_history.txt
+nvim C:\Users\jayst\OneDrive\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+Get-AppxPackage *windowsstore* | Remove-AppxPackage
+$function:wt
+gci *.a*
+cd C:\Program Files\WindowsApps
+cd "C:\Program Files\WindowsApps"
+gci *wt*
+gci -Recurse wt.exe
+cd .\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\
+cd C:\Users\jayst\AppData\Local\Microsoft\WindowsApps
+gcm python3.exe
+gci : v -
+gci *auto*
+spr 7128
+v x.py
+gc ..\ps\twit.ps1
+iwr https://www.badgermutual.com/wp-content/uploads/2018/10/History.jpg
+iwr https://www.badgermutual.com/wp-content/uploads/2018/10/History.jpg -OutFile bad.jpg
+Get-MyCommands | rg p
+pdn .\bad.jpg
+Get-MyCommands | rg ex
+ex .\bad.jpg
+gci *nie*
+gci to
+gci now
+ri .\bad.jpg
+vlc .\Ben_Rogers_on__Pascal.mp3 .\CupittJesus.mp3 .\Raymond_Tallis_on_Parmenides.mp3 .\What_is_Philosophy.mp3
+v a.py
+nvim --version
+gcm pkunzip
+gcm gt
+ex .\17_19_10.mp3
+md neo
+vlc .\21_54_11.mp3
+cd .\WindowsApps\
+cd neo
+gci .\nvim.exe
+.\nvim-qt.exe
+.\nvim-qt.exe --version
+gci nv*.exe | % fullname
+function v {`
+C:\all\ex\neo\bin\nvim-qt.exe -S C:\Users\jayst\.config\nvim\init.vim`
+C:\all\ex\neo\bin\nvim-qt.exe
+C:\all\ex\neo\bin\nvim-qt.exe --version
+nvim +checkhealth
+gcm python3
+$env:path -split ";" | v -
+cp .\python.exe python3.exe
+cd .\neo\
+pip install pynvim
+$function:v
+gic .\.python_history
+cd .\plugged\
+cd .\youcompleteme\
+.\install.py
+C:\Python39\python.exe' 'C:\Users\jayst\.config\nvim\plugged\youcompleteme\third_party\ycmd\build.py
+'C:\Python39\python.exe' 'C:\Users\jayst\.config\nvim\plugged\youcompleteme\third_party\ycmd\build.py'
+'C:\Python39\python.exe' C:\Users\jayst\.config\nvim\plugged\youcompleteme\third_party\ycmd\build.py
+C:\Python39\python.exe C:\Users\jayst\.config\nvim\plugged\youcompleteme\third_party\ycmd\build.py
+C:\Python39\python.exe C:\Users\jayst\.config\nvim\plugged\youcompleteme\third_party\ycmd\build.py --verbose
+nvim C:\Users\jayst\OneDrive\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+cd C:\all\ex\
+gic *vim*
+function vq {`
+vq
+cd C:\all\ex\neo\
+vq .\imp.py
+qv .\youapi.py
+vq .\api.py
+function vq($a) {`
+C:\all\ex\neo\bin\nvim-qt.exe $a #-S C:\Users\jayst\.config\nvim\init.vim`
+rg "img"
+rg "img" .
+gci -Recurse *vsc*
+gci -Recurse vsc.py
+v epoem
+gc .\epoem
+v funny
+gcm du
+du -h
+du -h > d
+du -sh
+today | rg mp3
+v s1 s2
+v -o s1 s2
+mv .\s1 .\s2 \css\
+mv .\s1 .\s2 .\css\
+mv s1 \css
+mv s2 \css
+mv s1 \css\
+mv s2 \css\
+v css
+ri s2
+iwr https://traffic.libsyn.com/secure/philosophybites/cohenmixses.mp3 -OutFile ineq.mp3
+iwr "https://traffic.libsyn.com/secure/philosophybites/cohenmixses.mp3" -OutFile ineq.mp3
+curl "https://philosophybites.com/2008/01/barry-smith-on.html"
+curl "https://philosophybites.com/2008/01/barry-smith-on.html" | rg mp3
+iwr "https://traffic.libsyn.com/secure/philosophybites/smithwittmixsess.mp3" -OutFile witgen.mp3
+curl https://philosophybites.com/buddhism/
+curl "https://philosophybites.com/buddhism/" -rg mp3
+curl "https://philosophybites.com/buddhism/" | rg mp3
+curl "https://philosophybites.com/buddhism/" | rg mp3 | v -
+cd C:\all\steps\
+iwr "https://traffic.libsyn.com/philosophybites/Graham_Priest_on_Buddhism_and_Philosophy.mp3" -OutFile buddha.mp3
+iwr "https://traffic.libsyn.com/philosophybites/Alison_Gopnik_on_Hume_and_Buddhism.mp3" -OutFile huBuddha.mp3
+v .\DESKTOP-8JMUDRE.txt
+gc .\DESKTOP-8JMUDRE.txt
+du -ch
+du -ch | rg \d
+du -ch | rg \d*M
+curl "https://raw.githubusercontent.com/wither7007/allf/main/note/funny"
+du -ch | rg \d*M\.
+du -ch | rg \d*M\s
+mv .\vsc.py vsc1.py
+cp .\youapi.py vsc.py
+v .\youapi.py
+v .\youjson
+touch hello
+vlc .\22_14_11.mp3
+curl -I https://api.github.com/users/octocat/orgs
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' > 5
+rg silent
+curl --silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+curl --silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.' | v -
+curl --silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' | v -
+curl 'https://api.github.com/repos/wither007/jq/commits?per_page=5'
+curl 'https://api.github.com/repos/wither007/fall/commits?per_page=5'
+echo '{jim'
+echo `"`
+echo `"
+echo "{`"jim`"}"
+echo "{`"jim: 123`"}"
+echo "{`"jim: 123`"}" | jq .
+echo "{`"jim: 123`"}" 
+echo "{`"jim`": 123}" 
+echo "{`"jim`": 123}" | jq .
+vlc .\huBuddha.mp3 .\Paul_Russell_on_David_Humes_Treatise.mp3 .\witgen.mp3
+v -o .\note2 .\note3
+ri not* -WhatIf
+ri not*
+ri .\d .\x .\DESKTOP-8JMUDRE.txt
+ri .\x
+ri d
+ri .\DESKTOP-8JMUDRE.txt
+spr 7392
+spr 5512
+spr 9700
+spr 13032
+spr 14892
+spr 6+ "webclient""Web Client Network""Microsoft Corporation""c:\windows\system32\davclnt.dll""11/4/2034 4:08 PM"""
+spr 6936
+jq '[.[] | {message: .commit.message, name: .commit.committer.name}]'
+gci *.js*
+curl https://api.github.com/users/octocat/orgs
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' > a.json
+v a.json
+v fold
+curl -silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.'
+curl --help
+curl --help | v -
+curl -l 'https://api.github.com/repos/stedolan/jq/commits?per_page=5'
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' 
+curl -I 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' 
+curl -I www.umn.edu
+curl -IL www.umn.edu
+curl -IL www.umn.edu | v -
+curl -IL https://www.missionsinc.org/ | v -
+curl --help | gr follow
+curl --help | rg follow
+curl --help | rg -A follow
+curl --help | rg -A 'follow'
+curl --help | rg 'follow'
+curl --help | rg 'f'
+rg 'follow'
+rg -A 'follow'
+rg -l 'follow'
+rg --help | rg 'match'
+rg --help | rg 'without'
+vup
+dir $env:
+env: windir
+$env:windir
+Set-Location Env:
+gci :env
+$env:jim = "steffes"
+gci $env:
+gci env: | rg "jim"
+curl -silent https://philosophybites.com/what_is_philosophy/
+curl https://philosophybites.com/2007/07/anthony-graylin.html | rg mp3 
+curl https://philosophybites.com/2007/07/anthony-graylin.html | rg mp3 | v -
+curl https://philosophybites.com/2007/07/anthony-graylin.html | rg '".*.mp3"' | v -
+curl https://philosophybites.com/2007/07/anthony-graylin.html | rg '".*.mp3"' 
+curl https://philosophybites.com/2007/07/anthony-graylin.html | rg '".*.mp3"' > g
+grep -oP '(?<=")/home/.*?(?=")' g
+grep -oP '(?<=")/home/.*?(?=")' h
+rg -oP '(?<=")/home/.*?(?=")' h
+rg -oP '(?<=")/home/.*(?=")' h
+sed 's/^[^"]*"\([^"]*\)".*/\1/' <<'EOF'
+sed 's/^[^"]*"\([^"]*\)".*/\1/' h
+sed 's/^[^"]*"//; s/".*//' h
+sed 's/^[^"]*"//' h
+grep -o '".*"' somefile | sed 's/"//g' h
+grep -o '".*"' h | sed 's/"//g' h
+grep -o '".*"' h
+echo '".*"'
+grep '".*"' h
+rg '".*"' h
+rg -o '".*"' h
+grep  -o '".*"' h
+grep  -o '".*"' 'xx'
+grep   '".*"' 'xx'
+gc h | clip
+echo h | xyz... rsync: "/home/path/to/file": Permission denied (13) rsync:
+"/home/path/to/file1": Permission denied (13) rsync:
+"/home/path/to/file2": Permission denied (13) rsync:
+"/home/path/to/file3": Permission denied (13)
+gc h | grep -o '".*"' somefile | sed 's/"//g'
+gc h | grep -o '".*"' 
+gc h | grep  '".*"' 
+gc h | grep  `".*`" 
+grep -oP '".*"' h
+gc g
+iwr https://traffic.libsyn.com/secure/philosophybites/graylinga.mp3 -OutFile ath.mp3
+function:today
+$function:today
+gcm today
+gcm today | % source
+gcm today | % source | v -
+gc c:\all\ps\today.ps1
+the '"'
+echo '"'
+rg '"'
+rg '".*'
+rg -b | v -
+rg -b '".*'
+rg  '".*'
+gci mo*
+vlc .\The_most_impressive_philosopher....mp3 .\LNL150.mp3 .\LNL151.mp3
+spr 4604
+spr 624
+spr 888
+dir env: | rg edit
+dir env: | rg temp
+cd .\ms-python.python-2021.12.1482249642-dev\
+ms-pythonlt
+v .\package.json
+today.ps1
+v .\save.p
+v .\The_most_impressive_philosopher....mp3
+vlc .\The_most_impressive_philosopher....mp3
+curl https://stackoverflow.com/questions/14366648/how-can-i-get-a-channel-id-from-youtube | v -
+cd "C:\Users\jayst\AppData\Local\Programs\Microsoft VS Code"
+gcm l
+v C:\all\ps\l.ps1
+api
+.\api.ps1
+gci fir*
+v -c "vnew"
+v -c "cd c:\all"
+curl https://www.googleapis.com/youtube/v3/channels?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&forUsername=klauskkpm&part=id > id
+curl "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&forUsername=klauskkpm&part=id"> id
+v .\id
+chr .\x.html
+v .\x.html
+code .\x.html
+lse .\x.html
+vlc .\Raymond_Tallis_on_Parmenides.mp3
+vlc .\What_is_Philosophy.mp3 .\Arash_Abizadeh_on_Hobbes_Ethics.mp3
+vlc --help | v -
+vlc -f '.\PHP in 100 Seconds-a7_WFUlFS94.mp4'
+vlc -R .
+vlc -Z .
+vlc -Z '.\Transistors Explained - How transistors work-J4oO7PT_nzQ.mp4' '.\Misty (Erroll Garner) - Jazz Piano Sheet Music-22idItT1fh0.mp4' '.\Dart in 100 Seconds-NrO0CJCbYLA.mp4'
+vlc '.\Java in 100 Seconds-l9AzO1FMgM8.mp4'
+vsc
+.\vsc.py
+v 5
+gci -r *viminf*
+gci -r *viminf* > vinf
+restart
+Stop-Computer
+v .\vinf
+mv .\init.bak bakinit
+v .\init.coc cocinit
+mv .\init.coc cocinit
+gci *sat*
+v .\xsanta.mp4
+gci *aut*
+vl .\zz.mp4
+mv .\zz.mp4 autumvidchord.mp4
+vlc .\Autum_Lesson.mp4
+v .\z.mp4
+mv .\z.mp4 autumnOnebase.mp4
+vlc .\autumnOnebase.mp4
+touch.exe .\autumnOnebase.mp4
+ri .\slow.mp3
+ri .\cut.mp4
+ri .\output.mp4
+ri *.avi
+ri .\med2.mp4
+mv .\med3.mp4 autumnTwobass.mp4
+touch .\autumnTwobass.mp4
+v .\autumnTwobass.mp4
+vlc .\autumnTwobass.mp4
+rg "niet"
+cd plugged\emmet-vim\autoload\emmet\lorem\
+v .\en.vim
+vlc .\bobx.mp4
+v .\mcut.ps1
+vlc '.\Autum good tutorial'
+mcut
+mv '.\Autum good tutorial' AutumnPretty.mp4
+vlc .\AutumnPretty.mp4
+v C:\all\ps\mcut.ps1
+ffmpeg -ss 1:00 -i autumnPretty.mp4 -t 20 xautumnPretty.mp4
+vlc .\xautumnPretty.mp4
+ffmpeg -ss 1:00 -i autumnPretty.mp4 -t 16 xautumnPretty.mp4
+lc n
+gc n
+vlc .\mozart\. '.\Bach- Brandenburg Concertos #4-6\.'
+vlc -R .\mozart\.
+rg .\vlc-help.txt random
+rg x a
+grep x "a"
+rg "random" .\vlc-help.txt
+vlc -Z .\mozart\.
+vlc .\xautumnTwobass.mp4
+rg "repeat" .\vlc-help.txt
+vlc -R .\xautumnTwobass.mp4
+v fac.py
+v list.kt
+v .\list.kt
+ri .\list.kt
+kotlinc mySubjectList.kt -include-runtime -d mySubjectList.jar
+java .\mySubjectList.jar
+java -jar .\mySubjectList.jar
+v .\mySubjectList.kt
+md 24
+Robocopy.exe
+gcm Robocopy.exe
+Robocopy.exe --help
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(-1))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(0))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -lt (Get-Date).AddDays(1))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(1))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(0))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-0))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | %fullname
+v ..\ps\today.ps1
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | % fullname
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | {echo % fullname}
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | (echo % fullname)
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} 
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | move-item -destination .\24 -verbose -whatif
+Get-ChildItem -Recurse | Where-Object {($_.LastWriteTime -gt (Get-Date).AddDays(-1))} | move-item -destination .\24 -verbose 
+cd .\24\
+Get-AppxPackage Microsoft.YourPhone -AllUsers | Remove-AppxPackage
+rg "silent" 
+rg "silent" .
+rg Sile
+gci -Recurse SilentlyContinue *.mp3 | % fullname
+gci -Recurse  *.mp3 | % fullname
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | % fullname
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | % length, fullname
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select fullname
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select length, fullname
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select length, fullname, CreationTime
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select length, fullname, LastAccessTime
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select length, fullname, LastAccessTime | v -
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  LastAccessTime 
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  LastAccessTime, FullName
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, FullName
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | > c:\all\mus.txt
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName  > c:\all\mus.txt
+cd 24
+v .\mus.txt
+ri '.\WHO WROTE THE NEW TESTAMENT, Bart Ehrman-dZp6C110s4Q.mp3'
+ex '.\TALK _ Alan Yu, Vasu Bhog _ What we learned from Papermill to operationalize notebooks-pvaIi0l1GME.mp3'
+his 
+dur -ch
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | more
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | head
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | Format-Table -Wrap -AutoSize | head
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | Format-Table -Wrap -AutoSize | head > mus.txt
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | Format-Table -Wrap -AutoSize  > mus.txt
+gci .\mus.txt | ConvertTo-Json
+gci .\mus.txt | ConvertTo-Json | v -
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | convert-to-json
+gci -Recurse -ErrorAction SilentlyContinue *.mp3 | select  CreationTime, Length, FullName | ConvertTo-Json
+ffmpeg -i .\xautumnPretty.mp4 autumnPhone.mp3
+ffmpeg -i "concat:autumnPhone.mp3|autumnPhone.mp3" -acodec copy p2.mp3
+vlc .\p2.mp3
+ffmpeg -i .\xautumnTwobass.mp4 autumn2Phone.mp3
+ffmpeg -i "concat:autumn2Phone.mp3|autumn2Phone.mp3" -acodec copy ap2.mp3
+vlc .\ap2.mp3
+ffmpeg -i "concat:ap2.mp3|ap2.mp3" -acodec copy ap3.mp3
+ffmpeg -i "concat:ap3.mp3|ap3.mp3" -acodec copy ap4.mp3
+ffmpeg -i "concat:ap4.mp3|ap4.mp3" -acodec copy ap5.mp3
+ffmpeg -i "concat:ap5.mp3|ap5.mp3" -acodec copy ap6.mp3
+ffmpeg -i "concat:ap6.mp3|ap6.mp3" -acodec copy ap7.mp3
+cp .\ap7.mp3 'G:\My Drive\'
+cp .\ap7.mp3 c:\all
+ffmpeg -i a7.mp3 -filter:a "atempo=0.5" -vn a7s.mp3
+ffmpeg -i ap7.mp3 -filter:a "atempo=0.5" -vn a7s.mp3
+vlc .\a7s.mp3
+ffmpeg -i ap7.mp3 -filter:a "atempo=0.65" -vn a8s.mp3
+cp .\a8s.mp3 c:\all
+vlc -L .\xautumnPretty.mp4
+vlc '.\Bach- Brandenburg Concertos #4-6\' .
+v .\youapi.py .\json\
+gci vs*
+rg speed .\vlc-help.txt
+vlc --rate 1.2 .\24_18_10.mp3
+vlc --rate 2.2 .\24_18_10.mp3
+ex .\22_14_11.mp3
+ex .\24_18_10.mp3
+vlc --rate 1.5 .\24_31_11.mp3
+vlc --rate 1.2 .\24_31_11.mp3
+spr 5152
+spr 4144
+spr 3144
+mv x x.json
+vi .\filename
+v .\filename
+jq --help
+jq . .\filename
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' > git
+mv git git.json
+v c.ps1
+v .\c.ps1
+.\c.ps1 jq .
+v .\c.ps1 | jq .
+.\c.ps1
+$j= "curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' "
+Invoke-Expression($j)
+v b.ps1
+b jim tom
+$servername=$args[0]
+$envname=$args[1]
+write-host "If this script were really going to do something, it would do it on $servername in the $envname environment" 
+.\b.ps1 tom jim
+.\b.ps1 tom 'mike'
+v .\b.ps1
+.\b.ps1 tom `'mike`'
+curl -silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' | nvim -
+curl -silent 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' 
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' 
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[]'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[].parents'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0].parents'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0].comitter'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0].committer'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0]' | v -
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0].sha'
+curl -s 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' | jq '.[0].author'
+jq . .\x.json
+jq '.snippet' .\x.json
+jq 'snippet' .\x.json
+jq '[]' .\x.json
+jq '.[0]' .\x.json
+curl -s https://api.github.com/repos/stedolan/jq/issues?per_page=2 | jq '[ .[] | { title, number } ]'
+curl -s https://api.github.com/gists/1fe8e08ce25edbfb55a185f444ed4bd6
+curl -s https://api.github.com/gists/1fe8e08ce25edbfb55a185f444ed4bd6 |v -
+v .\style.scss
+echo '{"key1":{"key2":"value1"}}' | jq '.'
+curl https://api.github.com/repos/stedolan/jq > j.json
+gc .\j.json
+jq ' .name'  .\j.json
+v .\j.json
+jq ' .archived' .\j.json
+curl -s https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=mcoding&maxResults=10&publishedAfter=2020-11-25T07:57:22.806Z&type=video > pyth.json
+curl -s "https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=mcoding&maxResults=10&publishedAfter=2020-11-25T07:57:22.806Z&type=video" > pyth.json
+v .\pyth.json
+gci *pyth*
+v .\filenameq
+vlc .\Denis-MacShane-on-thomas-Paine.mp3 .\Quassim_Cassam_on_Conspiracy_Theories.mp3 .\Brian_Leiter_on_the_Analytic_Continental_Distinction.mp3
+Get-WMIObject -Query "SELECT * FROM Win32_Product" | FT
+Get-CimInstance win32_product
+Get-CimInstance win32_product > installed
+v .\installed
+Get-CimInstance win32_product | ft > installed
+Get-CimInstance win32_product |  Format-Table -Wrap -AutoSize > installed
+cpn
+Get-WinEvent -ListLog * | Select-Object LogName, RecordCount, IsClassicLog, IsEnabled, LogMode, LogType | Format-Table -AutoSize
+Get-WinEvent -LogName 'Application' -MaxEvents 100 | Select-Object TimeCreated, ID, ProviderName, LevelDisplayName, Message | Format-Table -AutoSize
+Get-WinEvent -LogName 'Application' -MaxEvents 100 | Select-Object TimeCreated, ID, ProviderName, LevelDisplayName, Message | Format-Table -AutoSize | v -
+Get-WinEvent -LogName 'Application' -MaxEvents 100 | Select-Object TimeCreated, ID, ProviderName, LevelDisplayName, Message | Format-Table -Wrap -AutoSize  | v -
+function Get-InstalledApplications() {`
+    [cmdletbinding(DefaultParameterSetName = 'GlobalAndAllUsers')]`
+        [Parameter(ParameterSetName="Global")]`
+        [switch]$Global,`
+        [Parameter(ParameterSetName="GlobalAndCurrentUser")]`
+        [switch]$GlobalAndCurrentUser,`
+        [Parameter(ParameterSetName="GlobalAndAllUsers")]`
+        [switch]$GlobalAndAllUsers,`
+        [Parameter(ParameterSetName="CurrentUser")]`
+        [switch]$CurrentUser,`
+        [Parameter(ParameterSetName="AllUsers")]`
+        [switch]$AllUsers`
+    # Excplicitly set default param to True if used to allow conditionals to work`
+    if ($PSCmdlet.ParameterSetName -eq "GlobalAndAllUsers") {`
+        $GlobalAndAllUsers = $true`
+    # Check if running with Administrative privileges if required`
+    if ($GlobalAndAllUsers -or $AllUsers) {`
+        $RunningAsAdmin = (New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)`
+        if ($RunningAsAdmin -eq $false) {`
+            Write-Error "Finding all user applications requires administrative privileges"`
+            break`
+    # Empty array to store applications`
+    $Apps = @()`
+    $32BitPath = "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"`
+    $64BitPath = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*"`
+    # Retreive globally insatlled applications`
+    if ($Global -or $GlobalAndAllUsers -or $GlobalAndCurrentUser) {`
+        Write-Host "Processing global hive"`
+        $Apps += Get-ItemProperty "HKLM:\$32BitPath"`
+        $Apps += Get-ItemProperty "HKLM:\$64BitPath"`
+    if ($CurrentUser -or $GlobalAndCurrentUser) {`
+        Write-Host "Processing current user hive"`
+        $Apps += Get-ItemProperty "Registry::\HKEY_CURRENT_USER\$32BitPath"`
+        $Apps += Get-ItemProperty "Registry::\HKEY_CURRENT_USER\$64BitPath"`
+    if ($AllUsers -or $GlobalAndAllUsers) {`
+        Write-Host "Collecting hive data for all users"`
+        $AllProfiles = Get-CimInstance Win32_UserProfile | Select LocalPath, SID, Loaded, Special | Where {$_.SID -like "S-1-5-21-*"}`
+        $MountedProfiles = $AllProfiles | Where {$_.Loaded -eq $true}`
+        $UnmountedProfiles = $AllProfiles | Where {$_.Loaded -eq $false}`
+        Write-Host "Processing mounted hives"`
+        $MountedProfiles | % {`
+            $Apps += Get-ItemProperty -Path "Registry::\HKEY_USERS\$($_.SID)\$32BitPath"`
+            $Apps += Get-ItemProperty -Path "Registry::\HKEY_USERS\$($_.SID)\$64BitPath"`
+        Write-Host "Processing unmounted hives"`
+        $UnmountedProfiles | % {`
+            $Hive = "$($_.LocalPath)\NTUSER.DAT"`
+            Write-Host " -> Mounting hive at $Hive"`
+            if (Test-Path $Hive) {`
+                REG LOAD HKU\temp $Hive`
+                $Apps += Get-ItemProperty -Path "Registry::\HKEY_USERS\temp\$32BitPath"`
+                $Apps += Get-ItemProperty -Path "Registry::\HKEY_USERS\temp\$64BitPath"`
+                # Run manual GC to allow hive to be unmounted`
+                [GC]::Collect()`
+                [GC]::WaitForPendingFinalizers()`
+                REG UNLOAD HKU\temp`
+                Write-Warning "Unable to access registry hive at $Hive"`
+    Write-Output $Apps`
+Get-InstalledApplications | Select DisplayName, InstallLocation | Export-Csv AllApps.csv -NoTypeInformation
+v .\AllApps.csv
+ri *.* -f
+ri *.* -Force
+ri .\Ex_Files_Java_OOP\ -Force -Recurse
+ri .\Ex_Files_Kotlin_Essential_Training\ -Force -Recurse
+cd .\steps\24
+mv .\installed c:\all
+rg error
+rg Silen
+gci *.mid -Recurse
+cd .\Music\GDrive\
+vlc .\a8s.mp3
+vlc .\autumnPhone.mp3
+vlc '.\Beethoven, complete works for solo piano cd 1\ .'
+vlc '.\Beethoven, complete works for solo piano cd 1\' .
+gci *bit*
+gci *block*
+gci *block* -Recurse
+cd b
+gci *index.html* -Recurse
+v www
+gci *.css -Recurse
+cd .\public\
+git remote show origin
+git remote show origin | rg Fetch
+v .\bin\www
+cd .\routes\
+v .\index.js
+cd .\views\
+v .\layout.pug
+cd .\includes\
+cd '.\Beethoven, complete works for solo piano cd 1\'
+mv .\Daniel_Dennett_on_Free_Will_Worth_Wanting.mp3 ..
+mv .\Peter_Adamson_on_Avicennas_Flying_Man.mp3 ..
+gci *pyth* | % fullname
+$g =(gci *pyth* | % fullname)
+v g.ps1
+v cp.sh
+mv .\cp.sh cp.psq
+.\cp.psq
+mv cp.ps1
+mv .\cp.psq cp.ps1
+.\cp.ps1
+md pycon
+mv .\cp.ps1 mp.ps1
+ri .\mp.ps1 .\cp.sh
+ri .\mp.ps1
+.\mpy.ps1
+gci .\pycon\
+cd .\pycon\
+vlc '.\KEYNOTE _ Python Software Foundation Community Address _ Ewa Jodlowska--BM7Tj_PMek.mp3' '.\KEYNOTE _ Python Steering Council _ C. Willing, T. Wouters, B. Cannon, P. Galindo Salgado, B. Warsaw-xEkuOtCQ6vA.mp3'
+mkc bootstrap
+tree /f | more
+gcm tree
+tree /f | v -
+cd .\bootstrap\
+$index = "The string".IndexOf(" ")
+$index
+$index = (gc x)
+$x = (gc x)
+$x.IndexOf("x")
+$x.IndexOf("b")
+$x.IndexOf("0")
+$x.typeof
+$x[1]
+$x[1].GetType()
+$x[1].IndexOf('M')
+$x[1].IndexOf('D')
+v .\bootstrap-reboot.css
+gci | % FullName | rg reboot
+@a=(gci | % FullName | rg reboot)
+$a=@(gci | % FullName | rg reboot)
+v $a[0]
+v $a
+v .\bootstrap.js
+gci env: | v -
+Get-Variable $a
+Get-Variable -Scope 0
+Get-Variable -Scope 0 | v -
+echo $u
+$u
+gv -s 0 | v -
+gv -s 0 | % name
+gv | gm
+gv | gm | v -
+v .\bootstrap.bundle.js.map
+cd C:\Users\jayst\AppData\Roaming\Code\User
+v .\keybindings.json
+pwd | % path
+pwd | % path | clip
+cd .\globalStorage\
+v .\state.vscdb
+cd .\vscodevim.vim\
+v .\.cmdline_history
+gci -Recurse *vim*
+cd .\Dictionaries\
+v .\Cookies
+cd C:\Users\jayst\AppData\Roaming\Code\CachedExtensionVSIXs
+$home
+Get-Variable -Scope local | v -
+cp .\init.vim ..\..\
+gci *vim* -Filter
+gci *vim* -Force
+flutter
+cd .\app\
+gic fl*
+gci fl*
+"C:\Program Files (x86)\WinDirStat\windirstat.exe" .
+"C:\Program Files (x86)\WinDirStat\windirstat.exe" 
+start "C:\Program Files (x86)\WinDirStat\windirstat.exe"
+cd .\Code\
+cd AppData\Roaming\Code\User\workspaceStorage
+ri *.* -Recurse -Force
+cd cd C:\Users\jayst\AppData\Roaming\Code\User\workspaceStorage
+cd C:\Users\jayst\AppData\Roaming\Code\User\workspaceStorage
+exi
+services.msc
+md 27
+cd 27
+cd .\27\
+vlc -Z '.\Bach- Brandenburg Concertos #4-6\' .
+ex '.\01 Mozart-- Piano Concerto No.24 In C minor K491 -- 1. Allegro.mp3'
+md mozart20
+fd -e md
+fd -e vim
+fd -e exe
+fd -e init
+fd -e mid
+fd -e mid > c:\all\mid.txt
+hi Search ctermbg=red
+ls v*
+gci py*
+gci .\py\
+gci .\python\
+gc .\startup.py
+cp .\startup.py ..\py\startup.bak
+ri .\startup.py
+gci sql
+v .\Iliad.txt
+ni ipy.ps1
+gcm ip
+C:\Python39\Scripts\ipython.exe
+.\ipy.ps1
+ipy.ps1
+cd .\autumn\
+ex '.\01 Autumn Leaves.mp3'
+htop
+vlc '.\Jazz on The Move - The Life & Music of Bud Powell-Ar9CmxVdpMU.mp3'
+cd .\Takeout\
+gcm pkzip
+cd g:
+cd .\midi\
+gci '.\Yundi Li\'
+cd '.\Yundi Li\'
+cd '.\Beethoven- Pathétique, Moonlight, Appassionata\'
+md yuniBeethoven
+cd .\yuniBeethoven\
+cp *.* C:\music\yuniBeethoven\
+dir doc
+mkd doc
+md doc
+mv *.doc \doc\
+mv *.gdoc \doc\
+cp *.gdoc \doc\
+cp *.gdoc \doc
+mv *.gdoc G:\My Drive\doc
+mv *.gdoc "G:\My Drive\doc"
+gci -File | sort LastWriteTime | % FullName
+gci -File | sort LastWriteTime | % Name
+ri '.\All my loving - The Beatles (LYRICSLETRA) `[Original`].mp3'
+mv '.\How To Play ''Old Time Rock & Roll'' by Bob Seger _ HDpiano (Part 1) Piano Tutorial-5nWpotKSzZ0.mp4' music
+md gback
+mv *.* c:\gback
+cd C:\gback\
+ri .\notes.gsheet .\quick.gscript '.\To do.gsheet'
+ri .\notes.gsheet .\quick.gscript 
+ri .\quick.gscript
+ri .\notes.gsheet
+ri '.\To do.gsheet'
+cd .\Dylan\
+cd '.\George Szell- Cleveland Orchestra\'
+mv '.\Mussorgsky- Pictures At An Exhibition; Rimsky-Korsakov- Capriccio Espagnol, Etc\' c:\music
+rd '.\George Szell- Cleveland Orchestra\'
+ri '.\vlc-record-2021-08-13-16h45m51s-Kevin Charpentier - Sunday night piano melody-.mp3'
+ri .\desktop.ini
+ri '.\Mash 1.m4a'
+ri -Force -Recurse '.\Mozart- Piano Concertos No. 20, K466 & No. 27, K595\'
+ri '.\Documents - Shortcut.lnk'
+md c:\mmp
+mv *.* c:\mmp
+cd .\mmp\
+md kb
+cd kb
+$function:pdn
+$function:vq
+$function:lsong
+$i = 1
+for (;;)`
+    Write-Host $i`
+$i
+foreach ($file in Get-ChildItem)`
+  if ($file.length -gt 100KB)`
+  {`
+    Write-Host $file`
+    Write-Host $file.length`
+    Write-Host $file.lastaccesstime`
+  }`
+  if ($file.length -gt 10KB)`
+cd .\kb\
+gci '.\M̤ ̤I̤ ̤L̤ ̤E̤ ̤S̤ ̤D̤ ̤A̤ ̤V̤ ̤I̤ ̤S̤ ̤-̤ ̤K̤i̤n̤d̤ ̤O̤f̤ ̤B̤l̤ṳe̤  `[Legacy Edition`]`[Full HQ`]-8uUCIQ50e-4.webm.part'
+for (($i = 0), ($j = 0); $i -lt 10; $i++)`
+    "`$i:$i"`
+    "`$j:$j"`
+.\work.ps1
+tail .\ffmpeg
+$1
+$i+2
+v .\ffmpeg
+cp .\AutumnPretty.mp4 \all\ps
+gci *what*
+vlc '.\So What with score-o9zQfgcwV1k.mp4'
+cd deoc
+pdn .\vlcsnap-00001.png
+.\21amazgrace.mid
+.\april.mid
+& '.\twink (1).mid'
+gci *m*
+cd mivi
+cd midi
+everything
+.\gjingle_bells_08_jc.mid
+.\mcut.ps1
+vlc .\xxautumnpretty.mp4
+md getz
+ex .\xxautumnpretty.mp4
+ffmpeg -i .\xxautumnpretty.mp4 p0.mp3
+vlc p0
+vlc .\p0.mp3
+ffmpeg -1 "concat:p0.mp3|p0.mp3" -acodec copy p1.mp3
+ffmpeg -i "concat:p0.mp3|p0.mp3" -acodec copy p1.mp3
+vlc .\p1.mp3
+ri .\p1.mp3
+vlc .\p3.mp3
+cd mmp
+v .\autumnPhone.mp3
+v .\xautumnTwobass.mp4
+cp .\xautumnTwobass.mp4 xback.mp4
+ex .\xback.mp4
+$function:ex
+jq .\x.json
+jq '. | {duration}'
+jq '. | {duration}' .\x.json
+jq '.duration' .\x.json
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' > y.json
+jq '.[0]' .\y.json
+jq '.[0] | {message: .commit.message, name: .commit.committer.name}' .\y.json
+jq '.[0] | {duration}' .\x.json
+v .\x.json
+jq ' {Duration}' .\x.json
+head .\x.json
+jq '.[0] | {FileName, Duration}' .\x.json
+echo '[true, null, 42, "hello", []]' | jq 'map(type)'
+jq 'map(type)' .\x.json
+jq 'map(type)' .\y.json
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration}'
+ex '.\07.- O Grande Amor - Getz _ Gilberto - Stan Getz & Joao Gilberto-UGCXKmAB3YQ.mp3'
+Remove-Item c:\projects\json\* -Recurse -Force
+cd json
+curl https://api.github.com/events > events.json
+ri .\events.json
+v .\events.json
+cat events.json | jq '.[2]'
+cat events.json | jq '.[-2]'
+gc .\events.json
+wc .\events.json
+wc --help
+wc -l .\events.json
+cat events.json | jq '.[3:8]'
+jq '.[0]' .\events.json
+jq 'map(.repo.name)' .\events.json
+cd C:\projects\json
+jq 'map(.repo)' .\events.json
+jq 'map(.payload.ref)' .\events.json
+jq 'map({type: .type, reponame:.repo.name})' .\events.json
+cp .\exif.txt C:\projects\json\
+v .\exif.txt
+jq 'map({Name: .SourceFile})'
+jq 'map({Name: .SourceFile})' .\exif.txt
+jq '.[] | select(.type=="PushEvent")' .\events.json
+cat events.json | jq '.[] | select(.type=="PushEvent")'
+cat .\events.json
+cat events.json | jq 'select(objects)|=[.]'
+head events.json | jq 'select(objects)|=[.]'
+cat exif.txt | jq 'select(objects)|=[.]'
+cat exif.txt | jq 'select(objects)|=[.]' | v -
+cat .\events.json | jq 'select(objects)|=[.]' | v -
+cat events.json | jq 'select(objects)|=[.] | map( paths(scalars) )'
+cat events.json | jq 'select(objects)|=[.] | map( paths(scalars) )' | v -
+cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) )' | v -
+cat .\exif.txt | jq 'select(objects)|=[.] '
+cat events.json | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique'
+cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique'
+cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
+tsc -version
+ni index.ts
+tsc .\index.ts
+gc .\index.js
+md src dist
+md src, dist
+cp .\index.ts dist
+ri .\index.ts
+ri .\index.js
+ri '.\Chris_Bertram_on_Rousseaus_Moral_Psychology (1).mp3'
+gs .\index.js
+node -e .\index.js
+node -r .\index.js
+node -i -e "$(.\index.js)"
+node --cpu-prof index.js
+node --heap-prof index.js
+gc .\Heap.20211128.115406.14908.0.001.heapprofile
+v .\Heap.20211128.115406.14908.0.001.heapprofile
+jq . .\Heap.20211128.115406.14908.0.001.heapprofile
+jq . .\Heap.20211128.115406.14908.0.001.heapprofile | v -
+Get-WinEvent -ListProvider
+glc -Z .
+gci ../../ps/xxautumnpretty.mp4
+gs | v -
+gs | rg mp4
+cd C:\you\kb\
+cd C:\mmp\
+ex .\ap7.mp3
+exiftool .\ap7.mp3 | jq '. | {FileName, Duration}'
+exiftool -j .\ap7.mp3 | jq '. | {FileName, Duration}'
+exiftool -j .\ap7.mp3
+exiftool -j .\ap7.mp3 | jq '. | { Duration}'
+exiftool -j .\ap7.mp3 | jq '. | {Duration}'
+ex .\a7s.mp3
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xx}'
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xxx}'
+exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment}'
+ex '.\Intermediate Java Tutorial - 4 - Introduction to Collections-jU5ACV5MucM.mp4'
+vlc .\autumn2Phone.mp3
+v .\autumn2Phone.mp3
+ex .\autumn2Phone.mp3
+exiftool --help
+exiftool --help | v -
+exiftool .\a7s.mp3 -CreateDate
+ex .\y.json
+exiftool .\a7s.mp3 -FileName
+exiftool -createdate="2007:06:19 13:38:55" .\x.json
+exiftool -createdate="2007:06:19 13:38:55" .\xYesterday.mp4
+ex .\xYesterday.mp4
+exiftool -Comment="Does work" .\xYesterday.mp4
+gci *.mp4
+ex .\AtumnSynch.mp4
+vlc .\AtumnSynch.mp4
+vlc .\ap7.mp3
+vlc '.\Miles Davis - All Blues (Official Audio)--488UORrfJ0.mp3'
+vlc '.\Miles Davis - Blue In Green (Official Audio)-TLDflhhdPCg.mp3'
+ex '.\Miles Davis - All Blues (Official Audio)--488UORrfJ0.mp3'
+vlc '.\10.- Corcovado (Quiet Nights Of Quiet Stars) (45 RPM Issue)-UJJKDzqVpvE.mp3'
+ex '.\10.- Corcovado (Quiet Nights Of Quiet Stars) (45 RPM Issue)-UJJKDzqVpvE.mp3'
+exiftool -Comment="Does work" '.\10.- Corcovado (Quiet Nights Of Quiet Stars) (45 RPM Issue)-UJJKDzqVpvE.mp3'
+lt *.mp4
+exiftool -Comment="Does work 28" .\xback.mp4
+vlc .\xback.mp4
+gci | Export-Csv
+gci | Export-Csv c
+gci | ConvertTo-Json > g.json
+v .\g.json
+uhis
+get-Content C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt 
+v -o .\his .\nhis
+function uhis(){`
+#Unique all lines in history file`
+get-Content C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt | %{if($hash.$_ -eq $null) { $_ }; $hash.$_ = 1} > x`
+gc .\his
+wc his
+Get-Date | Select-Object -Property * | ConvertTo-Json
+Get-Date | Select-Object -Property * | ConvertTo-Json | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
+Get-Date | Select-Object -Property * | ConvertTo-Json | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' 
+Get-Date | Select-Object -Property * | ConvertTo-Json | jq 'select(objects)|=[.] '
+Get-Date | Select-Object -Property * | ConvertTo-Json | jq 'select(objects)|=[.] | map( paths(scalars) ) '
+Get-Date | Select-Object -Property * | ConvertTo-Json | jq 'select(objects)|=[.] | map( paths(scalars) ) ' | v -
+Get-Date | Select-Object -Property * | ConvertTo-Json | v -
+exiftool -Comment="good santa lesson" .\xsanta.mp4
+exiftool -Comment="good lesson" .\xsanta.mp4
+exiftool -j .\xsanta.mp4 | jq '.[0] | {FileName, Duration,Comment}'
+$x=@(gci | % fullname)
+cd .\all\
+ni exif.ps1
+vlc .\xautumn2Phone.mp3
+mv .\xautumn2Phone.mp3 ap.mp3
+vlc .\ap.mp3
+ffmpeg -i ap.mp3 -filter:a "atempo=0.7" -vn aps.mp3
+vlc .\aps.mp3
+ffmpeg -i ap.mp3 -filter:a "atempo=0.8" -vn aps.mp3
+cp .\aps.mp3 c:\all\ps
+gw | rg ode
+ri .\p1.mp3, .\p2.mp3, .\p3.mp3
+    Exit-PSHostProcess
+mv .\aps.mp3 aps0.mp3
+ffmpeg -i "concat:aps0.mp3|aps0.mp3" -acodec copy aps1.mp3
+ri .\aps1.mp3
+vlc .\aps1.mp3
+work
+v .\aps5.mp3
+vlc .\aps5.mp3
+ls > treasure
+md aaa
+cd .\aaa\
+ex .\aps7.mp3
+choco install sd-cli
+gcm sd
+sd --help
+gci | % FullName > f
+sd '\n' ',' .\f
+cat f | sd '\n' ','
+cat f
+sd 'a' 'xxxx' .\f
+echo 'lots((([]))) of special chars' | sd -s '((([])))' ''
+awk
+gawk
+awk 'BEGIN{printf "Sr No\tName\tSub\tMarks\n"} {print}' n
+gawk 'BEGIN{printf "Sr No\tName\tSub\tMarks\n"} {print}' n
+dos2unix.exe n
+mv n c:\all
+rg 2253
+chrome-extension://dapjbgnjinbpoindlpdmhochffioedbn/popup.html
+vlc '.\My Favorite Things - John Coltrane [FULL VERSION] HQ-qWG2dsXV5HI.mp3'
+cd \AppData\Local\Google\Chrome\User Data\Default\
+cd \AppData\Local\Google\Chrome
+curl 'https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi'
+curl 'https://chrome.google.com/webstore/detail/seo-minion/giihipjfimkajhlcilipnjeohabimjhi' | v -
+cd "C:\Users\jayst\AppData\Local\Google\Chrome\User Data\Default\Sync Extension Settings\dapjbgnjinbpoindlpdmhochffioedbn"
+gc .\LOG.old
+v .\MANIFEST-000001
+cd '.\Webstore Downloads\'
+gci C:\mmp\
+gci \vid | head
+exiftool -j C:\Vid\01_05_11.mp3 > twit.json
+cat .\twit.json
+$a =@(gc id)
+foreach ($b in $a)`
+Write-Host "stop " $b`
+foreach ($b in $a) {`
+spr $b`
+vlc -A C:\music\yuniBeethoven\.
+vlc -Z C:\music\yuniBeethoven\ .
+gc C:\all\ps\ipy.ps1
+ni j.py
+curl 'https://api.github.com/repos/stedolan/jq/commits?per_page=5' > git.json
+v .\git.json
+cd \ps
+(Get-ChildItem -File -Name) -replace 'aps.*'
+(Get-ChildItem -File -Name) 
+(Get-ChildItem -File -Name) | rg aps
+(Get-ChildItem -File -Name) | rg aps[1-5
+(Get-ChildItem -File -Name) | rg aps[1-5]
+$a=(Get-ChildItem -File -Name) | rg aps[1-5]
+$a=(Get-ChildItem -File -Name) | rg aps[1-6]
+1, 2 | ForEach-Object {Write-Host "x"}
+gci *New*
+vlc '.\Caesar against Pompey - Great Roman Civil War DOCUMENTARY-_O5DshzvUsk.mp3'
+(Get-ChildItem -File -Name) -match '.png'
+lt | head.exe
+(Get-ChildItem -File -Name) -match 'Baren.*'
+pip install clipboard
+v clip.json
+jq . .\clip.json
+jq .[] .\clip.json
+jq '.[]' .\clip.json
+jq '.[0]' .\clip.json
+jq '.[0]' .\git.json
+v .\clip.json
+gc .\git.json | clip
+mv .\exif.txt exif.json
+jq '[0].' .\git.json
+mpw
+curl -s https://twit.tv/shows/this-week-in-google/episodes/
+curl --help | rg direc
+curl -s -L https://twit.tv/shows/this-week-in-google/episodes/
+curl -s -L https://twit.tv/shows/this-week-in-google/episodes/ | v -
+ex .\29_03_09.mp3
+exiftool -j .\29_03_09.mp3 > C:\projects\json\exif.json
+gc .\exi.json
+gc .\exif.json
+ri .\exi.json
+v imk
+.\tree.py
+ip 
+chr .\capt.html
+v .\tree.py
+pnp .\p-0fEc9CMkDiJ2g.gif
+pdn .\p-0fEc9CMkDiJ2g.gif
+pdn .\weather_n_partly-cloudy.png
+pdn .\blank.gif
+ri *.gif .png
+ri *.gif, .png
+gc .\tree.py
+fd tree.py
+cp .\tree.py 'C:\Program Files\bs'
+cp .\tree.py C:\projects\bs
+node - i - e "console.log('A message')"
+node .\dist\index.js
+ni r.ps1
+.\r.ps1
+v .\popup.html
+v .\data.js
+chr .\popup.html
+v '.\businessofapps.com Technology Profile.html'
+gci '.\businessofapps.com Technology Profile.html' | % FullName | clip
+C:\projects\ex\businessofapps.com Technology Profile.html
+ex '.\Spanish Key-e3GLh5XQ0S4.mp3'
+vlc '.\Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3'
+ex '.\Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3'
+vlc '.\Spanish Key-e3GLh5XQ0S4.mp3'
+cd C:\all\steps\27\
+vlc .\Blackburn_Plato.mp3 .\Jonathan_Glover_on_Systems_of_Belief.mp3 .\Adrian_Moore_on_Kants_Metaphysics.mp3 .\HoP_058___Reaping_the_Harvest___Lucretius.mp3 .\HoP_318_-_Oliver_Primavesi_on_Greek_Manuscripts.mp3
+spr 10752
+gci C:\all\note\
+C:\tools\neovim\Neovim\bin\nvim.exe "c:\all\note\notes"
+$function:no
+ni C:\all\note\work
+v .\x29_53_11.mp3
+vlc .\x29_53_11.mp3
+ri .\filelist
+.\7z.exe --help
+.\7zG.exe --help
+gci *.zip
+gcm 7z
+gcm 7z.exe
+7z
+dir env: | rg path
+dir env: | rg path | v -
+dir env: | rg path 
+$Env:Path += "C:\Program Files\7-Zip\"
+$Env:Path += ";C:\Program Files\7-Zip\"
+spr 10160 
+spr  1144 
+spr 10152 
+spr  8380 
+spr  6136 
+rg a his
+rg gcm his
+rg 7z his
+7z l .\bootstrap-5.1.3-dist.zip
+7z l .\bootstrap-5.1.3-dist.zip | v -
+7z l '.\Malcolm Bilson; John Eliot Gardiner- English Baroque Soloists.zip'
+7z l '.\Malcolm Bilson; John Eliot Gardiner- English Baroque Soloists.zip' | v -
+md C:\music\mozConcerto
+7z e '.\Malcolm Bilson; John Eliot Gardiner- English Baroque Soloists.zip' C:\music\mozConcerto\
+gci .\mozConcerto\
+7z e '.\Malcolm Bilson; John Eliot Gardiner- English Baroque Soloists.zip'
+gci -name *.mp3
+Hive: HKEY_LOCAL_MACHINE\HARDWARE
+Name             Property
+----             --------`
+ACPI
+DESCRIPTION
+DEVICEMAP
+RESOURCEMAP
+UEFI
+Get-ChildItem -Path HKLM:\HARDWARE -Exclude D*
+Name                           Property
+----                           --------`
+Get-ComputerInfo | v -
+Get-ChildItem | `
+  ForEach-Object -Process {`
+    $BuildName = $PSItem.Name.Split('.')[0] ### Get just the "fubar" part.`
+    ctt s:"$($PSItem.FullName)" t:"$($PSItem.Directory.FullName)\$BuildName.config.build" d:"$($PSItem.Directory.FullName).config" pw`
+  }
+gci | % $_.fullname
+gci | % {echo $_.fullname}
+gci *.mp3 | % {echo $_.fullname}
+gci *.mp3 | % {mv $_.fullname C:\music\mozConcerto\}
+cd .\mozConcerto\
+ex .\PEL_ep_094_5-13-14.mp3
+mv .\PEL_ep_094_5-13-14.mp3 shopen.mp3
+mv .\shopen.mp3 C:\all\steps\
+cd '.\Bob Dylan - Blood On The Tracks `[smb`]\'
+ri '.\Malcolm Bilson; John Eliot Gardiner- English Baroque Soloists.zip'
+md \all\temp
+7z -e C:\all\temp\ '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip'
+7z e C:\all\temp\ '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip'
+md C:\music\horwitz
+7z e '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip' -oc:C:\music\horwitz
+7z e '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip' -o C:\music\horwitz
+7z e '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip' -oC:\music\horwitz
+gci C:\music\horwitz\
+gic *.zip
+ri '.\Vladimir Horowitz; Eugene Ormandy- New York Philharmonic Orchestra.zip'
+md C:\music\jazzV
+7z e '.\The All Time Greatest Jazz Vocal Standards.zip' -oC:\music\jazzV
+gic C:\music\jazzV\
+gci C:\music\jazzV\
+ri '.\The All Time Greatest Jazz Vocal Standards.zip'
+7z l .\html2text-1.0-2009-6-2.zip
+7z l .\html2text-1.0-2009-6-2.zip -oC:C:\all\bin\
+ri .\html2text-1.0-2009-6-2.zip
+gci *.html -Recurse | head
+gci *.html -Recurse | more
+gci *.html -Recurse -Depth 1
+cd word
+gci ht*
+gci *2*
+gci -Recurse *2*
+gw | rg Down
+gcm Html2Text.exe
+gc .\index.html | Html2Text.exe
+v .\index.txt
+cd .\horwitz\
+C:\tools\neovim\Neovim\bin\nvim.exe "-p c:\all\note\notes c:\all\note\power c:\all\note\work"
+C:\tools\neovim\Neovim\bin\nvim.exe -p c:\all\note\notes c:\all\note\power c:\all\note\work
+gc .\bsGetImg
+mv .\bsGetImg C:\projects\bs\
+gc .\capt.html
+Html2Text.exe
+Html2Text.exe --help
+lt *.html
+gci .\capt.html
+gc .\capt.html | Html2Text.exe -o x
+computer-info | v -
+cd .\jazzV\
+ex '.\01 My Funny Valentine.mp3'
+ex '.\12 Blue Skies.mp3'
+cd C:\music\jazzV\
+exiftool -j .\Summertime.mp3 | jq '. | {FileName, Duration, Artist}'
+exiftool -j ".\01 Summertime.mp3" | jq '. | {FileName, Duration, Artist}'
+exiftool -j ".\01 Summertime.mp3" | jq '[0]. | {FileName, Duration, Artist}'
+exiftool -j ".\01 Summertime.mp3" | jq '[0]. '
+exiftool -j ".\01 Summertime.mp3" | jq '.[0] '
+exiftool -j ".\01 Summertime.mp3" | jq '.[0] | {FileName, Duration, Artist}'
+vim boot.html
+v boot.html
+chr .\boot.html
+v .\boot.html
+cp .\flower1.jpg .\flower3.jpg ..\..\bootstrap\
+cp .\flower1.jpg .\flower3.jpg C:\projects\bootstrap\
+cp .\flower1.jpg .\flower3.jpg C:\projects\bootstrap
+cp .\flower1.jpg, .\flower3.jpg C:\projects\bootstrap
+ping https://www.qbittorrent.org/
+ping www.pornhub.com
+curl www.pornhub.com
+curl -L www.pornhub.com
+gci *css*
+gci *WtOR*
+ex '.\Pharaoh''s Dance-WtORTuLJw7o.mp3'
+gci *1Rs2ND1ryYc*
+cd '.\Mussorgsky- Pictures At An Exhibition; Rimsky-Korsakov- Capriccio Espagnol, Etc\'
+gci *pascal*
+gci -Recurse *pascal*
+gci -Recurse *pascal* | v -
+dur
+gci | select Length
+gci | select Length, FullName
+gci | select Length, FullName, LastAccessTime
+gci | select Length, FullName, LastAccessTime | sort length
+v w3.html
+chr .\w3.html
+ri '.\How the Bible Explains Suffering with Bart Ehrman-y7cmUCjnCgE.mp3'
+ri '.\KEYNOTE _ Akshay Sharma-Jmly1Jfbhak.mp3'
+ri '.\KEYNOTE _ Python Software Foundation Community Address _ Ewa Jodlowska--BM7Tj_PMek.mp3'
+cp '.\A History of Philosophy _ 32 Descartes'' Meditations 1-iQewi0DEBSI.mp3' C:\all\steps\27\
+gci -Name | v -
+vlc .\KennyAquinas.mp3 .\Adrian_Moore_on_Kants_Metaphysics.mp3 .\Blackburn_Plato.mp3 .\Colin_McGinn_on_Descartes_on_Innate_Knowledge.mp3
+Get-ComputerInfo | v
+Get-ComputerInfo | ConvertTo-Json | v -
+Get-ComputerInfo | ConvertTo-xml | v -
+gci -Recurse | ConvertTo-Json | v -
+du -ch | ConvertTo-json
+gci -Recurse | ConvertTo-json
+gci -Recurse | select FullName
+gci -Recurse | select path, FullName
+gci -Recurse | select path, FullName | v -
+ex '.\01 Beethoven- Piano Sonata #8 In C Minor, Op. 13, ''Pathétique'' - 1. Grave, Allegro Di Molto E Con Brio.mp3'
+gci -Recurse | select path, FullName | ConvertTo-Html > h.html
+chr .\h.html
+v .\h.html
+curl https://raw.githubusercontent.com/wither7007/webt/main/style.css | v -
+gci C:\all\bin\*7*
+7z l .\bootstrap-5.0.2-examples.zip
+mkc examples
+7z e .\bootstrap-5.0.2-examples.zip -ohis
+7z e .\bootstrap-5.0.2-examples.zip -oC:\projects\bootstrap\examples\
+cd .\bootstrap-5.0.2-examples\
+7z e .\bootstrap-5.0.2-examples.zip -oC:\projects\bootstrap\examples\ -r
+ex .\12_43_10.mp3
+curl https://www.theringer.com/the-bill-simmons-podcast/2021/12/1/22811708/suns-warriors-anthony-edwards-lsus-big-hire-and-a-kenny-g-interview | v -
+v .\Eric_Schwitzgebel_on_the_Ethical_Behaviour_of_Ethics_Professors.mp3 .\Adrian_Moore_on_Kants_Metaphysics.mp3 a '.\A History of Philosophy _ 32 Descartes'' Meditations 1-iQewi0DEBSI.mp3'
+vlc .\Eric_Schwitzgebel_on_the_Ethical_Behaviour_of_Ethics_Professors.mp3 .\Adrian_Moore_on_Kants_Metaphysics.mp3 a '.\A History of Philosophy _ 32 Descartes'' Meditations 1-iQewi0DEBSI.mp3'
+rg curl his
+rg curl his | v -
+tree /f 
+vlc .\yuniBeethoven\ .
+tail -n 30 \all\his
+tails
+rg git \all\his
+v ax
+ri -Force .\examples\
+cd .\examples\
+cd .\cheatsheet\
+ri -Force -Recurse .\examples\
+mv .\bootstrap-5.0.2-examples\ examples
+cd cover
+chr .\index.html
+ex '.\07 Beethoven- Piano Sonata #23 In F Minor, Op. 57, ''Appassionata'' - 1. Allegro Assai.mp3'
+gci | ConvertTo-Html > gci .html
+mv .\gci gci.html
+chr .\gci.html
+v .\gci.html
+gci | ConvertTo-Html > gci.html
+Get-Process | Select-Object -Property ProcessName, Id, WS
+Get-Process | Select-Object -Property ProcessName, Id, WS : v -
+Get-Process | Select-Object -Property ProcessName, Id, WS | v -
+Get-Process | Select-Object -Property ProcessName, Id, WS | ConvertTo-Json | v -
+$services = Get-Service
+$services
+$services | clip
+mkc services
+v serv
+$services | Group-Object
+$services | Group-Object -Property
+head $services
+$services | head
+$services | Group-Object -Status
+$services | Group-Object -Property Status
+$services | Group-Object -Property Status | ConvertTo-Json
+$services | Group-Object -Property Status | ConvertTo-Json | v -
+Get-Service | Group-Object -Status| Group-Object -Property Status | ConvertTo-Json | v -
+Get-Service | Group-Object -Status | ConvertTo-Json | v -
+Get-Service | Group-Object -property Status | ConvertTo-Json | v -
+Get-Service | Group-Object -property Status | ConvertTo-Json > services.json
+Get-Service | Group-Object -property Status | ConvertTo-Json -Depth 9 > services.json
+v .\services.json
+wc .\services.json
+gci c:\all | ConvertTo-Json > gci.json
+v .\gci.json
+gci C:\all\
+gci *.mp3 \all | ConvertTo-Json > all.json
+gic *.mp3 \all
+gci *.mp3 \all
+gci C:\all\ *.mp3
+gci C:\all\ *.mp3 | ConvertTo-json > all.json
+v .\all.json
+ex .\all.json
+v .\fil.json
+ri .\vsc.db
+cd .\MercuryMail\
+cp .\sqlite3.dll, .\sqlite3.exe c:\all\bin
+sqlite3.exe .\vsc.db
+cd .\services\
+Get-Process | Select-Object -Property ProcessName, Id, WS | convertTo-json
+Get-Process | Select-Object -Property ProcessName, Id, WS | convertTo-json > fil.json
+Get-Process | Select-Object -Property ProcessName, Id, WS | convertTo-json > All.json
+sqlite3.exe --version
+sqlite3.exe
+.\sqlite3.exe .\vsc.db
+cp sql*.* c:\all\bin
+.\sqlite3_analyzer.exe .\vsc.db
+.\sqlite3_analyzer.exe .\vsc.db | v -
+v .\tex.txt
+function gws{`
+Get-Process | Select Id | where{$_.MainWindowTitle -ne ""} | ft -auto`
+gws
+7z e .\chinook.zip -oC:C:\projects\services\ -r
+7z e .\chinook.zip -oC:\projects\services\ -r
+.\sqlite3.exe .\chinook.db
+doskey
+doskey /history
+doskey.exe /history
+doskey /history> tmp.bat
+vlc .\William_B._Irvine_on_Living_Stoically.mp3 .\MM_McCabe_on_the_Paradox_of_Inquiry.mp3 '.\A History of Philosophy _ 32 Descartes'' Meditations 1-iQewi0DEBSI.mp3'
+today | rg html
+gci *.index
+gci -Recurse *.index
+gci -Recurse *.html
+mv b blockchain
+v .\settings.json
+ri -Recurse -Force .\flask\
+ri -Recurse -Force .\kotlin\ .\pipenv\ .\winpe_x86\ .\titan\ .\wes\ .\pclass\
+ri -Recurse -Force .\kotlin\, .\pipenv\
+ri -Force -Recurse .\cp_tutorial\, .\pclass\, .\titan\, .\wes\
+ri -Recurse -Force .\ok\ .\flot\
+ri -Recurse -Force .\ok\ , .\flot\
+cp b*.* ..\services\
+mv .\vsc.py vsc2.py
+v .\vsc.py
+v .\text.txt
+ex .\xx29_53_11.mp3
+ex .\02_56_12.mp3
+vlc .\02_56_12.mp3
+cd .\Chap01\
+v .\07-test-databases.sql
+head .\07-test-databases.sql
+$a=gci | % fullname
+ri -Force -Recurse .\sqlLin\
+cd .\mount\
+ri -Force -Recurse .\winpe_x86\
+gci | select fullname
+gci | % fullname | ConvertTo-html
+gci | % (fullname) | ConvertTo-html
+gci | gm | rg name
+gci | % Name | ConvertTo-html
+gci -Recurse K:\AppData\*.* -Filter *.model | `
+? {$_.LastWriteTime -gt (Get-Date).AddDays(-6)} | `
+sort LastWriteTime -descending |`
+Select LastWriteTime,Name,Directory
+gci ? {$_.LastWriteTime -gt (Get-Date).AddDays(-6)} | sort LastWriteTime -descending | Select LastWriteTime,Name,Directory
+gci ? {$_.LastWriteTime -gt (Get-Date).AddDays(-0)} | sort LastWriteTime -descending | Select LastWriteTime,Name,Directory
+gci sort LastWriteTime -descending | Select LastWriteTime,Name,Directory
+gci | sort LastWriteTime -descending | Select LastWriteTime,Name,Directory
+gci | sort LastWriteTime -descending | Select LastWriteTime,Name,Directory | ConvertTo-Html
+gci | sort LastWriteTime -descending | Select,Name,Directory,LastWriteTime | ConvertTo-Html
+gci | sort LastWriteTime -descending | Select Name,Directory,LastWriteTime | ConvertTo-Html
+gci | sort LastWriteTime -descending | Select Name,Directory,LastWriteTime | ConvertTo-Html > gc.html
+gci | sort LastWriteTime -descending | Select Name,LastWriteTime ,Directory
+gci | sort LastWriteTime -ascending | Select Name,LastWriteTime ,Directory
+Get-Service |`
+    Sort-Object -Property @{Expression = "Status"; Descending = $true},`
+                          @{Expression = "DisplayName"; Descending = $false}
+                          @{Expression = "DisplayName"; Descending = $false} | head
+                          @{Expression = "DisplayName"; Descending = $false} | more
+Get-Service | Sort-Object -Property @{Expression = "Status"; Descending = $true}, @{Expression = "DisplayName"; Descending = $false} | Where-Object {$_.Status -eq "Running"`
+Get-Service | Sort-Object -Property @{Expression = "Status"; Descending = $true}, @{Expression = "DisplayName"; Descending = $false} | Where-Object {$_.Status -eq "Running"}
+Get-Service | Sort-Object -Property @{Expression = "Status"; Descending = $true}, @{Expression = "DisplayName"; Descending = $false} | Where-Object {$_.Status -eq "Running"} | v -
+Get-Service | gm | v-
+Get-Service | gm | v -
+gci | Select-Object -last 5
+gci | Select Name -ExpandProperty Name 
+gci | Select Name, LastAccessTime -ExpandProperty Name 
+gci | Select Name, LastAccessTime -ExpandProperty Name, LastAccessTime
+gci | Select Name, LastAccessTime 
+gci | Select Name, LastAccessTime | more
+gci Name, LastAccessTime  | ForEach-Object {$_.Name + " " + $LastAccessTime}
+gci | select Name, LastAccessTime  | ForEach-Object {$_.Name + " " + $LastAccessTime}
+gci | ForEach-Object {$_.Name + " " + $_.LastAccessTime}
+gci | ForEach-Object {$_.Name + " \t " + $_.LastAccessTime}
+gci | ForEach-Object {$_.Name + " -------- " + $_.LastAccessTime}
+gci | ForEach-Object {$_.Name + "`t " + $_.LastAccessTime}
+gci | ForEach-Object {$_.Name + "`t`t " + $_.LastAccessTime}
+gci | ForEach-Object {$_.Name + "`t`t " + $_.LastAccessTime} | Format-Table
+gci | ForEach-Object {$_.Name + "`t`t`f " + $_.LastAccessTime} | Format-Table
+gci | ForEach-Object {$_.Name + "`t`t`f `a alert  " + $_.LastAccessTime} | Format-Table
+gci | ForEach-Object {$_.Name + "`t  " + $_.LastAccessTime} | Format-Table
+gci | ForEach-Object {$_.Name + " `t-------- " + $_.LastAccessTime}
+Invoke-WebRequest -Uri "https://docs.microsoft.com" -UseBasicParsing).Links.Href | gvim -
+Invoke-WebRequest -Uri "https://docs.microsoft.com" -UseBasicParsing.Links.Href | gvim -
+v .\scrap.ps1
+ (Invoke-WebRequest -Uri "https://docs.microsoft.com" -UseBasicParsing).Links.Href | vim -
+cd .\mission\
+pdn .\images10.jpg
+pdn .\images3.jpg
+ex .\images3.jpg
+v C:\all\ps\twit.ps1
+iwr https://www.missionsinc.org/wp-content/uploads/2021/08/new-cover-photo-2-scaled.jpg -OutFile group.jpg
+pdn .\group.jpg
+iwr https://www.missionsinc.org/wp-content/uploads/2021/09/minnpost-pic-816x456.jpg -OutFile dir.jpg
+ex .\dir.jpg
+pdn .\dir.jpg
+cd .\staff\
+exiftool.exe .\images47.jpg
+v .\images16.jpg
+v -b .\images13.jpg
+v -b .\02_03_10.mp3
+iwr https://i.pinimg.com/236x/2c/cb/f2/2ccbf28ab52a6df3ac6c9c51d0296a3a--albert-einstein-quotes-a-einstein.jpg -OutFile ein.jpg
+pdn .\ein.jpg
+iwr https://i.pinimg.com/75x75_RS/87/f3/58/87f35839e4c2ffd63ac3cc171e26a606.jpg -OutFile a.jpg
+ex .\ein.jpg
+curl https://www.pinterest.com/kingibraheem/success-breeds-success/ | v -
+cd AppData\Local\Google\Chrome\
+sqlite3.exe .\Databases.db
+df *.db
+gci *.db -Recurse
+today > tod
+v tod
+sed --version
+mkc sed
+sed ' ' a
+sed ' ' 
+v books.txt
+sed -e '1d' -e '2d' -e '5d' books.txt 
+echo -e "1d\n2d\n5d" > commands.txt 
+echo  "1d\n2d\n5d" > commands.txt 
+gc .\commands.txt
+v .\commands.txt
+sed -f commands.txt books.txt
+sed -n '' quote.txt 
+cp .\books.txt quote.txt
+sed --help
+sed .\quote.txt
+sed '' .\quote.txt
+sed -n '' .\quote.txt
+sed -quiet '' .\quote.txt
+sed --quiet '' .\quote.txt
+cat .\quote.txt
+echo "Welcome To The Geek Stuff" | sed 's/\(\b[A-Z]\)/\(\1\)/g'
+sed '3 s/unix/linux/' geekfile.txt
+cd sed
+sed -n 's/unix/linux/p' geekfile.txt
+sed -n 's/a/ *** /p' geekfile.txt
+sed '1,3 s/unix/linux/' geekfile.txt
+cat -n .\quote.txt
+Get-Alias cat
+1..100 | ForEach-Object { Add-Content -Path .\LineNumbers.txt -Value "This is line $_." }
+Get-Content -Path .\LineNumbers.txt
+gc .\LineNumbers.txt
+Get-Content .\books.txt | Select-String -Pattern "a" | Select-Object LineNumber
+gc .\books.txt
+Get-Content .\books.txt | Select-String -Pattern "a" | gm
+Get-Content .\books.txt | Select-String -Pattern "a" | Select-Object Matches
+Get-Content .\books.txt | Select-String -Pattern "a" | Select-Object pattern
+Get-Content .\books.txt | Select-String -Pattern "a.*" | Select-Object pattern
+Get-Content .\books.txt | Select-String -Pattern "a.*" | Select-Object matches
+sed '2,4 !d' .\geekfile.txt
+curl https://sharadchhetri.com/print-particular-line-number-using-sed-command/ > text.txt
+sed '2,4 !d' .\text.txt
+sed '2,10 !d' .\text.txt
+curl https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d'
+curl -s https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d'
+gcm nl
+curl -s https://sharadchhetri.com/print-particular-line-number-using-sed-command/ | sed '2,10 !d' | nl
+gci | nl
+nl --version
+gci | select FullName, LastAccessTime, Length
+gci | % {$_.fullname " " $_.length}
+gci | % {$_.fullname, $_.length}
+gci | % {$_.fullname $_.length}
+gci | % {$_.fullname + $_.length}
+gci | % {$_.fullname + " " +$_.length}
+gci | % {$_.fullname + "`t`t " +$_.length}
+gci | % {$_.fullname + "`t`t " +$_.length} | ConvertTo-json
+gci | % {$_.fullname } | ConvertTo-json
+gci | select FullName, Length | ConvertTo-Json
+gci | select Name, Length | ConvertTo-Json
+ni dir.html
+v "C:\Users\jayst\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
+gci *mi*
+vlc '.\The Beatles - Michelle - Piano Tutorial Easy Synthesia - How To Play-Vrono-ewY4k.mp4'
+mv '.\The Beatles - Michelle - Piano Tutorial Easy Synthesia - How To Play-Vrono-ewY4k.mp4' michelle.mp4
+touch .\michelle.mp4
+vlc .\michelle.mp4
+v .\xmichelle.mp4
+vlc .\xmichelle.mp4
+mv .\xmichelle.mp4 ymichelle.mp4
+cd .\free-midi-chords-0.20210811\
+v .\chords.py
+v .\Makefile
+cd .\chords2midi\
+v .\c2m.py
+cd C:\all\d3
+md 2
+cd 2
+vlc .\03_27_12.mp3
+mkc pics
+mv *1*
+mv BEATLES_THE_-_Michelle1.png m1.png
+pdn .\m1.png
+ffmpeg -i aps.mp3 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+ex .\out2.mp3
+vlc "[Jazz Standard] 'Autumn Leaves' for solo piano (sheet music)-xIZePc_aqOI.mp4"
+mv '.\The most feared song in jazz, explained-62tIvfP9A2w.mp4' Feared.mp4
+vlc .\Feared.mp4
+gci *.mp3 | v -
+vlc -A .
+md pic
+cp '.\Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3' \pic
+cp '.\Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3' pic
+cd pic
+gci *.mp3 | -select -first 5
+gci | select -First 5
+gci *.mp3 | select -first 5
+gci *.mp3 | select -first 10
+gci *.mp3 | select -first 20
+cp '.\Autumn Leaves - Chet Baker & Paul Desmond Together-sgn7VfXH2GY.mp3' '.\Bitches Brew-cwcmT_85Gbs.mp3' pic
+cp '.\Autumn Leaves - Chet Baker & Paul Desmond Together-sgn7VfXH2GY.mp3', '.\Bitches Brew-cwcmT_85Gbs.mp3' pic
+ex '.\Bitches Brew-cwcmT_85Gbs.mp3'
+gci | select name
+gci | select name | vi
+gci | select name | v -
+gci *.mp3 | % name | v -
+md jazz
+mv Amazing Grace Lyrics-u4qbmPpfG6s.mp3 jazz
+mv Autumn Leaves - Chet Baker & Paul Desmond Together-sgn7VfXH2GY.mp3 jazz
+mv Beethoven - Moonlight Sonata (1st Movement)-sbTVZMJ9Z2I.mp3 jazz jazz
+mv Bitches Brew-cwcmT_85Gbs.mp3 jazz
+mv Bob Marley - Waiting in Vain - Rare Acoustic - long-pS_OOvPn54I.mp3 jazz
+mv "Amazing Grace Lyrics-u4qbmPpfG6s.mp3" jazz
+mv "Autumn Leaves - Chet Baker & Paul Desmond Together-sgn7VfXH2GY.mp3" jazz
+mv "Beethoven - Moonlight Sonata (1st Movement)-sbTVZMJ9Z2I.mp3" jazz
+mv "Bitches Brew-cwcmT_85Gbs.mp3" jazz
+mv "Bob Marley - Waiting in Vain - Rare Acoustic - long-pS_OOvPn54I.mp3" jazz
+mv "Bob Segar - Old Time Rock N' Roll Lyrics-jd5ssTq_QVw.mp3" jazz
+mv "John Coltrane - Giant Steps (2020 Remaster) [Official Audio]-KwIC6B_dvW4.mp3" jazz
+mv "John McLaughlin-cZvfYnz80P4.mp3" jazz
+mv "Late Night Linux – Episode 139-Xyrj2755TjM.m4a.mp3" jazz
+mv "Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3" jazz
+mv "Pharaoh's Dance-WtORTuLJw7o.mp3" jazz
+mv "Spanish Key-e3GLh5XQ0S4.mp3" jazz
+gci *col*
+gci -Recurse *colt*
+mv '.\John Coltrane - Giant Steps (2020 Remaster) `[Official Audio`]-KwIC6B_dvW4.mp3' jazz
+cd jazz
+ex '.\John Coltrane - Giant Steps (2020 Remaster) `[Official Audio`]-KwIC6B_dvW4.mp3'
+ex '.\John Coltrane - Giant Steps.mp3'
+mv '.\Beethoven - Moonlight Sonata (1st Movement)-sbTVZMJ9Z2I.mp3' ..
+ri '.\Late Night Linux – Episode 139-Xyrj2755TjM.m4a.mp3'
+gci *late*
+gci *late* | % {ri $_.fullname}
+gci .\jazz\
+v .\lyrics.txt
+ex '.\Blue Train (Alternate Take_Remastered 2003_Rudy Van Gelder Edition)-wy6115CsV_Y.mp3'
+ex '.\Art Tatum - How High the Moon-EkqKpSBaCVM.mp3'
+gci *mil* | % {gci $_.fullname}
+gci *mil* | % {exiftool $_.fullname}
+gci *mil* | % {exiftool $_.fullname} > exif
+v .\exif
+gci *mil* | % {exiftool -j  $_.fullname} > exif
+mv .\exif exif.json
+v exif
+v .\exif.json
+cp .\xautumnPretty.mp4 \all\ps
+cd C:\all\phil\
+.\mp4concat.ps1
+touch .\xautumnPretty.mp4
+mv .\xautumnPretty0.mp4
+mv .\xautumnPretty.mp4 xautumnPretty0.mp4
+vlc .\xautumnPretty0.mp4
+gc m
+cd \mmp
+gci | rg xau
+v .\xxautumnPretty.mp4
+ffmpeg -i xautumnTwobass.mp4 -metadata title="Slow2Bass" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+ffmpeg -i .\xautumnTwobass.mp4  -metadata title="Slow2Bass" -metadata artist="" -metadata album="Name of the Album" -c:a copy out3.mp3
+ffmpeg -i .\xsanta.mp4 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp3
+ffmpeg -i .\xsanta.mp4 -metadata title="The Title You Want" -metadata artist="" -metadata album="Name of the Album" -c:a copy out2.mp4
+ffmpeg -i .\xautumnTwobass.mp4  -metadata title="Slow2Bass" -metadata artist="" -metadata album="Name of the Album" -c:a copy out3.mp4
+ex .\out3.mp3
+ex .\out3.mp4
+cp .\xxautumnPretty.mp4 \all\ps\target0.mp4
+mv .\target0.mp4 target.mp4
+mv .\target.mp4 target0.mp4
+vlc .\target7.mp4
+ffmpeg -i "concat:target0.mp4|target0.mp4" -acodec copy target1.mp4
+vlc .\target0.mp4
+Set-StrictMode -Version 2
+$variable = 10
+if ($variable -eq 30)`
+   aslkfjlsjdf     # It probably should complain about this`
+$variable
+if ($variable -eq 30) { gci}
+if ($variable -eq 10) { gci}
+# other code
+$varable = 20   # Notice the typo
+# print value
+ri h g .\imk
+ri h, g, imk, .\pic.html, p, yo
+v .\si.json
+v a.md
+v .\hello.ipynb
+git clone https://github.com/jupyterlab/scipy2019-jupyterlab-tutorial.git
+ri .\freeimagesXpremiumXflowers-trees_18_35_33R
+ri jim*
+cat .\classes
+cd .\scipy2019-jupyterlab-tutorial\
+cd .\Exercise-1\
+mv lt
+mv .\BagginiMixSes.mp3 27
+gci -File | % name v -
+gci -File |  name v -
+gci | % Length, FullName | v -
+gci | % Length FullName | v -
+gci | % {$_.fullname " " $_.length} | v -
+cd .\2\
+head .\pytalk.ps1
+head .\ffmpeg
+ex .\03_27_12.mp3
+vlc c:\you\kb .
+vlc -Z c:\you\kb .
+vlc -Z c:\you\kb .mp3
+cd \AppData\Local\Google\Chrome\User Data\Default
+cd "\AppData\Local\Google\Chrome\User Data\Default"
+cd "\AppData\Local\Google\Chrome\User Data"
+ls | more
+gci *h
+cp .\History back
+sqlite3.exe back
+v .\back
+gci C:\all\note\first.ahk
+gc C:\all\note\first.ahk
+gc C:\all\note\first.ahk | nl
+md C:\you\round
+cd C:\you\round\
+ex '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+mv '.\Miles Davis - Dear Old Stockholm-1C7DyWdky_Y.m4a.part' DearOldStokholm.mp3
+ri .\DearOldStokholm.mp3
+mv *.* ..\kb
+ni xx
+mv xx ..\kb
+ri xx
+cd .\round\
+gci .\round\
+ri -Force -Recurse .\round\
+gci .\getz\
+f3 | rg 
+f3 | rg Mil
+cd .\jazz\
+f3 | rg Col
+cp '.\John Coltrane - Giant Steps.mp3', '.\Autumn Leaves - Chet Baker & Paul Desmond Together-sgn7VfXH2GY.mp3', '.\Bitches Brew-cwcmT_85Gbs.mp3' ..\kb
+cp '.\Miles Runs the Voodoo Down-tDZuQTe3oaE.mp3' ..\kb
+exiftool -list
+$a = (Get-childitem c:\all\ps -Recurse -Directory).FullName
+$a = (Get-childitem c:\all\ps -Recurse -File).FullName
+ni a.jpg
+exiftool -FileName=jim.jpg a.jpg
+ri .\jim
+gci -Recurse *.jpg
+ex .\showcase.jpg
+exiftool -FileName=jim.jpg showcase.jpg
+mv jim jim.jpg
+pdn .\jim.jpg
+ex .\jim.jpg
+exiftool.exe .\jim.jpg -a
+ni tom
+exiftool.exe tom -a
+v .\tom
+exiftool -listr
+exiftool -listr | rg mp3
+exiftool -listr | rg TXT
+exiftool -FileName .\tom
+ex .\tom
+exiftool -FileModifyDate .\tom
+exiftool -Title .\tom
+exiftool -Title '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+exiftool -Title -Duration '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+exiftool -Title -Duration -Filename '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+exiftool -Comment="New Comment" .\tom
+exiftool -Comment="New Comment" .\jim.jpg
+cp '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'  C:\projects\word\img
+exiftool -Comment="New Comment" '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+gci .\Metadata++\
+.\Metadata++.exe --help
+v .\meta.txt.set
+exiftool.exe --version
+lt | wc
+C:\all\ps\today.ps1
+v C:\all\ps\today.ps1
+Get-ChildItem  -File -recurse -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-20)}
+Get-ChildItem  -File -recurse -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(20)}
+Get-ChildItem  -File -recurse -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)}
+Get-ChildItem  -File -recurse -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)} | more
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)} | % {Remove-Item $_.FullName) -whatif
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)} | % {Remove-Item $_.FullName} -whatif
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-20)} | % {Remove-Item $_.FullName} 
+$a=(Get-childitem c:\all\ps -Recurse -Directory).LastAccessTime
+$a=(Get-childitem c:\all\ps -Recurse -file).LastAccessTime
+gci | Select-Object name
+gci | Select-Object name, LastAccessTime
+gci | Select-Object name, LastAccessTime | v -
+pnp .\mick.jpg
+pdp .\mick.jpg
+pdn .\mick.jpg
+gci | Select-Object name, LastAccessTime | Sort-Object LastAccessTime -Descending
+gci | Select-Object name, LastAccessTime | Sort-Object LastAccessTime 
+v .\WindowSpy.ahk
+d3 | rg links
+d3 | rg -s links
+d3 
+d3 | rg -i links
+v .\myprocesses.xml
+gci | Select-Object name, LastAccessTime | ConvertTo-json
+alias 
+alias | json
+alias | rg json
+alias | rg -i json
+set-alias ctj convert-to-json
+gci | ctj
+set-alias ctj convertto-json
+gci | ctj | v -
+gp | ctj | v -
+Get-Process | ctj | v -
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(0)} | % {Remove-Item $_.FullName}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -lt (Get-Date).AddDays(-1)} | % {Remove-Item $_.FullName}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(0)} | % {Remove-Item $_.FullName}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)} | % {Remove-Item $_.FullName}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(0)}
+Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)}
+ex .\merlin_65276919.jpg
+ex .\riceCortez2.jpg
+pdn .\riceCortez2.jpg
+mkc tail
+npm install tailwindcss
+npm init -y
+ni .\src\style.css
+md dist
+ni .\dist\index.html
+ni .\dist\style.css
+npm run build:css
+v .\package-lock.json
+npx tailwind init
+cd jup
+pdn .\download.png
+chr .\download.png
+cd .\jup\
+ex '.\Coding Interview with Dan Abramov-XEt09iK8IXs.mp3'
+gci *hund*
+gci *ros*
+gci *war*
+gci -Recurse *war*
+gci -Recurse *war* | v -
+gci -Recurse *ros* | v -
+cd .\steps\2\
+vlc .\John_Campbell_on_Schizophrenia.mp3 .\Christopher_Janaway_on_Nietzsche_on_Morality.mp3 .\Aaron_Ridley_on_Nietzsche_on_Art_and_Truth.mp3 .\Brian_Leiter_on_Nietzsche_Myths.mp3 .\Robert_Rowland_Smith_on_Derrida_on_Forgiveness_1.mp3
+$pid
+$?
+function Test-WriteError`
+    Write-Error "Bad"`
+    $? # $false`
+Test-WriteError
+$? # $true
+$^
+$ConsoleFileName
+$host
+$IsCoreCLR
+$MyInvocation
+v arg.py
+.\arg.py
+v .\Arash_Abizadeh_on_Hobbes_Ethics.mp3
+v .\arg.py
+.\arg.py 22
+.\arg.py 22, "jim"
+.\arg.py 22, jim
+gc .\arg.py
+gc .\arg.py | clip
+gci *ov*
+vlc '.\Coding Interview with Dan Abramov-XEt09iK8IXs.mp3'
+ri '.\Coding Interview with Dan Abramov-XEt09iK8IXs.mp3'
+cd .\tail\
+pip install mutagen
+ dir | Sort-Object LastAccessTime 
+ dir | Sort-Object LastAccessTime | v -
+alias | rg ls
+alias | rg dir
+ dir | | select name | Sort-Object LastAccessTime | v -
+ dir |  select name | Sort-Object LastAccessTime | v -
+ dir |  select name, LastAccessTime | Sort-Object LastAccessTime | v -
+ dir |  select name, writeTime | Sort-Object LastAccessTime | v -
+ dir |  select name, lastwriteTime | Sort-Object LastAccessTime | v -
+ dir |  select name, lastwriteTime | Sort-Object LastwriteTime | v -
+mv '.\Intermediate Java Tutorial - 4 - Introduction to Collections-jU5ACV5MucM.mp4' c:\you
+alias | rg fm
+v .\vifminfo.json
+jq '.[]' .\vifminfo.json
+jq '.[0]' .\vifminfo.json
+jq '.[]' .\vifminfo.json | v -
+Get-ChildItem -File | Sort-Object -Property LastAccessTime -Descending | Select-Object -First 5
+gci *out*
+gci *out* | % {ri $_.FullName}
+gci *ap*
+gci *ap* | % {ri $_.FullName}
+ri .\z.mp3, .\y.mp4
+vlc .\melody.mp4
+ri .\melody.mp4
+ri .\p2.mp3
+ri .\slower.mp3
+ri .\xv1.mp4
+ri .\yest1.mp4
+ri .\med4.mp4
+ri .\zslow.mp3
+exiftool -Title -Duration -Filename .\bob.mp4
+start .\bob.mp4
+exiftool -Title -Duration -Filename .\05_05_12.mp3
+ex .\bob.mp4
+ex .\05_05_12.mp3
+vlc .\05_05_12.mp3
+exiftool -Title -Duration -Filename .\autumnPhone.mp3
+exiftool -Title -Duration -Filename .\autumn2Phone.mp3
+cp .\05_05_12.mp3 ..\mmp\
+dir:env$
+dir env$
+dir env: | rg -i edit
+gci | Select-Object name | ConvertTo-Json > f.json
+v .\f.json
+md \you\cb
+cd C:\music\kb
+vlc -Z .mp3
+vlc -Z *.mp3
+pip list | rg -i muta
+ni exifs.py
+pip install eyeD3
+pip install python-magic-bin
+gci *05*
+rg -i "copy"
+rg -i -l "copy"
+rg -i -l "copy" | v -
+rg -i -l -t py "copy" | v -
+v json\vsc.py
+eyeD3 --help
+eyeD3 --help | v -
+eyeD3.exe .\05_05_12.mp3
+eyeD3.exe .\Yesterday.mp4
+eyeD3 -a Integrity -A "Humanity Is The Devil" -t "Hollow" -n 2 .\Yesterday.mp4
+eyeD3.exe .\05_05_12.mp3 | rg Time
+eyeD3.exe .\bob.mp4
+eyeD3 -a Integrity -A "Humanity Is The Devil" -t "Hollow" -n 2 .\bob.mp4
+cd C:\you\jazz\
+eyeD3.exe '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3'
+eyeD3.exe '.\Miles Davis - ''Round Midnight-qiNyBAMi1wY.mp3' | v -
+pip install tinytag
+ex .\xautumnPretty.mp4
+song.tag.album = "Free For All Comp LP"
+song.tag.album_artist = "Various Artists"
+song.tag.title = "The Edge"
+song.tag.track_num = 3
+exif .\AutumnPretty.mp4
+ex .\AutumnPretty.mp4
+gci mi*
+.\Michelle.mid
+ls | rg - sean
+ls | rg -i sean
+cd tail
+md 6
+cd 6
+iwr https://ondemand.npr.org/anon.npr-mp3/npr/fa/2021/12/20211203_fa_01.mp3 -OutFile t.mp3
+ex .\t.mp3
+get-process | % {$_.id}
+get-process | % {$_.id} unique
+get-process | where{$_.MainWindowTitle -ne ""} | ft -auto| % {$_.id} 
+get-process | where{$_.MainWindowTitle -ne ""}
+get-process | where{$_.MainWindowTitle -ne ""} | select id
+get-process | where{$_.MainWindowTitle -ne ""} | select id + " ,"
+get-process | where{$_.MainWindowTitle -ne ""} | select id  " ,"
+get-process | where{$_.MainWindowTitle -ne ""} | select id,  " ,"
+v .\xAutumnPretty.mp4
+cp .\xAutumnPretty.mp4 c:\ps\all
+cp .\xAutumnPretty.mp4 C:\all\ps\
+mv .\vlcr.bat vlcr.ps1
+.\vlcr.ps1
+ri .\xautumnPretty0.mp4
+vlc .\06_34_12.mp3
+vlc .\xAutumnPretty2.mp4
+gci -fullName
+gci name
+gci | Select-Object name | gm
+gci | Select-Object name 
+gci | Select-Object name | v -
+ri xAutumnPretty0.mp4
+ri xAutumnPretty1.mp4
+ri xAutumnPretty2.mp4
+ri xxautumnpretty.mp4
+gci | Select-Object name | rg pre
+gci | Select-Object name | rg Pr
+gci | Select-Object name | rg Pret
+echo `    $str='ffmpeg -loglevel "quiet, -8" -i "concat:' +"$twitString.mp4|$twitString.mp4`" -acodec copy "+$twitString+(0)+".mp4"`
+ffmpeg -loglevel "quiet, -8" -i "concat:xAutumnPretty.mp4|xAutumnPretty.mp4" -acodec copy xAutumnPretty0.mp4
+ffmpeg -loglevel "quiet" -i "concat:xAutumnPretty.mp4|xAutumnPretty.mp4" -acodec copy xAutumnPretty0.mp4
+ffmpeg -loglevel "quiet" -i "concat:xAutumnPretty.mp4|xAutumnPretty0.mp4" -acodec copy xAutumnPretty1.mp4
+ffmpeg -i "concat:p0.mp3|p0.mp3" -acodec copy zx.mp3
+(echo file 'first file.mp4' & echo file 'second file.mp4' )>list.txt
+v list.txt
+ffmpeg -safe 0 -f concat -i list.txt -c copy output.mp4
+gc .\list.txt
+v .\list.txt
+v .\conc.ps1
+v .\mp4concat.ps1
+ffmpeg -safe 0 -f concat -i list.txt -c copy output1.mp4
+v .\output1.mp4
+vlc .\output1.mp4
+ffmpeg -safe 0 -f concat -i list.txt -c copy output2.mp4
+ffmpeg -safe 0 -f concat -i list.txt -c copy output3.mp4
+ffmpeg -safe 0 -f concat -i list.txt -c copy output4.mp4
+v .\output4.mp4
+ffmpeg -safe 0 -f concat -i list.txt -c copy output5.mp4
+vlc .\output5.mp4
+gci | Sort-Object LastWriteTime
+function ls(){`
+ls C:\all\ps
+vlcr.ps1
+mv C:\all\ps\vlcr.ps1 C:\all\ps\mus.ps1
+Remove-Alias -Force -name ls
+Get-ChildItem | Where-Object { $_.Name -match '^out.*' }
+Get-ChildItem | Where-Object { $_.Name -match '^out.*[1-4]' }
+Get-ChildItem | Where-Object { $_.Name -match '^output[1-4]' }
+Get-ChildItem | Where-Object { $_.Name -match '^output[1-4]' } | % {ri $_.name}
+mv .\output5.mp4 slowgood.mp4
+ls *sy*
+ls | rg -i sy
+ls | rg ync
+vlc AtumnSynch.mp4
+vlc .\xAtumnSynch.mp4
+cd C:\all\p
+ffmpeg -i slowgood.mp4 slowgood.mp3
+vlc .\slowgood.mp3
+cat m
+ffmpeg -i xAtumnSynch.mp4 xAtumnSynch.mp3
+v .\xAtumnSynch.mp3
+vlc .\xAtumnSynch.mp3
+ffmpeg -i xAtumnSynch.mp3 -filter:a "atempo=0.7" -vn sxAtumnSynch.mp3
+v .\sxAtumnSynch.mp3
+vlc .\sxAtumnSynch.mp3
+gc C:\all\ps\list.txt
+ffmpeg -safe 0 -f concat -i list.txt -c copy output.mp3
+ffmpeg -safe 0 -f concat -i list.txt -c copy output2.mp3
+ffmpeg -safe 0 -f concat -i list.txt -c copy output3.mp3
+vlc .\output3.mp3
+ffmpeg -safe 0 -f concat -i list.txt -c copy output4.mp3
+vlc .\output4.mp3
+ffmpeg -safe 0 -f concat -i list.txt -c copy output5.mp3
+vlc .\output5.mp3
+mv .\output5.mp3 goodPart1.mp3
+cp .\slowgood.mp3 .\slowgood.mp4 C:\mmp\
+cp .\slowgood.mp3 .\slowgood.mp4 C:\mmp
+cp .\slowgood.mp34 C:\mmp
+cp .\slowgood.mp34 C:\mmp\
+cp .\slowgood.mp3 C:\mmp\
+cp .\slowgood.mp4 C:\mmp\
+vlc .\goodPart1.mp3
+ri .\output.mp3
+ri .\xAtumnSynch.mp3
+ri .\sxAtumnSynch.mp3
+ls |rg mp4
+ls |rg mp3
+eyeD3.exe .\xAutumnPretty.mp4
+eyeD3 -a Integrity -A "Humanity Is The Devil" -t "Hollow" -n 2 .\xAutumnPretty.mp4
+mus.ps1
+Get-MyCommands | rg k
+mkc 50
+cd 50
+git clone https://github.com/bradtraversy/50projects50days.git
+cd .\50projects50days\
+cd .\3d-boxes-background\
+cd .\50\
+cd .\quiz-app\
+mkc mu
+ex .\Beethoven__Sonata_Pathetique_2nd_Mov1.png
+cd .\50\50projects50days\
+de
+cd .\faq-collapse\
+cd .\you\
+gci .\cb\
+cd cb
+vlc .\Windows-N2f9jLeAuvY.mp3
+vlc '.\Wars of the Roses - England''s Bloody Crown _ Full History Documentary-ptpxb6gMq1k.mp3'
+cp .\index.html .\index.html2
+lse .\index.html2
+mv .\index.html2 mndex.html
+lse .\mndex.html
+v .\mndex.html
+lse 
+v .\Heap-20211206T003930.heapsnapshot
+cd .\cb\
+spro 10580
+spr 10580
+spr 8020
+spr 10988
+d3 | head n-20
+head --help
+d3 | head n=20
+d3 | head -n 20
+d3 | head -n 5
+head -n 3 .\index.html
+cd ip
+v me.html
+head -n 4 .\index.html
+head -n 5 .\index.html
+lse .\me.html
+v .\me.html
+cd .\ip\
+spr 11172
+spr 2353
+$a=@(gw)
+$a[3]
+mkc lib
+mkc bridge
+mv *.* .\bridge\
+cd .\bridge\
+ex .\br1.png
+write
+cd C:\Program Files\LibreOffice\program\
+cd "C:\Program Files\LibreOffice\program\"
+swriter
+swrite
+dir env:path.split(";")
+env:path -split(";")
+cd "C:\Program Files\LibreOffice\program"
+swriter .
+swriter C:\projects\lib\bridge
+dir > s.txt
+swriter.exe .\s.txt
+swriter.exe --help
+swriter.exe --nologo
+swriter.exe --headless
+swriter.exe
+md grace
+cd .\grace\
+sdraw 21
+sdraw .\21amazgrace1.png
+md april
+gci .\april\
+function cdc {`
+#$a="cd "`
+md jingle
+cd .\jingle\
+d3 | rg -i one
+swriter.exe .\michelle.docx
+d:
+gci lib
+James Steffes
+3409 E. Medicine Lake Blvd.
+gci d:
+cp .\fourseasons.odt d:\lib\
+md michelle
+cd .\michelle\
+md moon
+cd .\moon\
+md path
+gci .\path\
+cd C:\music\midi\
+.\silent_night_02_clubhouse_al.mid
+gci *sil*
+.\silnite.mid
+md sil
+cd sil
+swriter.exe .\style.css
+v k.ps1
+foreach ($a in (gci)`
+{echo $a)`
+{echo $a}
+foreach ($a in (gci))`
+$a=@(gci)
+$a[2]
+{echo $a.fullname}
+{echo $a.fullname $a.length}
+{write-host $a.fullname  " " $a.length}
+#{write-host $a.fullname  " " $a.length}
+{gc $a.name}
+{gc $a.name} > all.txt
+v '.\Regex Cheat Sheet.html'
+chr '.\Regex Cheat Sheet.html'
+mv '.\Regex Cheat Sheet.html' C:\all\note\reg.html
+v .\reg.html
+chr .\reg.html
+cp -Recurse -Force .\50projects50days\ d:\lib\
+cd .\notes-app\
+lde
+cd .\event-keycodes\
+gcall.ps1
+gcall.ps1 | v -
+gc C:\all\ps\gcall.ps1
+.\gcall.ps1 | v -
+mv .\gcall.ps1 .\gcall.ps1
+mv .\gcall.ps1! .\gcall.ps1
+ri .\gcall.ps1
+ri .\mndex.html
+lcd .\50projects50days\
+cd .\dad-jokes\
+gcall.ps1 > ..\text
+v text
+gcall.ps1 >> ..\text
+v ..\text
+cd .\todo-list\
+swriter.exe .\fourseasons.odt
+.\mus.ps1
+md monk
+cd .\monk\
+gcm picard
+ex '.\''Round Midnight (Take 2)-3LetPA4eH0A.mp3'
+gci *.mp3 | % {mv $_fullname ..}
+tree /v | v -
+gci *.mp3 | % {mv $_fullname c:\you\kb}
+gci *.mp3 | % {gci $_fullname }
+gci *.mp3 | % {echo $_.name }
+gci *.mp3 | % {mv $_.name c:\you\kb}
+ri index.html
+7z -l .\centering-vertically-and-horizontally-with-flexbox.zip
+7z l .\centering-vertically-and-horizontally-with-flexbox.zip
+md code
+7z e .\centering-vertically-and-horizontally-with-flexbox.zip C:\projects\css\code\
+7z e .\centering-vertically-and-horizontally-with-flexbox.zip -oC:\projects\css\code\
+gci .\code\
+7z e .\centering-vertically-and-horizontally-with-flexbox.zip -oC:\projects\css\code\ -r
+cd .\auto-text-effect\
+gci *\*\*
+gci *\*
+gci *
+cp .\theme-clock\ ..
+cd .\theme-clock\
+ri .\theme-clock\
+cp -Recurse .\theme-clock\ ..
+gci .\theme-clock\
+ri .\theme-clock\ -Recurse 
+gci -Directory | % {echo $_.name}
+gci -Directory | % {mv $_.name ..}
+gci .\toast-notification\
+md mix
+cd mix
+cd .\mix\
+head -n 7 .\index.html
+head -n 9 .\index.html
+head -n 19 .\index.html
+$Function:lse
+lse .\myindex.html
+gc .\index.html > .\myindex.html
+md kin2
+v C:\all\note\first.ahk
+rg google
+cd .\kin2\
+md sykes
+cd .\sykes\
+vlc '.\Ben Sidran - Ballad of a Thin Man-7rKyrJPrpdQ.mp3'
+vlc '.\Ben Sidran - Blowin'' In the Wind-6horS8w01y8.mp3'
+vlc '.\Ben Sidran -Subterranean Homestick Blues-LHoXyiASnZY.mp3'
+cd '.\2Birth Of The Modern Mind\'
+ex '.\01 3a The New Vision Of Francis Bacon.mp3'
+gci C:\all\ps
+mkc position
+md fin
+cd .\fin\
+($env:PATH).split(";")
+spr 17028
+$url = 'http://techexpert.tips'
+$result = Invoke-WebRequest -Method HEAD -Uri $url -UseBasicParsing
+$result.Headers.Date
+ri *bud*
+Gci | where {$_.name -match "lnl"}  | sort-object Status -desc
+md C:\all\steps\lnl
+Gci | where {$_.name -match "lnl"}  | % {mv $_.name C:\all\steps\lnl\}
+Get-NetTCPConnection -State Listen | Select-Object -Property LocalPort, State 
+cd C:\all\steps\lnl\
+spr 12568
+d3 | rg you
+md ../tech
+ri .git
+git init -b main
+git remote add origin https://github.com/wither7007/vidSearch.git
+git push origin main --force
+curl -s https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=css&maxResults=10&publishedAfter=2021-12-08T21:56:15.207Z& > you.json
+curl -s "https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=css&maxResults=10&publishedAfter=2021-12-08T21:56:15.207Z&" > you.json
+v .\you.json
+git clone https://github.com/adamf1631/axiosvsfetch.git
+cd .\axiosvsfetch\
+node install
+yarn build
+npm install --global yarn
+npm install -g create-react-app.
+npm install -g create-react-app
+yarn start
+yarn create react-app my-app
+ni ax.html
+ri .\ax.html
+npm i axios
+ri -Force -Recurse .\node_modules\
+ni ax.js
+v .\127.0.0.1-1639014867988.log
+cd .\tech\
+cd '.\3Birth Of The Modern Mind\'
+$Function:d3
+  gci -Directory | sort LastwriteTime| Format-Wide -Column 3`
+v sup
+  gci -File | sort lastwritetime| Format-Wide -Column 3`
+gci C:\all\ps\ *cal*
+v C:\all\ps\gcall.ps1
+md wynt
+md king
+vlc .\09_11_12.mp3
+d2
+dw
+v .\xstyle.css
+cp .\xindex.html .\index.html
+cp .\xstyle.css .\style.css
+vlc '.\How one bank broke the world-bFk0_V3ozcg.mp3'
+gci \you
+gci -Directory C:\you\
+gci fin
+ls -d */ | cut -f1 -d'/'
+find /mnt/c/you -maxdepth 1 -type d
+cd "Local\Google\Chrome\User Data\Default\Local Storage\"
+cd .\leveldb\
+Get-Item -Path Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers
+gc .\localStorage.txt
+mkc bash
+cd tech
+cd fin
+vlc '.\The Collapse of Lehman Brothers - An Inside Story-EAN1yVuww9A.mp3'
+cd '.\4Birth Of The Modern Mind\'
+curl https://www.youtube.com/results?search_query=airdroid+after%3A2020
+ri .\nhis
+mkc heroku
+git clone https://github.com/michaelkitas/Node-Heroku-Deployment.git
+npm init -y 
+npm i express save
+tree /f | v i
+cat .\package-lock.json
+ni index.js
+cd .\Node-Heroku-Deployment\
+npm i
+mkc test-node
+v hello.js
+node .\hello.js
+npm install express
+node .\index.js
+ri -Force -Recurse .\test-node\
+cd .\heroku\
+gci -Force *g*
+cp .\.gitignore C:\projects\heroku\
+git commit -m "intial commit"
+git remote add origin https://github.com/wither7007/heroku
+gci -Directory \you\
+ git push --set-upstream origin main
+c:\all\ps\mus.ps1
+npm i nodemon
+cd her
+npm run dev
+mv .\index.html .\public\
+mv .\style.css .\public\
+gci .\public\
+gci | select name, LastWriteTime
+gci | select name, LastWriteTime | ConvertTo-Json
+gci | select name, LastWriteTime | ConvertTo-Json > files.js
+mkc gitbranch
+curl -L www.umn.edu
+gci > gci .txt
+gci > gci.txt
+git checkout -b my-new-branch
+v gci
+curl -L www.umn.edu >> gci.txt
+mv .\gci.txt gci.html
+git checkout -b traversy
+git checkout -i
+git checkout 0
+git switch traversy
+node .\files.js
+mv .\files.js members.js
+curl 'http://localhost:5000/'
+curl 'http://localhost:5000/api/members'
+npm i moment
+md midleware
+cd .\midleware\
+ni logger.js
+gci -Directory \you
+gci C:\you\wynt\
+cd .\wynt\
+gci | rg -i art
+v .\april.mid
+v .\15B-01__Here_Comes_The_Sun.mid
+v .\15B-01__Here_Comes_The_Sun.mtx
+cd '.\5Birth of The Modern Mind\'
+ex '.\01 9a The Newtonian Revolution.mp3'
+ex '.\02 9b The Newtonian Revolution.mp3'
+Get-Item -Path Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers | v -
+cd C:\Windows\web\wallpaper\Windows\
+pdn .\img0.jpg
+cd C:\Users\jayst\OneDrive\Pictures\
+cd wynt
+ex '.\Wynton  Marsalis at Polar music price part 1-lbsjevjJ_C8.mp3'
+curl https://www.reddit.com/r/popular/ 
+gci *meta*
+.\Metadata++.exe
+function meta() {`
+  "C:\Program Files (x86)\Metadata++\Metadata++.exe"`
+meta
+  start "C:\Program Files (x86)\Metadata++\Metadata++.exe"`
+Metadata++.exe --help
+gci *irf*
+cd .\IrfanView\
+.\i_view64.exe
+gci | % $_.name
+gci | % { $_.FullName } |rg 64
+gci | % { $_.FullName } |rg 64.3
+gci | % { $_.FullName } |rg 64.e
+"C:\Program Files\IrfanView\i_view64.exe" .
+.\i_view64.exe .
+gci | % { $_.FullName } |rg 64.e | clip
+function ifr() {`
+  start "C:\Program Files\IrfanView\i_view64.exe ."`
+ifr
+gci *mp3*
+vlc .\344-sqlalchemy-2.mp3 .\343-mito.mp3
+wt.exe Get-ChildItem
+wt --help
+wt -v
+PowerShell.exe -ExecutionPolicy Bypass -Command .\all\ps\mus.ps1
+PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1

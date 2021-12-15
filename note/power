@@ -10,12 +10,14 @@ philosophy
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
 
+Get-Item -Path Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers
 argument template
 #!/usr/bin/python
 import sys
 print(f"number of args {len(sys.argv)}")
 print(f"Argument list {str(sys.argv)}")
 
+rg copy -g *.py
 jq '.[]'
 !/usr/bin/python
 Get-ChildItem  -File  -ErrorAction SilentlyContinue  |  Where-Object {$_.LastWriteTime -gt (Get-Date).AddDays(-1)} 
@@ -227,3 +229,22 @@ pane alt-shift arrow up
 cat .\exif.txt | jq 'select(objects)|=[.] | map( paths(scalars) ) | map( map(select(numbers)="[]") | join(".")) | unique' | v -
 exiftool -j .\a7s.mp3 | jq '.[0] | {FileName, Duration, Comment-xx}'
  ".\01 Summertime.mp3" | jq '.[0] | {FileName, Duration, Artist}'
+
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+lt
+gci -Force
+ri .git -Force -Recurse
+lt
+git init -b main
+lt
+git add .
+git commit -m "initial commit"
+lt
+git remote add origin https://github.com/wither7007/vidSearch.git
+git remote -v
+git push origin main
+git pull
+git push origin main
+git push origin main --force
+his
+

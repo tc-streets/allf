@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -Path "C:\you\new\v" -Target "C:\you\kin2\Sweet Home Chicago by Roosevelt Sykes-3GmRba-g9tA.mp3"

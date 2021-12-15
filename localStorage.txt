@@ -1,0 +1,55 @@
+https://geekflare.com/chrome-devtools-features/
+st=window.sessionStorage
+window.sessionStorage.setItem("x","xyz")
+window.sessionStorage.setItem("j","https:\\youtube.com")
+
+
+
+{"user":{"username":"null","loginStatus":"UNKNOWN","swid":"null","location":{"country":"united states","city":"minneapolis","state":"Minnesota","dma":"613","zipcode":"55441","domain":"comcastbusiness.net","ip":"96.75.144.1","timeZone":"America/Chicago"},"authentication":{"isp":{"name":"comcast","imageHref":"https://a.espncdn.com/espn360/images/affiliates/settop/Comcast_SSO.png"}}},"timestamp":"December 10, 2021 1:18:27 AM GMT","status":"success"}
+
+keys=[]
+for (const key in st) {
+    console.log(`${key}`);
+    keys.push(key)
+}
+
+
+[
+    "nav.items11929946",
+    "followCarousel",
+    "__testSetter",
+    "oid_tab_id",
+    "editionKey",
+    "__userData",
+    "_searchSessionId",
+    "editionTitle",
+    "editionFlag",
+    "geo",
+    "length",
+    "clear",
+    "getItem",
+    "key",
+    "removeItem",
+    "setItem"
+]
+keys=[]
+for (const key in std) {
+    console.log(`${key}`);
+    keys.push(key)
+}
+copy(keys)
+[
+    hsb;;1639106365736,
+    sr;;1639106365736,
+    hsb;;1639106365737,
+    sr;;1639106244656,
+    _c;;i,
+    hsb;;1639106244657,
+    hsb;;1639106244656,
+    length,
+    clear,
+    getItem,
+    key,
+    removeItem,
+    setItem
+]

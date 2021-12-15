@@ -1,7 +1,7 @@
 #SingleInstance Force
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
 !t::run, C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\wt.exe
-!p::run, vlc -Z c:\you\kb .
+!p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
 ^SPACE::  Winset, Alwaysontop, , A
 #z:: Send, `%paste
 return

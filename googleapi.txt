@@ -1,0 +1,8 @@
+
+https://docs.google.com/spreadsheets/d/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/edit#gid=0
+
+1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA
+
+https://spreadsheets.google.com/feeds/cells/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/1/public/full?alt=json
+
+https://www.googleapis.com/auth/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/1/public/full?alt=json

@@ -1,0 +1,423 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Technology",
+  "home_page_url": "https://www.npr.org/sections/technology/?utm_medium=JSONFeed&utm_campaign=technology",
+  "feed_url": "https://feeds.npr.org/1019/feed.json",
+  "description": "Latest technology news and breakthroughs in technology, science, and industry. Download the NPR Technology podcast and Technology RSS feed.",
+  "icon": "https://media.npr.org/images/stations/nprone_logos/npr.png",
+  "author": {
+    "name": "NPR",
+    "url": "https://www.npr.org?utm_medium=JSONFeed&utm_campaign=technology",
+    "avatar": "https://media.npr.org/images/stations/nprone_logos/npr.png"
+  },
+  "items": [
+    {
+      "id": "1065119990",
+      "url": "https://www.npr.org/2021/12/17/1065119990/amy-webb-a-glimpse-into-the-future?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Amy Webb: A Glimpse Into The Future",
+      "content_html": "<p>This hour, futurist Amy Webb guides us through innovations that give a glimpse into the future of transportation, wellness, tech, commerce, and travel ... and the impacts they'll have on our lives.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1065119990' />",
+      "summary": "This hour, futurist Amy Webb guides us through innovations that give a glimpse into the future of transportation, wellness, tech, commerce, and travel ... and the impacts they'll have on our lives.",
+      "image": "https://media.npr.org/assets/img/2021/12/17/amywebb_2013s-embed-4c647e80e530d9db452bd3a6abaf67d954c69443.jpg",
+      "date_published": "2021-12-17T09:34:10-05:00",
+      "date_modified": "2021-12-17T09:36:00-05:00",
+      "author": {
+        "name": "Manoush Zomorodi",
+        "url": "https://www.npr.org/people/812094023/manoush-zomorodi?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2020/03/04/manoush-zomorodi_bio_photo-1_vert-bf366cf2e0a689ea87422c5de657f381d9d43437.jpg"
+      },
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/ted/2021/12/20211216_ted_tedfull_.mp3?orgId=1&d=3149&p=1065119897&story=1065119990&t=progseg&e=1065119897&seg=1&ft=rss&f=1065119897",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 3149
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/ted/2021/12/20211216_ted_tedfull_.mp4?orgId=1&d=3149&p=1065119897&story=1065119990&t=progseg&e=1065119897&seg=1&ft=rss&f=1065119897",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 3149
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/ted/2021/12/20211216_ted_tedfull_/master.m3u8?orgId=1&d=3149&p=1065119897&story=1065119990&t=progseg&e=1065119897&seg=1&ft=rss&f=1065119897",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 3149
+        }
+      ]
+    },
+    {
+      "id": "1064628654",
+      "url": "https://www.npr.org/2021/12/16/1064628654/facebook-bans-surveillance-firms-that-spied-on-50000-people?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Facebook bans 7 'surveillance-for-hire' companies that spied on 50,000 users",
+      "content_html": "<p>The parent company of Facebook and Instagram says the firms used its platforms to spy on human rights activists, government critics, celebrities and journalists in more than 100 countries.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1064628654' />",
+      "summary": "The parent company of Facebook and Instagram says the firms used its platforms to spy on human rights activists, government critics, celebrities and journalists in more than 100 countries.",
+      "image": "https://media.npr.org/assets/img/2021/12/16/gettyimages-1235710022-5a9a24acfb3ce45adca4539e1306ba5732dc94ef.jpg",
+      "date_published": "2021-12-16T15:00:00-05:00",
+      "date_modified": "2021-12-16T20:23:00-05:00",
+      "author": {
+        "name": "Shannon Bond",
+        "url": "https://www.npr.org/people/763523701/shannon-bond?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/09/24/wany5886_vert-5cf12bd35f43cfe105c8d574963eb9a59738d565.jpg"
+      },
+      "tags": [
+        "NSO",
+        "black cube",
+        "spyware",
+        "WhatsApp",
+        "surveillance",
+        "Facebook",
+        "meta"
+      ],
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/12/20211216_atc_facebook_bans_7_surveillance-for-hire_companies_that_spied_on_50000_users.mp3?orgId=1&d=154&p=1064780830&story=1064628654&t=progseg&e=1064780830&seg=6&ft=rss&f=1064780830",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 154
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/atc/2021/12/20211216_atc_facebook_bans_7_surveillance-for-hire_companies_that_spied_on_50000_users.mp4?orgId=1&d=154&p=1064780830&story=1064628654&t=progseg&e=1064780830&seg=6&ft=rss&f=1064780830",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 154
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/atc/2021/12/20211216_atc_facebook_bans_7_surveillance-for-hire_companies_that_spied_on_50000_users/master.m3u8?orgId=1&d=154&p=1064780830&story=1064628654&t=progseg&e=1064780830&seg=6&ft=rss&f=1064780830",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 154
+        }
+      ]
+    },
+    {
+      "id": "1064247651",
+      "url": "https://www.npr.org/2021/12/14/1064247651/kronos-hack-paychecks?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Kronos hack will likely affect how employers issue paychecks and track hours",
+      "content_html": "<p>The attack affects several of its systems, including how employees track their paid time off and how they get paid, according to the company.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1064247651' />",
+      "summary": "The attack affects several of its systems, including how employees track their paid time off and how they get paid, according to the company.",
+      "image": "https://media.npr.org/assets/img/2021/12/14/2021-12-11t000835z_1663455679_rc20cr99esi5_rtrmadp_3_health-coronavirus-brazil-attack_custom-0e5b7d81fe962f649535480d5a1a8aa0782daf0d.jpg",
+      "date_published": "2021-12-14T21:40:00-05:00",
+      "date_modified": "2021-12-16T18:43:00-05:00",
+      "author": {
+        "name": "Becky Sullivan",
+        "url": "https://www.npr.org/people/348743421/becky-sullivan?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2020/05/26/becky-sullivan_vert-eea77aecd90b0a871ec0330a5b7e1bd75b389316.jpg"
+      }
+    },
+    {
+      "id": "1064123144",
+      "url": "https://www.npr.org/2021/12/14/1064123144/companies-scramble-to-defend-against-newly-discovered-log4j-digital-flaw?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Companies scramble to defend against newly discovered 'Log4j' digital flaw",
+      "content_html": "<p>The vulnerability was publicly disclosed last week in an unexpected way ΓÇö through the popular game Minecraft. Embedded in a common software tool, it could potentially impact billions of devices.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1064123144' />",
+      "summary": "The vulnerability was publicly disclosed last week in an unexpected way ΓÇö through the popular game Minecraft. Embedded in a common software tool, it could potentially impact billions of devices.",
+      "image": "https://media.npr.org/assets/img/2021/12/14/6046478725_3c7cc0a95d_o_custom-19e4b366b341c9e2ad36fcb07681dd6e9fbd2958.jpg",
+      "date_published": "2021-12-14T15:59:00-05:00",
+      "date_modified": "2021-12-14T20:05:00-05:00",
+      "author": {
+        "name": "Jenna McLaughlin",
+        "url": "https://www.npr.org/people/1038324514/jenna-mclaughlin?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2021/09/28/jenna-mclaughlin_vert-e24950c5c6ae577f23a88136ffe942caf8aace8d.jpg"
+      },
+      "tags": [
+        "software",
+        "Java",
+        "cybersecurity",
+        "open source"
+      ],
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/12/20211214_atc_companies_scramble_to_defend_against_newly_discovered_digital_flaw.mp3?orgId=1&d=224&p=1064220665&story=1064123144&t=progseg&e=1064220665&seg=7&ft=rss&f=1064220665",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 224
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/atc/2021/12/20211214_atc_companies_scramble_to_defend_against_newly_discovered_digital_flaw.mp4?orgId=1&d=224&p=1064220665&story=1064123144&t=progseg&e=1064220665&seg=7&ft=rss&f=1064220665",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 224
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/atc/2021/12/20211214_atc_companies_scramble_to_defend_against_newly_discovered_digital_flaw/master.m3u8?orgId=1&d=224&p=1064220665&story=1064123144&t=progseg&e=1064220665&seg=7&ft=rss&f=1064220665",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 224
+        }
+      ]
+    },
+    {
+      "id": "1063706605",
+      "url": "https://www.npr.org/2021/12/14/1063706605/halo-infinite-wows-on-both-single-and-multiplayer-but-needs-more-legacy-features?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "'Halo Infinite' wows on both single and multiplayer ΓÇö but needs more legacy features",
+      "content_html": "<p>It's the third shot at a mainline Halo game by video game developer 343 Industries, and it nailed both the single-player and multiplayer offerings that give the franchise its reverence.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1063706605' />",
+      "summary": "It's the third shot at a mainline Halo game by video game developer 343 Industries, and it nailed both the single-player and multiplayer offerings that give the franchise its reverence.",
+      "image": "https://media.npr.org/assets/img/2021/12/13/haloinfinite_campaignkeyart_clean_1920x1080_wide-ff9f8711754080c3d76a98deb3a42b1b1e39e797.jpg",
+      "date_published": "2021-12-14T06:00:32-05:00",
+      "date_modified": "2021-12-14T18:02:00-05:00",
+      "author": {
+        "name": "George Yang"
+      }
+    },
+    {
+      "id": "1063230658",
+      "url": "https://www.npr.org/2021/12/10/1063230658/embattled-activision-blizzard-to-employees-consider-the-consequences-of-unionizi?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Embattled Activision Blizzard to employees: 'consider the consequences' of unionizing",
+      "content_html": "<p>Union supporters say the companywide email to employees of the video game giant is an effort to intimidate workers into dropping the union push amid a sexual harassment and equal pay controversy.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1063230658' />",
+      "summary": "Union supporters say the companywide email to employees of the video game giant is an effort to intimidate workers into dropping the union push amid a sexual harassment and equal pay controversy.",
+      "image": "https://media.npr.org/assets/img/2021/12/10/ap673176862609_custom-364aca1c2cb04e19664d3e63d7ea6b2671dd710e.jpg",
+      "date_published": "2021-12-10T22:20:49-05:00",
+      "author": {
+        "name": "Bobby Allyn",
+        "url": "https://www.npr.org/people/638550790/bobby-allyn?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/05/20/wany3565_vert-1f3185bf02a5bf5e18d0ea794a10f85ce21c5c8e.jpg"
+      },
+      "tags": [
+        "Activision Blizzard"
+      ]
+    },
+    {
+      "id": "1063278227",
+      "url": "https://www.npr.org/2021/12/10/1063278227/minecraft-software-flaw?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Security experts race to fix critical software flaw threatening industries worldwide",
+      "content_html": "<p>Bad actors have been quick to exploit one of the worst computer vulnerabilities discovered in years. Experts are scrambling to fix the flaw in an open-source code that's widely used in cloud services.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1063278227' />",
+      "summary": "Bad actors have been quick to exploit one of the worst computer vulnerabilities discovered in years. Experts are scrambling to fix the flaw in an open-source code that's widely used in cloud services.",
+      "image": "https://media.npr.org/assets/img/2021/12/10/ap21344706743869_custom-5a0914123d574126dca4f028aa63b3afdbf194cf.jpg",
+      "date_published": "2021-12-10T21:45:17-05:00",
+      "author": {
+        "name": "The Associated Press"
+      }
+    },
+    {
+      "id": "1063218669",
+      "url": "https://www.npr.org/2021/12/10/1063218669/nobel-peace-laureates-blast-tech-giants-and-warn-against-rising-authoritarianism?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Nobel Peace laureates blast tech giants and warn against rising authoritarianism",
+      "content_html": "<p>\"If you're working in tech, I'm talking to you,\" Rappler CEO Maria Ressa said. She later added, \"What happens on social media doesn't stay on social media.\"</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1063218669' />",
+      "summary": "\"If you're working in tech, I'm talking to you,\" Rappler CEO Maria Ressa said. She later added, \"What happens on social media doesn't stay on social media.\"",
+      "image": "https://media.npr.org/assets/img/2021/12/10/gettyimages-1358273226-53ca343c97192976f52e69fd71662ff757bfee26.jpg",
+      "date_published": "2021-12-10T18:05:35-05:00",
+      "author": {
+        "name": "Frank Langfitt",
+        "url": "https://www.npr.org/people/4569077/frank-langfitt?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/03/07/langfitt-author-shot-b-w_vert-a7946dc06a8fb09d583d6d8458803dd58deab1b0.jpeg"
+      }
+    },
+    {
+      "id": "1063204745",
+      "url": "https://www.npr.org/2021/12/10/1063204745/the-video-game-pioneer-behind-nintendos-groundbreaking-console-has-died?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "The video game pioneer behind Nintendo's groundbreaking console has died",
+      "content_html": "<p>Masayuki Uemura was the lead architect behind the Nintendo Entertainment System, which dominated the home video game industry and helped launch games like Mario and Donkey Kong.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1063204745' />",
+      "summary": "Masayuki Uemura was the lead architect behind the Nintendo Entertainment System, which dominated the home video game industry and helped launch games like Mario and Donkey Kong.",
+      "image": "https://media.npr.org/assets/img/2021/12/10/gettyimages-1211130971-a6cb6c431179a7092a12140ecf9c4fb04d93ee9e.jpg",
+      "date_published": "2021-12-10T17:50:19-05:00",
+      "date_modified": "2021-12-14T13:24:00-05:00",
+      "author": {
+        "name": "Michael Levitt"
+      },
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/12/20211210_atc_masayuki_uemura_nintendo_engineer_who_created_nes_and_snes_game_consoles_dies_at_78.mp3?orgId=1&d=80&p=1063171258&story=1063204745&t=progseg&e=1063171258&seg=3&ft=rss&f=1063171258",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 80
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/atc/2021/12/20211210_atc_masayuki_uemura_nintendo_engineer_who_created_nes_and_snes_game_consoles_dies_at_78.mp4?orgId=1&d=80&p=1063171258&story=1063204745&t=progseg&e=1063171258&seg=3&ft=rss&f=1063171258",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 80
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/atc/2021/12/20211210_atc_masayuki_uemura_nintendo_engineer_who_created_nes_and_snes_game_consoles_dies_at_78/master.m3u8?orgId=1&d=80&p=1063171258&story=1063204745&t=progseg&e=1063171258&seg=3&ft=rss&f=1063171258",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 80
+        }
+      ]
+    },
+    {
+      "id": "1062516250",
+      "url": "https://www.npr.org/2021/12/09/1062516250/researchers-explain-why-they-believe-facebook-mishandles-political-ads?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Researchers explain why they believe Facebook mishandles political ads",
+      "content_html": "<p>\"We can do a lot better,\" said Laura Edelson, lead author of a new study on Facebook's ad program. \"This is not the state of the art of content moderation, or detection of problematic content.\"</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1062516250' />",
+      "summary": "\"We can do a lot better,\" said Laura Edelson, lead author of a new study on Facebook's ad program. \"This is not the state of the art of content moderation, or detection of problematic content.\"",
+      "image": "https://media.npr.org/assets/img/2021/12/09/facebook-nyu-audit1-092062c658642a8dadb2905bf5dc92d72b97c384.jpg",
+      "date_published": "2021-12-09T00:01:00-05:00",
+      "date_modified": "2021-12-09T12:01:00-05:00",
+      "author": {
+        "name": "Bill Chappell",
+        "url": "https://www.npr.org/people/14562108/bill-chappell?utm_medium=JSONFeed&utm_campaign=technology"
+      }
+    },
+    {
+      "id": "1062576576",
+      "url": "https://www.npr.org/2021/12/08/1062576576/instagrams-ceo-adam-mosseri-hears-senators-brush-aside-his-promises-to-self-poli?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "4 takeaways from senators' grilling of Instagram's CEO about kids and safety",
+      "content_html": "<p>Takeaways from a hearing include: senators are frustrated with Instagram for not moving more quickly to protect young users and the CEO maintains the platform does more good than harm.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1062576576' />",
+      "summary": "Takeaways from a hearing include: senators are frustrated with Instagram for not moving more quickly to protect young users and the CEO maintains the platform does more good than harm.",
+      "image": "https://media.npr.org/assets/img/2021/12/08/ap_21342813558226_wide-d2872fd8373c3201c836576634ff83f1ad4d17a0.jpg",
+      "date_published": "2021-12-08T22:13:03-05:00",
+      "date_modified": "2021-12-09T09:59:00-05:00",
+      "author": {
+        "name": "Vanessa Romo",
+        "url": "https://www.npr.org/people/527855988/vanessa-romo?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/11/21/vanessaromo_vert-bf26476d95d1bc7ceff284cf46091e255ef4aee9.jpg"
+      },
+      "tags": [
+        "Adam Mosseri",
+        "Instagram Kids",
+        "Instagram",
+        "Facebook",
+        "meta"
+      ]
+    },
+    {
+      "id": "1062400809",
+      "url": "https://www.npr.org/2021/12/08/1062400809/elizabeth-holmes-trial-defending-herself?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Elizabeth Holmes spent 7 days defending herself against fraud. Will the jury buy it?",
+      "content_html": "<p>The former CEO of Theranos finished her marathon testimony on Wednesday. The high-profile case against the onetime Silicon Valley star now moves closer to jury deliberations.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1062400809' />",
+      "summary": "The former CEO of Theranos finished her marathon testimony on Wednesday. The high-profile case against the onetime Silicon Valley star now moves closer to jury deliberations.",
+      "image": "https://media.npr.org/assets/img/2021/12/08/ap21341670054894_custom-805ca420373ad6d8eaf24976b6f584557cc50ba6.jpg",
+      "date_published": "2021-12-08T15:12:00-05:00",
+      "date_modified": "2021-12-08T20:09:00-05:00",
+      "author": {
+        "name": "Bobby Allyn",
+        "url": "https://www.npr.org/people/638550790/bobby-allyn?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/05/20/wany3565_vert-1f3185bf02a5bf5e18d0ea794a10f85ce21c5c8e.jpg"
+      },
+      "tags": [
+        "Theranos trial",
+        "Elizabeth Holmes"
+      ]
+    },
+    {
+      "id": "1062131365",
+      "url": "https://www.npr.org/2021/12/07/1062131365/amazon-outage-is-causing-significant-problems-for-sites-and-apps-across-the-inte?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Amazon announces progress after an outage disrupted sites across the internet",
+      "content_html": "<p>The company says its \"network device issues\" are resolved. Earlier, users were blocked from sites or apps connected to Amazon Web Services, including NPR, Netflix, Venmo and Disney+.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1062131365' />",
+      "summary": "The company says its \"network device issues\" are resolved. Earlier, users were blocked from sites or apps connected to Amazon Web Services, including NPR, Netflix, Venmo and Disney+.",
+      "image": "https://media.npr.org/assets/img/2021/12/07/AmazonOutages-e49a37298678cb6a2910b9dbe4aed969db856222.jpg",
+      "date_published": "2021-12-07T14:30:00-05:00",
+      "date_modified": "2021-12-08T14:17:00-05:00",
+      "author": {
+        "name": "Vanessa Romo",
+        "url": "https://www.npr.org/people/527855988/vanessa-romo?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/11/21/vanessaromo_vert-bf26476d95d1bc7ceff284cf46091e255ef4aee9.jpg"
+      },
+      "tags": [
+        "Amazon"
+      ]
+    },
+    {
+      "id": "1061808098",
+      "url": "https://www.npr.org/2021/12/07/1061808098/instagram-teens-safety-tools?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Instagram unveils new teen safety tools ahead of Senate hearing",
+      "content_html": "<p>The social media platform announced ways to help its youngest users and their parents a day before the app's head, Adam Mosseri, is to testify about Instagram's potential risks to kids and teens.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1061808098' />",
+      "summary": "The social media platform announced ways to help its youngest users and their parents a day before the app's head, Adam Mosseri, is to testify about Instagram's potential risks to kids and teens.",
+      "image": "https://media.npr.org/assets/img/2021/12/06/ig-take-a-break_wide-662391f0ba0648489c0f0e721cff082248811dbd.png",
+      "date_published": "2021-12-07T03:00:58-05:00",
+      "date_modified": "2021-12-08T21:29:00-05:00",
+      "author": {
+        "name": "Shannon Bond",
+        "url": "https://www.npr.org/people/763523701/shannon-bond?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/09/24/wany5886_vert-5cf12bd35f43cfe105c8d574963eb9a59738d565.jpg"
+      },
+      "tags": [
+        "teens",
+        "Instagram",
+        "kids",
+        "social media"
+      ]
+    },
+    {
+      "id": "1060838850",
+      "url": "https://www.npr.org/2021/12/06/1060838850/criminal-hackers-are-now-going-after-phone-lines-too?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Criminal hackers are now going after phone lines, too",
+      "content_html": "<p>One way or another, most phone calls these days involve the internet. Cybersecurity experts say that makes us vulnerable in ways we might not realize.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1060838850' />",
+      "summary": "One way or another, most phone calls these days involve the internet. Cybersecurity experts say that makes us vulnerable in ways we might not realize.",
+      "image": "https://media.npr.org/assets/img/2021/12/02/voipattacks_custom-e0641dc4c4ef48c1420a5ff7099ae27daf9a9d42.jpg",
+      "date_published": "2021-12-06T07:00:00-05:00",
+      "date_modified": "2021-12-06T17:27:00-05:00",
+      "author": {
+        "name": "Jenna McLaughlin",
+        "url": "https://www.npr.org/people/1038324514/jenna-mclaughlin?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2021/09/28/jenna-mclaughlin_vert-e24950c5c6ae577f23a88136ffe942caf8aace8d.jpg"
+      },
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/atc/2021/12/20211206_atc_criminal_hackers_are_now_going_after_phone_lines_too.mp3?orgId=1&d=249&p=1061896181&story=1060838850&t=progseg&e=1061896181&seg=15&ft=rss&f=1061896181",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 249
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/atc/2021/12/20211206_atc_criminal_hackers_are_now_going_after_phone_lines_too.mp4?orgId=1&d=249&p=1061896181&story=1060838850&t=progseg&e=1061896181&seg=15&ft=rss&f=1061896181",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 249
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/atc/2021/12/20211206_atc_criminal_hackers_are_now_going_after_phone_lines_too/master.m3u8?orgId=1&d=249&p=1061896181&story=1060838850&t=progseg&e=1061896181&seg=15&ft=rss&f=1061896181",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Story",
+          "duration_in_seconds": 249
+        }
+      ]
+    },
+    {
+      "id": "1061266418",
+      "url": "https://www.npr.org/2021/12/03/1061266418/the-2021-hurricane-season-wrapped?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "The 2021 Hurricane Season Wrapped",
+      "content_html": "<p>The end of the 2021 hurricane season was officially November 30. This year, there was a lot of hurricane activity. Today on the show, producer Thomas Lu talks to meteorologist Matthew Cappucci about this year's hurricane season ΓÇö the ups, the lulls, and the surprising end. Plus ΓÇö how climate change might be affecting these storms. <br/><br/>You can follow Thomas on Twitter <a href=\"https://twitter.com/thomasuylu\">@ThomasUyLu</a> and Matthew  <a href=\"https://twitter.com/MatthewCappucci?s=20\">@MatthewCappucci. </a>Email Short Wave at <a href=\"mailto:Shortwave@npr.org\">ShortWave@NPR.org</a>.</p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1061266418' />",
+      "summary": "The end of the 2021 hurricane season was officially November 30. This year, there was a lot of hurricane activity. Today on the show, producer Thomas Lu talks to meteorologist Matthew Cappucci about this year's hurricane season ΓÇö the ups, the lulls, and the surprising end. Plus ΓÇö how climate change might be affecting these storms. You can follow Thomas on Twitter @ThomasUyLu and Matthew  @MatthewCappucci. Email Short Wave at ShortWave@NPR.org.",
+      "image": "https://media.npr.org/assets/img/2021/12/03/ap21243854483502_wide-b4ee59d3e645cb473a8254ed717a6f6caecdfae5.jpg",
+      "date_published": "2021-12-06T00:10:41-05:00",
+      "author": {
+        "name": "Gisele Grayson",
+        "url": "https://www.npr.org/people/536711382/gisele-grayson?utm_medium=JSONFeed&utm_campaign=technology",
+        "avatar": "https://media.npr.org/assets/img/2019/04/03/Gisele_Grayson_vert-4eb9849a96153aaa57725f60204297a99a170d34.jpg"
+      },
+      "tags": [
+        "hurricane season",
+        "climate change"
+      ],
+      "attachments": [
+        {
+          "url": "https://ondemand.npr.org/anon.npr-mp3/npr/dailyscience/2021/12/20211206_dailyscience_2021_hurricane_wrap.mp3?orgId=1&d=822&story=1061266418&t=podcast&e=1061266418&ft=rss",
+          "mime_type": "audio/mp3",
+          "title": "Listen to the Episode",
+          "duration_in_seconds": 822
+        },
+        {
+          "url": "https://ondemand.npr.org/npr-mp4/npr/dailyscience/2021/12/20211206_dailyscience_2021_hurricane_wrap.mp4?orgId=1&d=822&story=1061266418&t=podcast&e=1061266418&ft=rss",
+          "mime_type": "audio/aac",
+          "title": "Listen to the Episode",
+          "duration_in_seconds": 822
+        },
+        {
+          "url": "https://ondemandhls.npr.org/nprhls//npr/dailyscience/2021/12/20211206_dailyscience_2021_hurricane_wrap/master.m3u8?orgId=1&d=822&story=1061266418&t=podcast&e=1061266418&ft=rss",
+          "mime_type": "audio/m3u8",
+          "title": "Listen to the Episode",
+          "duration_in_seconds": 822
+        }
+      ]
+    },
+    {
+      "id": "1061232540",
+      "url": "https://www.npr.org/2021/12/03/1061232540/netflix-is-making-a-feature-film-about-the-thanksgiving-grandma-text-mix-up?utm_medium=JSONFeed&utm_campaign=technology",
+      "title": "Netflix is making a feature film about the Thanksgiving grandma text mix-up",
+      "content_html": "<p><em>The Thanksgiving Text</em> will follow the true story of an unlikely friendship between a grandmother and an unintended text message recipient that began in 2016. </p><img src='https://media.npr.org/include/images/tracking/npr-rss-pixel.png?story=1061232540' />",
+      "summary": "The Thanksgiving Text will follow the true story of an unlikely friendship between a grandmother and an unintended text message recipient that began in 2016.",
+      "image": "https://media.npr.org/assets/img/2021/12/03/image00420211201-4486-14u46ce_custom-dd30718c2c5c621f6eb8c4bd4c975d75d4da7db9.jpg",
+      "date_published": "2021-12-03T13:09:52-05:00",
+      "author": {
+        "name": "Tien Le",
+        "url": "https://www.npr.org/people/1059858123/tien-le?utm_medium=JSONFeed&utm_campaign=technology"
+      },
+      "tags": [
+        "Thanksgiving",
+        "Netflix"
+      ]
+    }
+  ]
+}

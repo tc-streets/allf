@@ -6,23 +6,27 @@ echo "-----------------------------"
 read -p 'Enter DL youtube audio: ' USERVAR
 # export USERVAR="https://www.youtube.com/watch\?v\=ZO0PXYMVGSU"
 echo "USERVAR IS: ${USERVAR}"
-# cd /mnt/c/you/fin
+# cd /mnt/c/you/tech
 
-cd /mnt/c/you/new
+cd /mnt/c/you/cook
 echo `date` >> /mnt/c/you/dates.txt ' - ' $USERVAR
-youtube-dl -x --audio-format mp3 $USERVAR > /dev/null 2>&1 & 
-PID=$!
-wait $PID
-COMP=$(echo "$USERVAR" | rg "=(.*)" -o | sed 's/=//') # COMP=$($USERVAR | rg "=(.*)" -o | sed 's/=//')
-echo "COMP is: ${COMP}"
-IFS=$'\n'
-ps -o cmd= -p $$    
-for i in $(find . -name "*$COMP*" );
-do
-    echo " file name is: $i"
-    touch $i
-done
-unset IFS
+yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
+
+# > /dev/null 2>&1 &
+# youtube-dl -x --audio-format mp3 $USERVAR > /dev/null 2>&1 & 
+# exit 1
+# PID=$!
+# wait $PID
+# COMP=$(echo "$USERVAR" | rg "=(.*)" -o | sed 's/=//') # COMP=$($USERVAR | rg "=(.*)" -o | sed 's/=//')
+# echo "COMP is: ${COMP}"
+# IFS=$'\n'
+# ps -o cmd= -p $$    
+# for i in $(find . -name "*$COMP*" );
+# do
+#     echo " file name is: $i"
+#     touch $i
+# done
+# unset IFS
 # exit 1
 
 echo "done with $COMP"

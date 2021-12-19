@@ -1,0 +1,2 @@
+const cb = navigator.clipboard;
+cb.writeText("this is clippy").then(()=>console.log("copied"))

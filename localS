@@ -1,0 +1,13 @@
+localStorage.setItem('vid', JSON.stringify(jimbo))
+keys = Object.keys(localStorage)
+function allStorage() {
+    var values = [],
+        keys = Object.keys(localStorage),
+        i = keys.length;
+    while ( i-- ) {
+        values.push( localStorage.getItem(keys[i]) );
+    }
+    return values;
+}
+window.localStorage.clear(); //clear all localstorage
+window.localStorage.removeItem("my_item_key"); //remove one item

@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=oj_K7OKYmgo
+
+yt-dlp --dump-json https://www.youtube.com/watch?v=oj_K7OKYmgo
+yt-dlp --list-formats  https://www.youtube.com/watch?v=oj_K7OKYmgo
+
+
+echo "Title                           : Crossroads Guitar Festival 2007 Part 2 (Live at Toyota Park, Bri` " | sed 's/.*:\s//g'
+
+
+Get-CimInstance -ComputerName localhost win32_logicaldisk | where caption -eq "C:" | foreach-object {write " $($_.caption) $('{0:N2}' -f ($_.Size/1gb)) GB total, $('{0:N2}' -f ($_.FreeSpace/1gb)) GB free "}

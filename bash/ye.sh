@@ -8,7 +8,7 @@ read -p 'Enter DL youtube audio: ' USERVAR
 echo "USERVAR IS: ${USERVAR}"
 # cd /mnt/c/you/tech
 
-cd /mnt/c/you/cook
+cd /mnt/c/you/king
 echo `date` >> /mnt/c/you/dates.txt ' - ' $USERVAR
 yt-dlp -f 'ba' --embed-metadata -x --audio-format mp3 $USERVAR -o '%(title)s.mp3'  >output.log 2>&1 &
 

@@ -1,16 +1,14 @@
-todo
-rent letter
-circle of fifths
-html basics
-autumn
-amazing
-bridge
-philosophy
-
 import clipboard
 clipboard.copy("abc")  # now the clipboard content will be string "abc"
 
+%alias_magic h history "-p -l 30" --line
 https://adamtheautomator.com/powershell-delete-file/
+curl "https://api.github.com/users/wither7007/repos?per_page=100" | v -
+curl -s https://api.github.com/users/webdevsimplified/repos | jq '.[]|.html_url'
+
+const inchToCM = (inches) => inches * 2.54;
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
 
 Get-Item -Path Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers
 argument template

@@ -1,6 +1,6 @@
 #SingleInstance Force
 !a::run, C:\tools\neovim\Neovim\bin\nvim.exe -c "cd c:\all"      ; Correct
-!t::run, C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.11.2921.0_x64__8wekyb3d8bbwe\wt.exe
+!t::run, C:\Users\jayst\AppData\Local\Microsoft\WindowsApps\wt.exe
 !p::runwait, PowerShell.exe -ExecutionPolicy Bypass -Command c:\all\ps\mus.ps1
 ^SPACE::  Winset, Alwaysontop, , A
 #z:: Send, `%paste
@@ -15,6 +15,10 @@ return
 
 !h::
 Send, The Queen of Hearts, she made some tarts,  All on a summers day, The knave of Hearts, he stole the tarts, And took them clean away.
+return
+
+!n::
+SendRaw, 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
 return
 
 !x:: Send, after:2020
@@ -44,7 +48,7 @@ return
 
 
 !s::
-SendRaw, `%run vsc.py
+SendRaw, `%load vsc.py
 return
 
 
